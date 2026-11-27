@@ -1,5 +1,6 @@
 **
 !Dockerfile
+!app.py
 !model/
 !model/__init__.py
 !model/inference.py

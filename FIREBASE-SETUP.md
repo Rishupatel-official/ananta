@@ -69,10 +69,10 @@ alone are not treated as proof that an email is genuine.
 
 ## Security scope
 
-The optional Python prediction API in `backend/` now verifies Firebase ID tokens
+The Flask prediction API in `backend/` verifies Firebase ID tokens
 on `/model`, `/predict` and `/simulate`, including the verified-email claim.
 See `backend/README.txt` for its deployment, CORS and token-expiry behavior.
-The existing browser screens continue using JSON inference until connected to it.
+The prediction and simulation screens send the signed-in user's ID token to it.
 
 The frontend uses Firebase identity and a login gate for its browser interface.
 The public weather endpoint and bundled synthetic coefficients remain public static

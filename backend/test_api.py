@@ -6,7 +6,6 @@ from unittest.mock import patch
 
 from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.primitives.asymmetric import rsa
-from fastapi.testclient import TestClient
 from google.auth import crypt, exceptions, jwt
 
 from backend.app import create_app
@@ -24,12 +23,12 @@ class ApiTests(unittest.TestCase):
 
     def setUp(self):
         self.app = create_app(project_id="test-climate-project")
-        self.client_context = TestClient(self.app)
-        self.client = self.client_context.__enter__()
-        self.app.state.verifier.request = lambda *args, **kwargs: SimpleNamespace(status=200, data=json.dumps(self.certs).encode())
+        self.app.testing = True
+        self.client = self.app.test_client()
+        self.app.extensions["firebase_verifier"].request = lambda *args, **kwargs: SimpleNamespace(status=200, data=json.dumps(self.certs).encode())
 
     def tearDown(self):
-        self.client_context.__exit__(None, None, None)
+        self.app.extensions["firebase_verifier"].close()
 
     def token(self, **changes):
         now = int(time.time())
@@ -44,8 +43,8 @@ class ApiTests(unittest.TestCase):
     def test_public_health_and_protected_endpoints(self):
         health = self.client.get("/health")
         self.assertEqual(health.status_code, 200)
-        self.assertEqual(health.json()["stateCount"], 36)
-        self.assertEqual(health.json()["dataKind"], "synthetic")
+        self.assertEqual(health.get_json()["stateCount"], 36)
+        self.assertEqual(health.get_json()["dataKind"], "synthetic")
         for route, payload in [("/predict", {"state": "Delhi"}), ("/simulate", {"state": "Delhi", "month": "2027-01"})]:
             self.assertEqual(self.client.post(route, json=payload).status_code, 401)
         self.assertEqual(self.client.get("/model").status_code, 401)
@@ -55,10 +54,10 @@ class ApiTests(unittest.TestCase):
         headers = self.headers()
         info = self.client.get("/model", headers=headers)
         self.assertEqual(info.status_code, 200)
-        for state in info.json()["states"]:
+        for state in info.get_json()["states"]:
             response = self.client.post("/predict", headers=headers, json={"state": state})
             self.assertEqual(response.status_code, 200)
-            self.assertEqual(response.json()["predictions"], self.predictor.forecast(state))
+            self.assertEqual(response.get_json()["predictions"], self.predictor.forecast(state))
 
     def test_rejects_wrong_project_expired_invalid_signature_and_unverified_email(self):
         for changes in [{"aud": "another-project"}, {"iss": "https://example.invalid"}, {"exp": int(time.time()) - 10},
@@ -71,7 +70,7 @@ class ApiTests(unittest.TestCase):
             self.assertEqual(self.client.get("/model", headers={"Authorization": "Bearer " + token}).status_code, 401)
 
     def test_auth_network_failure_denies_predictions(self):
-        with patch.object(self.app.state.verifier, "request", side_effect=exceptions.TransportError("offline")):
+        with patch.object(self.app.extensions["firebase_verifier"], "request", side_effect=exceptions.TransportError("offline")):
             self.assertEqual(self.client.get("/model", headers=self.headers()).status_code, 503)
 
     def test_request_validation_and_simulation(self):
@@ -81,7 +80,7 @@ class ApiTests(unittest.TestCase):
             self.assertEqual(self.client.post("/predict", headers=headers, json=payload).status_code, 422)
         response = self.client.post("/simulate", headers=headers, json={"state": "Delhi", "month": "2027-07", "temperatureChange": 5, "rainfallPercent": -50})
         self.assertEqual(response.status_code, 200)
-        body = response.json()
+        body = response.get_json()
         self.assertAlmostEqual(body["scenario"]["meanTemp"], body["baseline"]["meanTemp"] + 5)
         self.assertAlmostEqual(body["scenario"]["rainfall"], body["baseline"]["rainfall"] / 2)
         self.assertEqual(self.client.post("/simulate", headers=headers, json={"state": "Delhi", "month": "2027-01", "temperatureChange": 6}).status_code, 422)
@@ -90,11 +89,44 @@ class ApiTests(unittest.TestCase):
         for origin, expected in [("http://localhost:5173", 200), ("https://untrusted.invalid", 400)]:
             response = self.client.options("/predict", headers={"Origin": origin, "Access-Control-Request-Method": "POST", "Access-Control-Request-Headers": "authorization,content-type"})
             self.assertEqual(response.status_code, expected)
+            if expected == 200:
+                self.assertEqual(response.headers["Access-Control-Allow-Origin"], origin)
+                self.assertIn("Authorization", response.headers["Access-Control-Allow-Headers"])
+        denied = self.client.get("/model", headers={"Origin": "http://localhost:5173"})
+        self.assertEqual(denied.status_code, 401)
+        self.assertEqual(denied.headers["Access-Control-Allow-Origin"], "http://localhost:5173")
+        self.assertEqual(denied.headers["WWW-Authenticate"], "Bearer")
+
+    def test_flask_json_parsing_and_request_limits(self):
+        headers = self.headers()
+        for content, status in [("{", 400), ("null", 422), ("[]", 422), ('"Delhi"', 422)]:
+            result = self.client.post("/predict", headers=headers, data=content, content_type="application/json")
+            self.assertEqual(result.status_code, status)
+            self.assertIn("detail", result.get_json())
+        result = self.client.post("/predict", headers=headers, data='{"state":"Delhi"}', content_type="text/plain")
+        self.assertEqual(result.status_code, 415)
+        result = self.client.post("/predict", headers=headers, json={"state": "Delhi", "padding": "x" * 17000})
+        self.assertEqual(result.status_code, 413)
+
+    def test_scenarios_reject_nonfinite_and_boolean_values(self):
+        headers = self.headers()
+        for field in ["temperatureChange", "rainfallPercent"]:
+            for value in [float("nan"), float("inf"), True, "2"]:
+                result = self.client.post("/simulate", headers=headers, json={"state": "Delhi", "month": "2027-01", field: value})
+                self.assertEqual(result.status_code, 422)
+
+    def test_flask_entry_and_api_description(self):
+        self.assertEqual(self.client.get("/").get_json()["service"], "ClimateTwin Flask API")
+        schema = self.client.get("/openapi.json").get_json()
+        self.assertEqual(schema["openapi"], "3.1.0")
+        self.assertEqual(schema["paths"]["/predict"]["post"]["security"], [{"FirebaseBearer": []}])
+        self.assertIn("state", schema["paths"]["/predict"]["post"]["requestBody"]["content"]["application/json"]["schema"]["required"])
+        self.assertEqual(self.client.get("/missing").status_code, 404)
+        self.assertEqual(self.client.get("/predict").status_code, 405)
 
     def test_missing_project_fails_startup(self):
         with self.assertRaisesRegex(ValueError, "FIREBASE_PROJECT_ID"):
-            with TestClient(create_app(project_id="")):
-                pass
+            create_app(project_id="")
 
 
 if __name__ == "__main__":

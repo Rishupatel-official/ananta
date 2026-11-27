@@ -1,1 +1,1 @@
-"""Deployable ClimateTwin prediction API."""
+"""Deployable ClimateTwin Flask prediction API."""

@@ -1,0 +1,78 @@
+ClimateTwin presentation: LinearRegression + model.pkl + Flask
+
+START THE DEMO
+Open the INNER ClimateTwin-regression folder containing app.py and package.json.
+Double-click RUN-BACKEND.cmd, then RUN-FRONTEND.cmd. Keep both windows open.
+Open http://localhost:5173 and sign in with Google or a verified email account.
+The Flask health check is http://localhost:8000/health.
+An internet connection is needed for Firebase login/verification and live weather.
+No retraining is needed before the presentation; the fitted model is included.
+
+FIRST-TIME SETUP ON A NEW COMPUTER (PowerShell in the project folder)
+Use Python 3.12 and a compatible Node.js installation.
+
+    py -3.12 -m venv .venv
+    .\.venv\Scripts\python.exe -m pip install -r requirements.txt -r model/requirements.txt
+    npm.cmd ci
+
+If .env.local is absent, copy .env.example to .env.local and fill in your Firebase
+web configuration. Your existing Desktop copy already has this configuration.
+VITE_MODEL_API_URL defaults to http://localhost:8000 for the local Flask backend.
+
+FILES TO SHOW
+- model/train.py: reads the dataset, prepares monthly data, fits LinearRegression,
+  evaluates a held-out period and saves the fitted Python objects.
+- model/model.pkl: the 36 fitted scikit-learn LinearRegression models.
+- model/model.info.json: input checksum, library versions and forecast window.
+- model/inference.py: loads the pickle and creates features for predictions.
+- app.py: Flask application entry point.
+- backend/app.py: /predict and /simulate endpoints.
+- src/model-api.ts: sends dashboard requests to Flask with the Firebase ID token.
+
+THE FLOW TO EXPLAIN
+Dataset -> monthly preparation -> LinearRegression training -> model.pkl
+Dashboard -> Firebase ID token -> Flask -> model.pkl prediction -> dashboard chart
+
+"We train a separate linear regression for each Indian state or Union Territory.
+The inputs are elapsed time and the calendar month, so the model can learn a linear
+trend and a seasonal pattern. It predicts monthly minimum temperature, maximum
+temperature and total rainfall. We save the fitted models as model.pkl and load
+them in Flask. The React dashboard requests predictions from Flask after login."
+
+THREE-MINUTE DEMO
+1. Sign in and open Dashboard or Monitoring. Show the live weather selector.
+2. Open AI Prediction, select Delhi and a 12-month horizon. Wait for the
+   "Python regression model connected" message. Show the chart and CSV export.
+3. Open Scenario Simulator, select July 2027, set temperature change to +2 C and
+   rainfall change to -10%. The result comes from Flask. Reset returns the baseline.
+4. Show model/train.py, model/model.pkl and app.py in VS Code.
+5. In browser Developer Tools > Network, /predict and /simulate demonstrate the
+   backend requests. Avoid displaying request Authorization headers while presenting.
+
+HOW TO RETRAIN (only when needed, not required to run the demo)
+    .\.venv\Scripts\python.exe -m model.train --database "C:\Users\rishu\OneDrive\Desktop\climate-twin--main\data\climate_data.db" --data-kind synthetic
+The database is read-only during training. This updates both the pickle and JSON
+metadata. Restart Flask and rebuild/reload the frontend after retraining.
+
+ACCURATE CLAIMS FOR THE PRESENTATION
+- The supplied dataset is SYNTHETIC, not IMD station observations.
+- This is a monthly linear regression prototype, not ConvLSTM or a deep network.
+- The model's supported forecast window is January-December 2027.
+- The held-out period is 2025-2026, with training before that period; final models
+  are then refit on all complete 2010-2026 months.
+- Monthly mean-temperature MAE: 0.142 C, versus 0.205 C for a seasonal baseline.
+- Rainfall MAE: 40.75 mm, versus 39.90 mm for the baseline. Rainfall did not improve
+  on that baseline. These are scores on synthetic data, not real forecast accuracy.
+- Simulations add a temperature change and scale rainfall; they do not model the
+  causal effects of emissions, crops, floods or reservoirs.
+- Live Open-Meteo weather is separate from the training dataset.
+- AQI, Risk Analysis, historical graphs and the national hero summary remain demos.
+- Firebase email verification confirms inbox control, not a person's legal identity.
+
+IF SOMETHING DOES NOT LOAD
+- "Prediction service is unavailable": keep the backend running; check /health.
+- "Session expired": sign out and sign back in. Verify an email account first.
+- npm cannot find package.json: open the INNER project folder, or use the launchers.
+- Port already in use: use the already-running app or stop its existing terminal
+  before running the launcher again. Vite uses 5173; Flask uses 8000.
+- Start both servers and complete one sign-in before the actual presentation.

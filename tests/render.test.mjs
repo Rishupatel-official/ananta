@@ -16,6 +16,8 @@ test("prediction and simulator routes render fitted model views without React wa
       const html = renderToString(createElement(App));
       assert.ok(html.includes(`<h1>${title}</h1>`));
       assert.ok(html.includes("SYNTHETIC DATA"));
+      assert.ok(html.includes("Waiting for Python model results"));
+      assert.ok(!html.includes("<polyline"), "No locally calculated forecast is displayed before Flask responds");
       assert.ok(html.includes("How well did it predict held-out months?"));
       assert.ok(!html.includes("84%"));
       assert.ok(html.includes(hash === "#ai-prediction" ? "Download projections CSV" : "Download scenario CSV"));

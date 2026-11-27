@@ -1,6 +1,8 @@
-import { useState } from "react";
+import { useCallback, useState } from "react";
 import artifact from "./data/regression-model.json";
-import { forecastMonths, predict, simulate, type Projection, type RegressionModel } from "./regression";
+import { forecastMonths, type Projection, type RegressionModel } from "./regression";
+import { modelApi } from "./model-api";
+import { useModelRequest } from "./useModelRequest";
 import "./model.css";
 
 const model: RegressionModel = artifact;
@@ -10,6 +12,13 @@ const initialState = states.includes("Delhi") ? "Delhi" : states[0];
 const dateLabel = (month: string) => new Date(`${month}-01T12:00:00Z`).toLocaleDateString("en-IN", { month: "short", year: "numeric", timeZone: "UTC" });
 const number = (value: number) => value.toFixed(1);
 const signed = (value: number) => `${value > 0 ? "+" : ""}${number(value)}`;
+
+function ModelServiceStatus({ ready, error, retry }: { ready: boolean; error: string; retry: () => void }) {
+  return <div className="model-service-status" role={error ? "alert" : "status"}>
+    {error ? <><span>{error}</span><button type="button" className="ghost-button" onClick={retry}>Retry connection</button></>
+      : <span>{ready ? "Python regression model connected" : "Waiting for Python model results…"}</span>}
+  </div>;
+}
 
 function StateSelector({ state, onChange }: { state: string; onChange: (state: string) => void }) {
   return <label className="model-control">State / Union Territory
@@ -96,15 +105,19 @@ function download(rows: Projection[], temperatureChange?: number, rainfallPercen
 export function RegressionPrediction() {
   const [state, setState] = useState(initialState);
   const [horizon, setHorizon] = useState(12);
-  const rows = months.slice(0, horizon).map(month => predict(model, state, month));
+  const load = useCallback((signal: AbortSignal) => modelApi.forecast(state, horizon, signal), [state, horizon]);
+  const result = useModelRequest(`${state}:${horizon}`, load);
+  const rows = result.data ?? [];
   return <section id="ai-prediction" className="regression-view">
     <ModelHeader />
     <div className="model-toolbar"><StateSelector state={state} onChange={setState} />
       <label className="model-control">Projection horizon<select value={horizon} onChange={e => setHorizon(Number(e.target.value))}>
         {[3, 6, 12].map(count => <option key={count} value={count}>{count} months from {dateLabel(months[0])}</option>)}
       </select></label>
-      <button type="button" className="ghost-button" onClick={() => download(rows)}>Download projections CSV</button>
+      <button type="button" className="ghost-button" disabled={!rows.length} onClick={() => download(rows)}>Download projections CSV</button>
     </div>
+    <ModelServiceStatus ready={!!rows.length} error={result.error} retry={result.retry} />
+    {rows.length > 0 && <>
     <div className="model-summary" aria-live="polite"><strong>{state}</strong><span>{dateLabel(rows[0].month)}–{dateLabel(rows[rows.length - 1].month)}</span><span>{model.states[state].fitMonths} complete months used for the final fit</span></div>
     <div className="model-two-columns"><OutlookChart rows={rows} /><OutlookChart rows={rows} rainfall /></div>
     <div className="card model-table-card"><div className="model-table-scroll" tabIndex={0} aria-label="Monthly projections, scroll horizontally if needed">
@@ -112,6 +125,7 @@ export function RegressionPrediction() {
         <tbody>{rows.map(row => <tr key={row.month}><th scope="row">{dateLabel(row.month)}</th><td>{number(row.meanTemp)}</td><td>{number(row.minTemp)}</td><td>{number(row.maxTemp)}</td><td>{number(row.rainfall)}</td></tr>)}</tbody>
       </table>
     </div></div>
+    </>}
     <Evaluation state={state} />
     <details className="card model-method"><summary>Dataset and method</summary>
       <p>{model.audit.rowCount.toLocaleString("en-IN")} daily records across {model.audit.stateCount} states and Union Territories. {model.audit.completeStateMonths.toLocaleString("en-IN")} complete state-months retained; {model.audit.excludedStateMonths} incomplete state-months excluded. Missing rainfall is not replaced by zero.</p>
@@ -125,14 +139,17 @@ export function RegressionSimulator() {
   const [month, setMonth] = useState(months[0]);
   const [temperature, setTemperature] = useState(0);
   const [rainfall, setRainfall] = useState(0);
-  const baseline = predict(model, state, month);
-  const scenario = simulate(baseline, temperature, rainfall);
+  const load = useCallback((signal: AbortSignal) => modelApi.simulate(state, month, temperature, rainfall, signal), [state, month, temperature, rainfall]);
+  const result = useModelRequest(`${state}:${month}:${temperature}:${rainfall}`, load, 200);
+  const baseline = result.data?.baseline;
+  const scenario = result.data?.scenario;
   return <section id="scenario-simulator" className="regression-view">
     <ModelHeader simulation />
     <div className="model-toolbar"><StateSelector state={state} onChange={setState} />
       <label className="model-control">Scenario month<select value={month} onChange={e => setMonth(e.target.value)}>{months.map(m => <option key={m} value={m}>{dateLabel(m)}</option>)}</select></label>
       <button className="ghost-button" type="button" onClick={() => { setTemperature(0); setRainfall(0); }}>Reset changes</button>
     </div>
+    <ModelServiceStatus ready={!!result.data} error={result.error} retry={result.retry} />
     <div className="model-two-columns model-scenario-grid">
       <div className="card model-adjustments"><h2>Choose a what-if scenario</h2><p>Results update as you move the sliders.</p>
         <label htmlFor="temperature-delta">Temperature change <strong>{signed(temperature)} °C</strong></label>
@@ -144,6 +161,7 @@ export function RegressionSimulator() {
         <p>The temperature adjustment is added to the fitted minimum and maximum. Rainfall is multiplied by 1 + your percentage / 100. These controls do not retrain the regression.</p>
       </div>
       <div className="card model-scenario-results"><h2>{state} · {dateLabel(month)}</h2><p>Regression baseline → your scenario</p>
+        {baseline && scenario ? <>
         <div className="model-table-scroll" tabIndex={0} aria-label="Scenario comparison, scroll horizontally if needed">
           <table><caption>Monthly values · {model.dataKind} data</caption><thead><tr><th scope="col">Measure</th><th scope="col">Baseline</th><th scope="col">Scenario</th><th scope="col">Change</th></tr></thead>
             <tbody>{([ ["meanTemp", "Mean °C"], ["minTemp", "Mean daily min °C"], ["maxTemp", "Mean daily max °C"], ["rainfall", "Total rainfall mm"] ] as const).map(([key, label]) =>
@@ -152,6 +170,7 @@ export function RegressionSimulator() {
         </div>
         <p className="model-result-summary" role="status">Scenario: {number(scenario.meanTemp)} °C monthly mean temperature and {number(scenario.rainfall)} mm monthly rainfall.</p>
         <button type="button" className="ghost-button" onClick={() => download([scenario], temperature, rainfall)}>Download scenario CSV</button>
+        </> : <><p>Scenario results will appear after the Python model responds.</p><button type="button" className="ghost-button" disabled>Download scenario CSV</button></>}
       </div>
     </div>
     <div className="model-disclosure">This is a sensitivity exercise around the regression baseline. Crop yields, water availability, heat-health impacts and emissions pathways require additional data and validated models. They are not calculated here.</div>

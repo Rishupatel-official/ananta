@@ -36,6 +36,9 @@
 .regression-view .model-adjustments input[type="range"] { display: block; width: 100%; accent-color: var(--teal); cursor: pointer; }
 .regression-view .model-range-labels { display: flex; justify-content: space-between; font-size: 11px; color: var(--muted); margin: 8px 0 26px; }
 .regression-view .model-result-summary { color: var(--text); margin: 20px 0; }
+.regression-view .model-service-status { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; padding: 12px 0; color: var(--teal); font-size: 13px; }
+.regression-view .model-service-status[role="alert"] { color: var(--coral); }
+.regression-view .ghost-button:disabled { opacity: .5; cursor: not-allowed; }
 @media (max-width: 1050px) { .regression-view .model-scenario-grid { grid-template-columns: 1fr; } }
 @media (max-width: 740px) {
   .regression-view .model-two-columns { grid-template-columns: 1fr; gap: 0; }

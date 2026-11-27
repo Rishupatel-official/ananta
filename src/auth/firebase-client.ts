@@ -16,6 +16,16 @@ const config = {
 export const firebaseConfigured = Object.values(config).every(value => typeof value === "string" && value.trim() && !value.startsWith("YOUR_"));
 let gateway: AuthGateway | undefined;
 
+export async function verifiedIdToken(): Promise<string> {
+  firebaseGateway();
+  const app = getApps().find(app => app.name === "climatetwin")!;
+  const user = getAuth(app).currentUser;
+  if (!user || !user.emailVerified) throw new InputError("Sign in with a verified email to use predictions.");
+  const result = await getIdTokenResult(user);
+  if (result.claims.email_verified !== true) throw new InputError("Verify your email before using predictions.");
+  return result.token;
+}
+
 export function firebaseGateway(): AuthGateway {
   if (gateway) return gateway;
   if (!firebaseConfigured) throw new InputError("Firebase is not configured.");

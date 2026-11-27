@@ -3,10 +3,18 @@ import time
 
 import cachecontrol
 import requests
-from fastapi import HTTPException
 from google.auth import exceptions, jwt
 from google.auth.transport.requests import Request
 from google.oauth2 import id_token
+
+
+class AuthenticationError(Exception):
+    """Authentication failure, independent of the web framework."""
+    def __init__(self, status_code: int, detail: str, headers: dict | None = None):
+        super().__init__(detail)
+        self.status_code = status_code
+        self.detail = detail
+        self.headers = headers or {}
 
 
 class FirebaseVerifier:
@@ -21,7 +29,7 @@ class FirebaseVerifier:
         self.session.close()
 
     def verify(self, token: str) -> dict:
-        denied = HTTPException(401, "Sign in again with a valid Firebase session.", headers={"WWW-Authenticate": "Bearer"})
+        denied = AuthenticationError(401, "Sign in again with a valid Firebase session.", headers={"WWW-Authenticate": "Bearer"})
         if len(token) > 16384:
             raise denied
         try:
@@ -44,9 +52,9 @@ class FirebaseVerifier:
             if not (0 <= claims["auth_time"] <= now and 0 <= claims["iat"] <= now < claims["exp"]):
                 raise ValueError("Invalid token timestamps.")
         except (exceptions.TransportError, requests.RequestException) as exc:
-            raise HTTPException(503, "Sign-in verification is temporarily unavailable. Try again shortly.") from exc
+            raise AuthenticationError(503, "Sign-in verification is temporarily unavailable. Try again shortly.") from exc
         except (ValueError, TypeError, KeyError, exceptions.GoogleAuthError) as exc:
             raise denied from exc
         if claims.get("email_verified") is not True or not isinstance(claims.get("email"), str) or not claims["email"]:
-            raise HTTPException(403, "Verify your email address before using predictions.")
+            raise AuthenticationError(403, "Verify your email address before using predictions.")
         return claims

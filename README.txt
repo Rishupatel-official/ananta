@@ -1,11 +1,12 @@
 ClimateTwin India — Firebase authentication, live weather and monthly regression
 
 Python model and API:
+- app.py starts the Flask backend with Waitress; install root requirements.txt.
 - model/model.pkl contains 36 fitted scikit-learn LinearRegression models.
 - backend/README.txt explains Python inference, API endpoints and deployment.
 - The backend validates Firebase tokens and requires a verified email.
-- The current React screens continue using the JSON model until connected to a
-  hosted backend URL. Python API deployment is independent of frontend hosting.
+- The React prediction and simulation screens call Flask with a Firebase ID token.
+- Start Flask and Vite for the presentation. See PRESENTATION.txt for the demo steps.
 - The saved Python model uses the same synthetic data and forecast window below.
 
 Run locally:
@@ -41,7 +42,8 @@ Prediction and simulation:
   Jan–Dec 2027. It uses a linear trend plus month indicators for seasonality.
 - Scenario Simulator adjusts the fitted baseline by your chosen temperature
   change (-3 to +5 C) and rainfall change (-50 to +50%). Reset restores baseline.
-- The model needs no API key or Python server. Firebase uses your local .env.local.
+- Predictions and simulations require the Flask Python server. Firebase uses your
+  local .env.local. VITE_MODEL_API_URL defaults to http://localhost:8000.
 - Training instructions, data contract and limitations: model/TRAINING.md.
 
 The supplied data_pipeline.py generates SYNTHETIC climate data. The supplied DB

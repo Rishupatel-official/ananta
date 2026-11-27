@@ -1,4 +1,10 @@
-ClimateTwin Python model and deployment API
+ClimateTwin Flask app.py and Python model API
+
+FLASK ENTRY POINT
+The root app.py creates the Flask application. Routes are in backend/app.py.
+Run python app.py to serve it with Waitress on Windows or Linux. The same Flask
+application is available as app:app to a WSGI host. python -m backend also works.
+Prediction/simulation request fields and Firebase token checks remain the same.
 
 MODEL FILE
 model/model.pkl contains a dictionary with 36 fitted scikit-learn LinearRegression
@@ -11,15 +17,16 @@ QUICK START (Windows PowerShell, from the folder containing model and backend)
 Use Python 3.12. The saved model was produced with Python 3.12.9.
 
     py -3.12 -m venv .venv
-    .\.venv\Scripts\python.exe -m pip install -r backend/requirements.txt
+    .\.venv\Scripts\python.exe -m pip install -r requirements.txt
     $env:FIREBASE_PROJECT_ID = "climate-twin-549d3"
     $env:CORS_ORIGINS = "http://localhost:5173,http://127.0.0.1:5173"
-    .\.venv\Scripts\python.exe -m backend
+    .\.venv\Scripts\python.exe app.py
 
 If py is unavailable and python --version reports 3.12, use python -m venv .venv.
 The API uses port 8000 by default. Visit http://localhost:8000/health and
-http://localhost:8000/docs. The documentation's Authorize button expects a valid
-Firebase ID token for a signed-in user with a verified email, not a Firebase API key.
+http://localhost:8000/docs for request examples. /openapi.json describes the API.
+Send Authorization: Bearer <Firebase ID token> with each model request. This must
+be a token for a signed-in user with a verified email, not a Firebase API key.
 There is no authentication bypass mode. Health and API documentation are public.
 
 USE THE MODEL DIRECTLY IN PYTHON (no server or Firebase needed)
@@ -67,14 +74,16 @@ DEPLOYMENT SETTINGS (a Python web-service host)
 Repository: https://github.com/Rishupatel-official/ananta
 Root directory: repository root (the folder with model/ and backend/).
 Python version: 3.12
-Build command: python -m pip install -r backend/requirements.txt
-Start command: python -m backend
+Build command: python -m pip install -r requirements.txt
+Start command: python app.py
 Health-check path: /health
 Required server variable: FIREBASE_PROJECT_ID=climate-twin-549d3
 Set CORS_ORIGINS to your frontend's full HTTPS origin; separate multiple origins
 with commas. The service reads PORT from the host, defaulting to 8000.
 Use the host's HTTPS endpoint for browser requests. No training is run at startup.
 The API loads its model once and is ready only after model/configuration validation.
+Waitress serves the Flask app; debug mode is off. The built-in Flask development
+server is not used by the deployment command.
 backend/.env.example lists settings; the server reads environment variables, not
 this template or the frontend .env.local. No Firebase service-account key is needed
 for this public-certificate token verification workflow.
@@ -85,10 +94,15 @@ Docker alternative, from the repository root:
 The Docker image copies only the model and API, runs as a non-root user and does
 not include local .env files, the training database or frontend dependencies.
 
-CONNECTING THE FRONTEND AFTER DEPLOYMENT
-The current React prediction/simulation screens still use the local JSON model.
-This package adds a separate Python API; it does not switch existing screens to it.
-Use the backend URL and a Firebase ID token when wiring the screens to the service:
+FRONTEND CONNECTION
+The React prediction and simulation screens call Flask through src/model-api.ts.
+They send the signed-in user's Firebase ID token and show results only after the
+Python server replies. A failed request displays an error, with no local fallback.
+The model's dataset checksum and forecast window are checked against the dashboard.
+For the presentation, the API URL defaults to http://localhost:8000. Set
+VITE_MODEL_API_URL in frontend .env.local to your backend HTTPS URL when deploying,
+then rebuild the frontend. Set backend CORS_ORIGINS to that frontend's origin.
+The requests use this pattern:
 
     import { getApp } from "firebase/app";
     import { getAuth } from "firebase/auth";
@@ -124,12 +138,14 @@ TESTS
 Tests compare all 432 state/month projections and exercise the real token signature
 verification code using test-only RSA keys, without creating Firebase accounts.
 
-Validation on 27 November 2026: all 17 Python tests passed, including the existing
+Validation on 27 November 2026: all 20 Python tests passed, including the existing
 training checks. A fresh Python 3.12 environment installed these requirements with
 no dependency conflicts. The running API returned 200 for health/docs and 401 for
 an unauthenticated prediction. Docker's engine was not running on this computer,
 so the Dockerfile is provided but its image build was not tested. Cloud deployment
 and a request with a real signed-in user's Firebase token remain deployment checks.
+The frontend's 18 tests, type check and production build also passed. Client tests
+cover bearer-token transmission, malformed/mismatched results, errors and cancellation.
 
 LIMITATIONS
 The supplied training database is synthetic: this is a learning prototype, not an
@@ -140,6 +156,7 @@ emissions, crop-yield or flood models. Open-Meteo live weather is a separate fea
 
 Official references:
 https://scikit-learn.org/stable/model_persistence.html
-https://fastapi.tiangolo.com/deployment/docker/
+https://flask.palletsprojects.com/en/stable/deploying/waitress/
+https://flask.palletsprojects.com/en/stable/api/
 https://googleapis.dev/python/google-auth/latest/reference/google.oauth2.id_token.html
 https://firebase.google.com/docs/auth/admin/verify-id-tokens

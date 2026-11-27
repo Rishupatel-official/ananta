@@ -1,8 +1,9 @@
 # Monthly regression prototype
 
 The app includes fitted coefficients and `model/model.pkl`, a Python bundle of
-the 36 fitted scikit-learn estimators. The browser still uses JSON; the separate
-Python API loads the pickle. See `backend/README.txt` for Python usage and deployment.
+the 36 fitted scikit-learn estimators. The dashboard calls the Flask API, which
+loads the pickle. The JSON retains metadata and comparison coefficients for tests.
+See `backend/README.txt` for Python usage and deployment.
 Use Python 3.12 and the pinned requirements for the saved pickle.
 
 From the project folder in PowerShell:
