@@ -1,4 +1,4 @@
-ClimateTwin India — Firebase authentication, live weather and monthly regression
+ClimateTwin India -— Firebase authentication, live weather and monthly regression
 
 Python model and API:
 - app.py starts the Flask backend with Waitress; install root requirements.txt.
