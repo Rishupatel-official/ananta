@@ -1,0 +1,3037 @@
+{
+  "method": "Ordinary least squares: trend + month indicators",
+  "dataKind": "synthetic",
+  "versions": {
+    "scikit-learn": "1.9.0",
+    "pandas": "3.0.3",
+    "numpy": "2.5.0"
+  },
+  "inputSha256": "d1066b144cf1e8f4062fda80ad66343b239511d80364ddbb3e220cd5f0ce21ac",
+  "audit": {
+    "rowCount": 223524,
+    "stateCount": 36,
+    "firstDate": "2010-01-01",
+    "lastDate": "2026-12-31",
+    "missingValues": {
+      "min_temp": 117,
+      "max_temp": 103,
+      "rainfall": 115
+    },
+    "completeStateMonths": 7018,
+    "excludedStateMonths": 326,
+    "excludedMonths": [
+      {
+        "state": "Andaman & Nicobar Islands",
+        "month": "2010-06"
+      },
+      {
+        "state": "Andaman & Nicobar Islands",
+        "month": "2012-03"
+      },
+      {
+        "state": "Andaman & Nicobar Islands",
+        "month": "2015-08"
+      },
+      {
+        "state": "Andaman & Nicobar Islands",
+        "month": "2017-02"
+      },
+      {
+        "state": "Andaman & Nicobar Islands",
+        "month": "2019-12"
+      },
+      {
+        "state": "Andaman & Nicobar Islands",
+        "month": "2021-09"
+      },
+      {
+        "state": "Andaman & Nicobar Islands",
+        "month": "2022-05"
+      },
+      {
+        "state": "Andaman & Nicobar Islands",
+        "month": "2023-07"
+      },
+      {
+        "state": "Andhra Pradesh",
+        "month": "2011-06"
+      },
+      {
+        "state": "Andhra Pradesh",
+        "month": "2012-03"
+      },
+      {
+        "state": "Andhra Pradesh",
+        "month": "2012-04"
+      },
+      {
+        "state": "Andhra Pradesh",
+        "month": "2013-06"
+      },
+      {
+        "state": "Andhra Pradesh",
+        "month": "2015-05"
+      },
+      {
+        "state": "Andhra Pradesh",
+        "month": "2016-09"
+      },
+      {
+        "state": "Andhra Pradesh",
+        "month": "2017-04"
+      },
+      {
+        "state": "Andhra Pradesh",
+        "month": "2019-05"
+      },
+      {
+        "state": "Andhra Pradesh",
+        "month": "2019-09"
+      },
+      {
+        "state": "Andhra Pradesh",
+        "month": "2022-10"
+      },
+      {
+        "state": "Andhra Pradesh",
+        "month": "2022-12"
+      },
+      {
+        "state": "Andhra Pradesh",
+        "month": "2023-05"
+      },
+      {
+        "state": "Andhra Pradesh",
+        "month": "2024-10"
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "month": "2015-08"
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "month": "2023-06"
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "month": "2023-08"
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "month": "2025-04"
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "month": "2026-07"
+      },
+      {
+        "state": "Assam",
+        "month": "2011-09"
+      },
+      {
+        "state": "Assam",
+        "month": "2012-01"
+      },
+      {
+        "state": "Assam",
+        "month": "2014-12"
+      },
+      {
+        "state": "Assam",
+        "month": "2015-03"
+      },
+      {
+        "state": "Assam",
+        "month": "2022-02"
+      },
+      {
+        "state": "Assam",
+        "month": "2025-08"
+      },
+      {
+        "state": "Bihar",
+        "month": "2011-01"
+      },
+      {
+        "state": "Bihar",
+        "month": "2013-02"
+      },
+      {
+        "state": "Bihar",
+        "month": "2014-10"
+      },
+      {
+        "state": "Bihar",
+        "month": "2016-04"
+      },
+      {
+        "state": "Bihar",
+        "month": "2016-05"
+      },
+      {
+        "state": "Bihar",
+        "month": "2016-08"
+      },
+      {
+        "state": "Bihar",
+        "month": "2019-03"
+      },
+      {
+        "state": "Bihar",
+        "month": "2019-09"
+      },
+      {
+        "state": "Chandigarh",
+        "month": "2012-07"
+      },
+      {
+        "state": "Chandigarh",
+        "month": "2013-09"
+      },
+      {
+        "state": "Chandigarh",
+        "month": "2015-12"
+      },
+      {
+        "state": "Chandigarh",
+        "month": "2016-10"
+      },
+      {
+        "state": "Chandigarh",
+        "month": "2017-07"
+      },
+      {
+        "state": "Chandigarh",
+        "month": "2017-08"
+      },
+      {
+        "state": "Chandigarh",
+        "month": "2018-04"
+      },
+      {
+        "state": "Chandigarh",
+        "month": "2019-01"
+      },
+      {
+        "state": "Chandigarh",
+        "month": "2020-12"
+      },
+      {
+        "state": "Chhattisgarh",
+        "month": "2011-06"
+      },
+      {
+        "state": "Chhattisgarh",
+        "month": "2012-06"
+      },
+      {
+        "state": "Chhattisgarh",
+        "month": "2014-10"
+      },
+      {
+        "state": "Chhattisgarh",
+        "month": "2014-12"
+      },
+      {
+        "state": "Chhattisgarh",
+        "month": "2019-05"
+      },
+      {
+        "state": "Chhattisgarh",
+        "month": "2022-07"
+      },
+      {
+        "state": "Chhattisgarh",
+        "month": "2023-04"
+      },
+      {
+        "state": "Chhattisgarh",
+        "month": "2024-01"
+      },
+      {
+        "state": "Chhattisgarh",
+        "month": "2025-03"
+      },
+      {
+        "state": "Dadra & Nagar Haveli and Daman & Diu",
+        "month": "2012-03"
+      },
+      {
+        "state": "Dadra & Nagar Haveli and Daman & Diu",
+        "month": "2014-12"
+      },
+      {
+        "state": "Dadra & Nagar Haveli and Daman & Diu",
+        "month": "2015-01"
+      },
+      {
+        "state": "Dadra & Nagar Haveli and Daman & Diu",
+        "month": "2020-07"
+      },
+      {
+        "state": "Dadra & Nagar Haveli and Daman & Diu",
+        "month": "2021-12"
+      },
+      {
+        "state": "Dadra & Nagar Haveli and Daman & Diu",
+        "month": "2022-11"
+      },
+      {
+        "state": "Dadra & Nagar Haveli and Daman & Diu",
+        "month": "2022-12"
+      },
+      {
+        "state": "Dadra & Nagar Haveli and Daman & Diu",
+        "month": "2025-03"
+      },
+      {
+        "state": "Dadra & Nagar Haveli and Daman & Diu",
+        "month": "2025-08"
+      },
+      {
+        "state": "Delhi",
+        "month": "2010-03"
+      },
+      {
+        "state": "Delhi",
+        "month": "2011-04"
+      },
+      {
+        "state": "Delhi",
+        "month": "2012-03"
+      },
+      {
+        "state": "Delhi",
+        "month": "2014-10"
+      },
+      {
+        "state": "Delhi",
+        "month": "2014-12"
+      },
+      {
+        "state": "Delhi",
+        "month": "2015-09"
+      },
+      {
+        "state": "Delhi",
+        "month": "2016-08"
+      },
+      {
+        "state": "Delhi",
+        "month": "2019-08"
+      },
+      {
+        "state": "Delhi",
+        "month": "2026-12"
+      },
+      {
+        "state": "Goa",
+        "month": "2013-06"
+      },
+      {
+        "state": "Goa",
+        "month": "2014-09"
+      },
+      {
+        "state": "Goa",
+        "month": "2015-02"
+      },
+      {
+        "state": "Goa",
+        "month": "2017-10"
+      },
+      {
+        "state": "Goa",
+        "month": "2018-03"
+      },
+      {
+        "state": "Goa",
+        "month": "2021-09"
+      },
+      {
+        "state": "Goa",
+        "month": "2022-08"
+      },
+      {
+        "state": "Goa",
+        "month": "2022-09"
+      },
+      {
+        "state": "Gujarat",
+        "month": "2011-10"
+      },
+      {
+        "state": "Gujarat",
+        "month": "2012-12"
+      },
+      {
+        "state": "Gujarat",
+        "month": "2014-02"
+      },
+      {
+        "state": "Gujarat",
+        "month": "2015-04"
+      },
+      {
+        "state": "Gujarat",
+        "month": "2015-11"
+      },
+      {
+        "state": "Gujarat",
+        "month": "2016-08"
+      },
+      {
+        "state": "Gujarat",
+        "month": "2017-04"
+      },
+      {
+        "state": "Gujarat",
+        "month": "2019-07"
+      },
+      {
+        "state": "Gujarat",
+        "month": "2023-09"
+      },
+      {
+        "state": "Gujarat",
+        "month": "2026-05"
+      },
+      {
+        "state": "Gujarat",
+        "month": "2026-07"
+      },
+      {
+        "state": "Haryana",
+        "month": "2010-11"
+      },
+      {
+        "state": "Haryana",
+        "month": "2011-03"
+      },
+      {
+        "state": "Haryana",
+        "month": "2011-09"
+      },
+      {
+        "state": "Haryana",
+        "month": "2018-03"
+      },
+      {
+        "state": "Haryana",
+        "month": "2018-12"
+      },
+      {
+        "state": "Haryana",
+        "month": "2019-03"
+      },
+      {
+        "state": "Haryana",
+        "month": "2020-10"
+      },
+      {
+        "state": "Haryana",
+        "month": "2021-11"
+      },
+      {
+        "state": "Haryana",
+        "month": "2022-03"
+      },
+      {
+        "state": "Haryana",
+        "month": "2022-06"
+      },
+      {
+        "state": "Haryana",
+        "month": "2022-08"
+      },
+      {
+        "state": "Haryana",
+        "month": "2023-08"
+      },
+      {
+        "state": "Himachal Pradesh",
+        "month": "2010-10"
+      },
+      {
+        "state": "Himachal Pradesh",
+        "month": "2013-03"
+      },
+      {
+        "state": "Himachal Pradesh",
+        "month": "2013-08"
+      },
+      {
+        "state": "Himachal Pradesh",
+        "month": "2014-11"
+      },
+      {
+        "state": "Himachal Pradesh",
+        "month": "2018-06"
+      },
+      {
+        "state": "Himachal Pradesh",
+        "month": "2019-01"
+      },
+      {
+        "state": "Himachal Pradesh",
+        "month": "2021-11"
+      },
+      {
+        "state": "Himachal Pradesh",
+        "month": "2022-02"
+      },
+      {
+        "state": "Himachal Pradesh",
+        "month": "2022-07"
+      },
+      {
+        "state": "Himachal Pradesh",
+        "month": "2024-11"
+      },
+      {
+        "state": "Himachal Pradesh",
+        "month": "2025-03"
+      },
+      {
+        "state": "Himachal Pradesh",
+        "month": "2026-01"
+      },
+      {
+        "state": "Jammu & Kashmir",
+        "month": "2011-11"
+      },
+      {
+        "state": "Jammu & Kashmir",
+        "month": "2012-02"
+      },
+      {
+        "state": "Jammu & Kashmir",
+        "month": "2012-06"
+      },
+      {
+        "state": "Jammu & Kashmir",
+        "month": "2013-04"
+      },
+      {
+        "state": "Jammu & Kashmir",
+        "month": "2016-01"
+      },
+      {
+        "state": "Jammu & Kashmir",
+        "month": "2017-10"
+      },
+      {
+        "state": "Jammu & Kashmir",
+        "month": "2019-01"
+      },
+      {
+        "state": "Jammu & Kashmir",
+        "month": "2021-01"
+      },
+      {
+        "state": "Jammu & Kashmir",
+        "month": "2022-04"
+      },
+      {
+        "state": "Jammu & Kashmir",
+        "month": "2025-11"
+      },
+      {
+        "state": "Jharkhand",
+        "month": "2010-08"
+      },
+      {
+        "state": "Jharkhand",
+        "month": "2010-11"
+      },
+      {
+        "state": "Jharkhand",
+        "month": "2011-09"
+      },
+      {
+        "state": "Jharkhand",
+        "month": "2013-11"
+      },
+      {
+        "state": "Jharkhand",
+        "month": "2014-12"
+      },
+      {
+        "state": "Jharkhand",
+        "month": "2015-12"
+      },
+      {
+        "state": "Jharkhand",
+        "month": "2016-05"
+      },
+      {
+        "state": "Jharkhand",
+        "month": "2017-04"
+      },
+      {
+        "state": "Jharkhand",
+        "month": "2023-06"
+      },
+      {
+        "state": "Jharkhand",
+        "month": "2024-02"
+      },
+      {
+        "state": "Jharkhand",
+        "month": "2024-11"
+      },
+      {
+        "state": "Jharkhand",
+        "month": "2024-12"
+      },
+      {
+        "state": "Karnataka",
+        "month": "2010-02"
+      },
+      {
+        "state": "Karnataka",
+        "month": "2014-01"
+      },
+      {
+        "state": "Karnataka",
+        "month": "2015-07"
+      },
+      {
+        "state": "Karnataka",
+        "month": "2016-01"
+      },
+      {
+        "state": "Karnataka",
+        "month": "2020-01"
+      },
+      {
+        "state": "Karnataka",
+        "month": "2023-05"
+      },
+      {
+        "state": "Kerala",
+        "month": "2010-09"
+      },
+      {
+        "state": "Kerala",
+        "month": "2013-07"
+      },
+      {
+        "state": "Kerala",
+        "month": "2014-12"
+      },
+      {
+        "state": "Kerala",
+        "month": "2017-01"
+      },
+      {
+        "state": "Kerala",
+        "month": "2019-10"
+      },
+      {
+        "state": "Kerala",
+        "month": "2020-01"
+      },
+      {
+        "state": "Kerala",
+        "month": "2020-05"
+      },
+      {
+        "state": "Kerala",
+        "month": "2023-09"
+      },
+      {
+        "state": "Kerala",
+        "month": "2025-03"
+      },
+      {
+        "state": "Kerala",
+        "month": "2025-10"
+      },
+      {
+        "state": "Kerala",
+        "month": "2026-01"
+      },
+      {
+        "state": "Ladakh",
+        "month": "2012-12"
+      },
+      {
+        "state": "Ladakh",
+        "month": "2016-11"
+      },
+      {
+        "state": "Ladakh",
+        "month": "2019-05"
+      },
+      {
+        "state": "Ladakh",
+        "month": "2019-11"
+      },
+      {
+        "state": "Ladakh",
+        "month": "2021-12"
+      },
+      {
+        "state": "Ladakh",
+        "month": "2023-01"
+      },
+      {
+        "state": "Ladakh",
+        "month": "2023-12"
+      },
+      {
+        "state": "Lakshadweep",
+        "month": "2013-05"
+      },
+      {
+        "state": "Lakshadweep",
+        "month": "2017-02"
+      },
+      {
+        "state": "Lakshadweep",
+        "month": "2018-09"
+      },
+      {
+        "state": "Lakshadweep",
+        "month": "2019-06"
+      },
+      {
+        "state": "Lakshadweep",
+        "month": "2020-08"
+      },
+      {
+        "state": "Lakshadweep",
+        "month": "2022-10"
+      },
+      {
+        "state": "Lakshadweep",
+        "month": "2024-09"
+      },
+      {
+        "state": "Lakshadweep",
+        "month": "2025-09"
+      },
+      {
+        "state": "Madhya Pradesh",
+        "month": "2012-03"
+      },
+      {
+        "state": "Madhya Pradesh",
+        "month": "2019-08"
+      },
+      {
+        "state": "Madhya Pradesh",
+        "month": "2019-12"
+      },
+      {
+        "state": "Madhya Pradesh",
+        "month": "2026-05"
+      },
+      {
+        "state": "Maharashtra",
+        "month": "2010-01"
+      },
+      {
+        "state": "Maharashtra",
+        "month": "2010-08"
+      },
+      {
+        "state": "Maharashtra",
+        "month": "2013-04"
+      },
+      {
+        "state": "Maharashtra",
+        "month": "2014-09"
+      },
+      {
+        "state": "Maharashtra",
+        "month": "2015-04"
+      },
+      {
+        "state": "Maharashtra",
+        "month": "2016-05"
+      },
+      {
+        "state": "Maharashtra",
+        "month": "2018-07"
+      },
+      {
+        "state": "Maharashtra",
+        "month": "2018-08"
+      },
+      {
+        "state": "Maharashtra",
+        "month": "2021-01"
+      },
+      {
+        "state": "Maharashtra",
+        "month": "2023-01"
+      },
+      {
+        "state": "Maharashtra",
+        "month": "2024-08"
+      },
+      {
+        "state": "Maharashtra",
+        "month": "2026-04"
+      },
+      {
+        "state": "Maharashtra",
+        "month": "2026-06"
+      },
+      {
+        "state": "Manipur",
+        "month": "2014-09"
+      },
+      {
+        "state": "Manipur",
+        "month": "2016-05"
+      },
+      {
+        "state": "Manipur",
+        "month": "2021-10"
+      },
+      {
+        "state": "Manipur",
+        "month": "2023-02"
+      },
+      {
+        "state": "Manipur",
+        "month": "2023-10"
+      },
+      {
+        "state": "Manipur",
+        "month": "2024-05"
+      },
+      {
+        "state": "Manipur",
+        "month": "2025-05"
+      },
+      {
+        "state": "Meghalaya",
+        "month": "2010-03"
+      },
+      {
+        "state": "Meghalaya",
+        "month": "2011-01"
+      },
+      {
+        "state": "Meghalaya",
+        "month": "2013-04"
+      },
+      {
+        "state": "Meghalaya",
+        "month": "2013-12"
+      },
+      {
+        "state": "Meghalaya",
+        "month": "2014-05"
+      },
+      {
+        "state": "Meghalaya",
+        "month": "2016-08"
+      },
+      {
+        "state": "Meghalaya",
+        "month": "2020-10"
+      },
+      {
+        "state": "Meghalaya",
+        "month": "2021-10"
+      },
+      {
+        "state": "Meghalaya",
+        "month": "2023-01"
+      },
+      {
+        "state": "Meghalaya",
+        "month": "2024-04"
+      },
+      {
+        "state": "Mizoram",
+        "month": "2010-02"
+      },
+      {
+        "state": "Mizoram",
+        "month": "2011-05"
+      },
+      {
+        "state": "Mizoram",
+        "month": "2012-01"
+      },
+      {
+        "state": "Mizoram",
+        "month": "2013-10"
+      },
+      {
+        "state": "Mizoram",
+        "month": "2016-01"
+      },
+      {
+        "state": "Mizoram",
+        "month": "2017-03"
+      },
+      {
+        "state": "Mizoram",
+        "month": "2018-05"
+      },
+      {
+        "state": "Mizoram",
+        "month": "2020-07"
+      },
+      {
+        "state": "Mizoram",
+        "month": "2024-05"
+      },
+      {
+        "state": "Mizoram",
+        "month": "2024-06"
+      },
+      {
+        "state": "Nagaland",
+        "month": "2010-04"
+      },
+      {
+        "state": "Nagaland",
+        "month": "2012-05"
+      },
+      {
+        "state": "Nagaland",
+        "month": "2012-07"
+      },
+      {
+        "state": "Nagaland",
+        "month": "2015-04"
+      },
+      {
+        "state": "Nagaland",
+        "month": "2015-08"
+      },
+      {
+        "state": "Nagaland",
+        "month": "2018-06"
+      },
+      {
+        "state": "Nagaland",
+        "month": "2020-03"
+      },
+      {
+        "state": "Nagaland",
+        "month": "2020-07"
+      },
+      {
+        "state": "Nagaland",
+        "month": "2023-06"
+      },
+      {
+        "state": "Nagaland",
+        "month": "2025-01"
+      },
+      {
+        "state": "Nagaland",
+        "month": "2026-04"
+      },
+      {
+        "state": "Nagaland",
+        "month": "2026-05"
+      },
+      {
+        "state": "Nagaland",
+        "month": "2026-10"
+      },
+      {
+        "state": "Odisha",
+        "month": "2011-07"
+      },
+      {
+        "state": "Odisha",
+        "month": "2012-01"
+      },
+      {
+        "state": "Odisha",
+        "month": "2014-11"
+      },
+      {
+        "state": "Odisha",
+        "month": "2019-10"
+      },
+      {
+        "state": "Puducherry",
+        "month": "2010-06"
+      },
+      {
+        "state": "Puducherry",
+        "month": "2010-09"
+      },
+      {
+        "state": "Puducherry",
+        "month": "2012-02"
+      },
+      {
+        "state": "Puducherry",
+        "month": "2014-02"
+      },
+      {
+        "state": "Puducherry",
+        "month": "2016-02"
+      },
+      {
+        "state": "Puducherry",
+        "month": "2017-03"
+      },
+      {
+        "state": "Puducherry",
+        "month": "2019-05"
+      },
+      {
+        "state": "Puducherry",
+        "month": "2020-07"
+      },
+      {
+        "state": "Puducherry",
+        "month": "2022-02"
+      },
+      {
+        "state": "Puducherry",
+        "month": "2025-07"
+      },
+      {
+        "state": "Puducherry",
+        "month": "2026-08"
+      },
+      {
+        "state": "Punjab",
+        "month": "2012-10"
+      },
+      {
+        "state": "Punjab",
+        "month": "2013-04"
+      },
+      {
+        "state": "Punjab",
+        "month": "2013-05"
+      },
+      {
+        "state": "Punjab",
+        "month": "2015-01"
+      },
+      {
+        "state": "Punjab",
+        "month": "2015-12"
+      },
+      {
+        "state": "Punjab",
+        "month": "2017-10"
+      },
+      {
+        "state": "Punjab",
+        "month": "2018-05"
+      },
+      {
+        "state": "Punjab",
+        "month": "2018-08"
+      },
+      {
+        "state": "Punjab",
+        "month": "2022-04"
+      },
+      {
+        "state": "Punjab",
+        "month": "2022-11"
+      },
+      {
+        "state": "Punjab",
+        "month": "2023-03"
+      },
+      {
+        "state": "Punjab",
+        "month": "2024-03"
+      },
+      {
+        "state": "Punjab",
+        "month": "2024-04"
+      },
+      {
+        "state": "Punjab",
+        "month": "2025-05"
+      },
+      {
+        "state": "Punjab",
+        "month": "2026-06"
+      },
+      {
+        "state": "Punjab",
+        "month": "2026-09"
+      },
+      {
+        "state": "Rajasthan",
+        "month": "2013-08"
+      },
+      {
+        "state": "Rajasthan",
+        "month": "2014-02"
+      },
+      {
+        "state": "Rajasthan",
+        "month": "2015-09"
+      },
+      {
+        "state": "Rajasthan",
+        "month": "2017-08"
+      },
+      {
+        "state": "Rajasthan",
+        "month": "2018-11"
+      },
+      {
+        "state": "Rajasthan",
+        "month": "2019-03"
+      },
+      {
+        "state": "Rajasthan",
+        "month": "2021-04"
+      },
+      {
+        "state": "Rajasthan",
+        "month": "2025-04"
+      },
+      {
+        "state": "Sikkim",
+        "month": "2011-11"
+      },
+      {
+        "state": "Sikkim",
+        "month": "2012-07"
+      },
+      {
+        "state": "Sikkim",
+        "month": "2014-05"
+      },
+      {
+        "state": "Sikkim",
+        "month": "2015-04"
+      },
+      {
+        "state": "Sikkim",
+        "month": "2016-10"
+      },
+      {
+        "state": "Sikkim",
+        "month": "2017-06"
+      },
+      {
+        "state": "Sikkim",
+        "month": "2019-01"
+      },
+      {
+        "state": "Sikkim",
+        "month": "2021-10"
+      },
+      {
+        "state": "Sikkim",
+        "month": "2022-08"
+      },
+      {
+        "state": "Sikkim",
+        "month": "2022-11"
+      },
+      {
+        "state": "Sikkim",
+        "month": "2023-01"
+      },
+      {
+        "state": "Sikkim",
+        "month": "2024-11"
+      },
+      {
+        "state": "Sikkim",
+        "month": "2026-01"
+      },
+      {
+        "state": "Tamil Nadu",
+        "month": "2015-12"
+      },
+      {
+        "state": "Tamil Nadu",
+        "month": "2018-10"
+      },
+      {
+        "state": "Tamil Nadu",
+        "month": "2019-01"
+      },
+      {
+        "state": "Tamil Nadu",
+        "month": "2024-10"
+      },
+      {
+        "state": "Telangana",
+        "month": "2010-12"
+      },
+      {
+        "state": "Telangana",
+        "month": "2011-04"
+      },
+      {
+        "state": "Telangana",
+        "month": "2011-09"
+      },
+      {
+        "state": "Telangana",
+        "month": "2012-01"
+      },
+      {
+        "state": "Telangana",
+        "month": "2014-08"
+      },
+      {
+        "state": "Telangana",
+        "month": "2015-07"
+      },
+      {
+        "state": "Telangana",
+        "month": "2021-05"
+      },
+      {
+        "state": "Telangana",
+        "month": "2022-05"
+      },
+      {
+        "state": "Telangana",
+        "month": "2023-01"
+      },
+      {
+        "state": "Telangana",
+        "month": "2024-08"
+      },
+      {
+        "state": "Telangana",
+        "month": "2026-03"
+      },
+      {
+        "state": "Tripura",
+        "month": "2011-02"
+      },
+      {
+        "state": "Tripura",
+        "month": "2013-07"
+      },
+      {
+        "state": "Tripura",
+        "month": "2014-12"
+      },
+      {
+        "state": "Tripura",
+        "month": "2015-02"
+      },
+      {
+        "state": "Tripura",
+        "month": "2015-08"
+      },
+      {
+        "state": "Tripura",
+        "month": "2020-01"
+      },
+      {
+        "state": "Tripura",
+        "month": "2021-05"
+      },
+      {
+        "state": "Tripura",
+        "month": "2025-05"
+      },
+      {
+        "state": "Tripura",
+        "month": "2025-07"
+      },
+      {
+        "state": "Tripura",
+        "month": "2026-10"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "month": "2010-09"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "month": "2010-12"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "month": "2011-06"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "month": "2021-05"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "month": "2023-01"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "month": "2024-12"
+      },
+      {
+        "state": "Uttarakhand",
+        "month": "2010-09"
+      },
+      {
+        "state": "Uttarakhand",
+        "month": "2011-12"
+      },
+      {
+        "state": "Uttarakhand",
+        "month": "2015-12"
+      },
+      {
+        "state": "Uttarakhand",
+        "month": "2016-03"
+      },
+      {
+        "state": "Uttarakhand",
+        "month": "2019-12"
+      },
+      {
+        "state": "Uttarakhand",
+        "month": "2024-06"
+      },
+      {
+        "state": "Uttarakhand",
+        "month": "2026-05"
+      },
+      {
+        "state": "West Bengal",
+        "month": "2010-11"
+      },
+      {
+        "state": "West Bengal",
+        "month": "2011-02"
+      },
+      {
+        "state": "West Bengal",
+        "month": "2014-03"
+      },
+      {
+        "state": "West Bengal",
+        "month": "2016-01"
+      },
+      {
+        "state": "West Bengal",
+        "month": "2021-09"
+      },
+      {
+        "state": "West Bengal",
+        "month": "2024-09"
+      }
+    ]
+  },
+  "evaluationStart": "2025-01",
+  "evaluationEnd": "2026-12",
+  "pooledEvaluation": {
+    "model": {
+      "min_temp": {
+        "mae": 0.1780525576958202,
+        "rmse": 0.22626636100845443
+      },
+      "max_temp": {
+        "mae": 0.23145105405735014,
+        "rmse": 0.2880778548545392
+      },
+      "rainfall": {
+        "mae": 40.753486345889826,
+        "rmse": 82.23556766091329
+      },
+      "mean_temp": {
+        "mae": 0.14177223496112876,
+        "rmse": 0.1798183786431998
+      }
+    },
+    "baseline": {
+      "min_temp": {
+        "mae": 0.22792467551936965,
+        "rmse": 0.2842806316769078
+      },
+      "max_temp": {
+        "mae": 0.26984924218526185,
+        "rmse": 0.33363004842932054
+      },
+      "rainfall": {
+        "mae": 39.898900290530726,
+        "rmse": 82.46503296778414
+      },
+      "mean_temp": {
+        "mae": 0.20498057140926737,
+        "rmse": 0.2496467677575404
+      }
+    }
+  },
+  "states": {
+    "Andaman & Nicobar Islands": {
+      "trainMonths": 172,
+      "testMonths": 24,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.1578957662531287,
+          "rmse": 0.19072570940401484
+        },
+        "max_temp": {
+          "mae": 0.26016721112838753,
+          "rmse": 0.317012903254658
+        },
+        "rainfall": {
+          "mae": 89.94717926057399,
+          "rmse": 141.18659315411344
+        },
+        "mean_temp": {
+          "mae": 0.13644827361796233,
+          "rmse": 0.15864621129209866
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.23294027598061792,
+          "rmse": 0.27626215177388014
+        },
+        "max_temp": {
+          "mae": 0.2793423579109067,
+          "rmse": 0.33610730975016495
+        },
+        "rainfall": {
+          "mae": 91.95825396825398,
+          "rmse": 143.96245952646845
+        },
+        "mean_temp": {
+          "mae": 0.17789375320020495,
+          "rmse": 0.22389471419963208
+        }
+      },
+      "clippedRainMonths": 6,
+      "reorderedTemperatureMonths": 0
+    },
+    "Andhra Pradesh": {
+      "trainMonths": 167,
+      "testMonths": 24,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.17118943710866766,
+          "rmse": 0.2086769162387834
+        },
+        "max_temp": {
+          "mae": 0.22150913744560916,
+          "rmse": 0.27981539880338585
+        },
+        "rainfall": {
+          "mae": 17.892671167746034,
+          "rmse": 26.902021418388845
+        },
+        "mean_temp": {
+          "mae": 0.1382423222894317,
+          "rmse": 0.1965104580456543
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.19161137952086346,
+          "rmse": 0.2483051069596723
+        },
+        "max_temp": {
+          "mae": 0.2085507010910256,
+          "rmse": 0.26174106671796593
+        },
+        "rainfall": {
+          "mae": 18.367664835164835,
+          "rmse": 27.123875503151147
+        },
+        "mean_temp": {
+          "mae": 0.18335463931230178,
+          "rmse": 0.20581546451769756
+        }
+      },
+      "clippedRainMonths": 6,
+      "reorderedTemperatureMonths": 0
+    },
+    "Arunachal Pradesh": {
+      "trainMonths": 177,
+      "testMonths": 22,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.25971677183790587,
+          "rmse": 0.32306789299764255
+        },
+        "max_temp": {
+          "mae": 0.22245239644382667,
+          "rmse": 0.27887818425406574
+        },
+        "rainfall": {
+          "mae": 34.102953676964304,
+          "rmse": 61.09053984678155
+        },
+        "mean_temp": {
+          "mae": 0.1523175840094545,
+          "rmse": 0.1832645733058909
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.3279808517400287,
+          "rmse": 0.41217404802862173
+        },
+        "max_temp": {
+          "mae": 0.21021890654148623,
+          "rmse": 0.290454844902271
+        },
+        "rainfall": {
+          "mae": 34.50303030303033,
+          "rmse": 61.256961178771924
+        },
+        "mean_temp": {
+          "mae": 0.2113842218527984,
+          "rmse": 0.2636978975028749
+        }
+      },
+      "clippedRainMonths": 2,
+      "reorderedTemperatureMonths": 0
+    },
+    "Assam": {
+      "trainMonths": 175,
+      "testMonths": 23,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.1991410101198248,
+          "rmse": 0.23452502380973644
+        },
+        "max_temp": {
+          "mae": 0.18430254239045124,
+          "rmse": 0.22350033117796972
+        },
+        "rainfall": {
+          "mae": 43.60953996636333,
+          "rmse": 73.96823213086823
+        },
+        "mean_temp": {
+          "mae": 0.12912989360355684,
+          "rmse": 0.17089756048693236
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.219635746862141,
+          "rmse": 0.27358550445216656
+        },
+        "max_temp": {
+          "mae": 0.23982149544056072,
+          "rmse": 0.28639992938644215
+        },
+        "rainfall": {
+          "mae": 45.50997929606627,
+          "rmse": 75.52802738163956
+        },
+        "mean_temp": {
+          "mae": 0.201080320877524,
+          "rmse": 0.2345658641043075
+        }
+      },
+      "clippedRainMonths": 6,
+      "reorderedTemperatureMonths": 0
+    },
+    "Bihar": {
+      "trainMonths": 172,
+      "testMonths": 24,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.17684843732920763,
+          "rmse": 0.23439653646564113
+        },
+        "max_temp": {
+          "mae": 0.258441464849777,
+          "rmse": 0.2884652996437017
+        },
+        "rainfall": {
+          "mae": 23.78080960669718,
+          "rmse": 52.18542438392591
+        },
+        "mean_temp": {
+          "mae": 0.1599491601678961,
+          "rmse": 0.19604567956993096
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.24111076439598178,
+          "rmse": 0.2971554369598845
+        },
+        "max_temp": {
+          "mae": 0.32322623829534286,
+          "rmse": 0.3625350203153569
+        },
+        "rainfall": {
+          "mae": 21.097142857142856,
+          "rmse": 51.70072644104111
+        },
+        "mean_temp": {
+          "mae": 0.24048935388022427,
+          "rmse": 0.2854246026576541
+        }
+      },
+      "clippedRainMonths": 0,
+      "reorderedTemperatureMonths": 0
+    },
+    "Chandigarh": {
+      "trainMonths": 171,
+      "testMonths": 24,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.1760119056580605,
+          "rmse": 0.2249063678057129
+        },
+        "max_temp": {
+          "mae": 0.2380632281748154,
+          "rmse": 0.30628095467574157
+        },
+        "rainfall": {
+          "mae": 24.17561934348039,
+          "rmse": 37.98574844633859
+        },
+        "mean_temp": {
+          "mae": 0.15483006349237516,
+          "rmse": 0.20103683503901587
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.2004886794806148,
+          "rmse": 0.2575354167813294
+        },
+        "max_temp": {
+          "mae": 0.22944746576601505,
+          "rmse": 0.30675697268503416
+        },
+        "rainfall": {
+          "mae": 23.758821733821737,
+          "rmse": 37.98008259541058
+        },
+        "mean_temp": {
+          "mae": 0.16849152347518537,
+          "rmse": 0.22174310974848807
+        }
+      },
+      "clippedRainMonths": 0,
+      "reorderedTemperatureMonths": 0
+    },
+    "Chhattisgarh": {
+      "trainMonths": 172,
+      "testMonths": 23,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.21257933864831233,
+          "rmse": 0.254371257079686
+        },
+        "max_temp": {
+          "mae": 0.25106741011459394,
+          "rmse": 0.29611984577949146
+        },
+        "rainfall": {
+          "mae": 41.86899079343473,
+          "rmse": 80.21723691204383
+        },
+        "mean_temp": {
+          "mae": 0.1542257739579472,
+          "rmse": 0.18728882971434108
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.23094878473560096,
+          "rmse": 0.28515542219167
+        },
+        "max_temp": {
+          "mae": 0.23844629221487593,
+          "rmse": 0.30095209240919707
+        },
+        "rainfall": {
+          "mae": 40.66120082815734,
+          "rmse": 81.23338061497515
+        },
+        "mean_temp": {
+          "mae": 0.18782191277633092,
+          "rmse": 0.21225146788601396
+        }
+      },
+      "clippedRainMonths": 0,
+      "reorderedTemperatureMonths": 0
+    },
+    "Dadra & Nagar Haveli and Daman & Diu": {
+      "trainMonths": 173,
+      "testMonths": 22,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.20742786214805617,
+          "rmse": 0.26510230335827
+        },
+        "max_temp": {
+          "mae": 0.25980203715164846,
+          "rmse": 0.3048291311226905
+        },
+        "rainfall": {
+          "mae": 60.26180667134185,
+          "rmse": 131.9643963979347
+        },
+        "mean_temp": {
+          "mae": 0.1334386682167467,
+          "rmse": 0.18921204721389479
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.27785139412558735,
+          "rmse": 0.3222057927854372
+        },
+        "max_temp": {
+          "mae": 0.24364208187066955,
+          "rmse": 0.30940796978288776
+        },
+        "rainfall": {
+          "mae": 60.64242424242425,
+          "rmse": 133.17585864109853
+        },
+        "mean_temp": {
+          "mae": 0.17797812223618595,
+          "rmse": 0.23328025353621626
+        }
+      },
+      "clippedRainMonths": 6,
+      "reorderedTemperatureMonths": 0
+    },
+    "Delhi": {
+      "trainMonths": 172,
+      "testMonths": 23,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-11",
+      "model": {
+        "min_temp": {
+          "mae": 0.18817783912911726,
+          "rmse": 0.2225345763588911
+        },
+        "max_temp": {
+          "mae": 0.2524232596776887,
+          "rmse": 0.3099387785116568
+        },
+        "rainfall": {
+          "mae": 13.321639510489163,
+          "rmse": 24.847101561557416
+        },
+        "mean_temp": {
+          "mae": 0.13484071629459493,
+          "rmse": 0.16924674616457067
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.26745440005980703,
+          "rmse": 0.3208916444923079
+        },
+        "max_temp": {
+          "mae": 0.31996366321152253,
+          "rmse": 0.36037922104692727
+        },
+        "rainfall": {
+          "mae": 12.817864309603442,
+          "rmse": 24.921090905441204
+        },
+        "mean_temp": {
+          "mae": 0.2285677741301854,
+          "rmse": 0.27528906645112394
+        }
+      },
+      "clippedRainMonths": 0,
+      "reorderedTemperatureMonths": 0
+    },
+    "Goa": {
+      "trainMonths": 172,
+      "testMonths": 24,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.1824779665845521,
+          "rmse": 0.23063524383450443
+        },
+        "max_temp": {
+          "mae": 0.23828850799726733,
+          "rmse": 0.3078046500158866
+        },
+        "rainfall": {
+          "mae": 51.14532476549571,
+          "rmse": 87.40677380840714
+        },
+        "mean_temp": {
+          "mae": 0.12681930093064078,
+          "rmse": 0.16168259677584113
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.20314650537634416,
+          "rmse": 0.27433116281534864
+        },
+        "max_temp": {
+          "mae": 0.32573025258181393,
+          "rmse": 0.38396820388252784
+        },
+        "rainfall": {
+          "mae": 50.737460317460325,
+          "rmse": 88.29273661534053
+        },
+        "mean_temp": {
+          "mae": 0.1986979150639369,
+          "rmse": 0.2507252130629873
+        }
+      },
+      "clippedRainMonths": 0,
+      "reorderedTemperatureMonths": 0
+    },
+    "Gujarat": {
+      "trainMonths": 171,
+      "testMonths": 22,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.20058801002102805,
+          "rmse": 0.2347781242270341
+        },
+        "max_temp": {
+          "mae": 0.22475848829943568,
+          "rmse": 0.27071434695845586
+        },
+        "rainfall": {
+          "mae": 19.134650495101315,
+          "rmse": 26.74152129939044
+        },
+        "mean_temp": {
+          "mae": 0.13750038955254612,
+          "rmse": 0.1781805680630862
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.2159739152473146,
+          "rmse": 0.2634454112044526
+        },
+        "max_temp": {
+          "mae": 0.2726112973048453,
+          "rmse": 0.32177539082249285
+        },
+        "rainfall": {
+          "mae": 16.84731102231102,
+          "rmse": 25.92049361700925
+        },
+        "mean_temp": {
+          "mae": 0.18782838297620652,
+          "rmse": 0.2360204001440902
+        }
+      },
+      "clippedRainMonths": 0,
+      "reorderedTemperatureMonths": 0
+    },
+    "Haryana": {
+      "trainMonths": 168,
+      "testMonths": 24,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.1720203896174611,
+          "rmse": 0.2150663870352768
+        },
+        "max_temp": {
+          "mae": 0.2547412784747977,
+          "rmse": 0.30463981216028363
+        },
+        "rainfall": {
+          "mae": 19.682801105095475,
+          "rmse": 38.83844858721942
+        },
+        "mean_temp": {
+          "mae": 0.17100461128117184,
+          "rmse": 0.19609862230376482
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.25481918843320445,
+          "rmse": 0.30399561167748385
+        },
+        "max_temp": {
+          "mae": 0.3403772440224051,
+          "rmse": 0.39895673500269635
+        },
+        "rainfall": {
+          "mae": 19.980485902985908,
+          "rmse": 39.24176033635743
+        },
+        "mean_temp": {
+          "mae": 0.2634473669997864,
+          "rmse": 0.30962371938058114
+        }
+      },
+      "clippedRainMonths": 10,
+      "reorderedTemperatureMonths": 0
+    },
+    "Himachal Pradesh": {
+      "trainMonths": 170,
+      "testMonths": 22,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.24103955944828137,
+          "rmse": 0.2801893384310207
+        },
+        "max_temp": {
+          "mae": 0.2536999753620249,
+          "rmse": 0.3170508655364149
+        },
+        "rainfall": {
+          "mae": 30.424702225603212,
+          "rmse": 50.69015253653429
+        },
+        "mean_temp": {
+          "mae": 0.167996655656102,
+          "rmse": 0.19614488761236323
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.2625334403488702,
+          "rmse": 0.3024760723725314
+        },
+        "max_temp": {
+          "mae": 0.3315975887911375,
+          "rmse": 0.40517281726420146
+        },
+        "rainfall": {
+          "mae": 30.34816017316018,
+          "rmse": 50.67270735475546
+        },
+        "mean_temp": {
+          "mae": 0.23027696318018906,
+          "rmse": 0.2712192020549109
+        }
+      },
+      "clippedRainMonths": 3,
+      "reorderedTemperatureMonths": 0
+    },
+    "Jammu & Kashmir": {
+      "trainMonths": 171,
+      "testMonths": 23,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.20942251141799928,
+          "rmse": 0.25786969660991266
+        },
+        "max_temp": {
+          "mae": 0.2755968374492013,
+          "rmse": 0.3301616043348436
+        },
+        "rainfall": {
+          "mae": 16.659656770616134,
+          "rmse": 32.91731830113146
+        },
+        "mean_temp": {
+          "mae": 0.14242188709393852,
+          "rmse": 0.17193823346342202
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.20449081493924992,
+          "rmse": 0.24282431403481974
+        },
+        "max_temp": {
+          "mae": 0.33079535471541166,
+          "rmse": 0.3954979232590006
+        },
+        "rainfall": {
+          "mae": 16.585403726708076,
+          "rmse": 32.87533035608749
+        },
+        "mean_temp": {
+          "mae": 0.19411593128588925,
+          "rmse": 0.24019181041840762
+        }
+      },
+      "clippedRainMonths": 9,
+      "reorderedTemperatureMonths": 0
+    },
+    "Jharkhand": {
+      "trainMonths": 168,
+      "testMonths": 24,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-10",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.1394740707001055,
+          "rmse": 0.19688257395780503
+        },
+        "max_temp": {
+          "mae": 0.2716191058545179,
+          "rmse": 0.34406796545064267
+        },
+        "rainfall": {
+          "mae": 39.41992410406776,
+          "rmse": 63.515510047258495
+        },
+        "mean_temp": {
+          "mae": 0.16292466526295893,
+          "rmse": 0.21527118128083322
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.1969778232637757,
+          "rmse": 0.23688031385022268
+        },
+        "max_temp": {
+          "mae": 0.28519017361610394,
+          "rmse": 0.3470963231982781
+        },
+        "rainfall": {
+          "mae": 37.0101388888889,
+          "rmse": 61.79621203311056
+        },
+        "mean_temp": {
+          "mae": 0.21279098768725127,
+          "rmse": 0.24594359359917686
+        }
+      },
+      "clippedRainMonths": 12,
+      "reorderedTemperatureMonths": 0
+    },
+    "Karnataka": {
+      "trainMonths": 174,
+      "testMonths": 24,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.17312732806585407,
+          "rmse": 0.216051502204201
+        },
+        "max_temp": {
+          "mae": 0.2417059586568985,
+          "rmse": 0.29279637085866794
+        },
+        "rainfall": {
+          "mae": 47.46241984600664,
+          "rmse": 80.02653064444071
+        },
+        "mean_temp": {
+          "mae": 0.12975169174758058,
+          "rmse": 0.1617756279660271
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.23645837600273087,
+          "rmse": 0.28318948216989787
+        },
+        "max_temp": {
+          "mae": 0.23286838624338543,
+          "rmse": 0.2867927940222421
+        },
+        "rainfall": {
+          "mae": 47.154325396825385,
+          "rmse": 79.4855971998187
+        },
+        "mean_temp": {
+          "mae": 0.15973263639283397,
+          "rmse": 0.20210705958927327
+        }
+      },
+      "clippedRainMonths": 4,
+      "reorderedTemperatureMonths": 0
+    },
+    "Kerala": {
+      "trainMonths": 172,
+      "testMonths": 21,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.14258392397878644,
+          "rmse": 0.1951900268080125
+        },
+        "max_temp": {
+          "mae": 0.20279154096579313,
+          "rmse": 0.24046073379721833
+        },
+        "rainfall": {
+          "mae": 111.70646359255709,
+          "rmse": 164.20288798989833
+        },
+        "mean_temp": {
+          "mae": 0.10234147146272628,
+          "rmse": 0.1485746988116223
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.21325892540639083,
+          "rmse": 0.2564579961179014
+        },
+        "max_temp": {
+          "mae": 0.224251575016551,
+          "rmse": 0.2966375613658358
+        },
+        "rainfall": {
+          "mae": 105.88932321646605,
+          "rmse": 165.2914490421846
+        },
+        "mean_temp": {
+          "mae": 0.18834668175666128,
+          "rmse": 0.22717637314204675
+        }
+      },
+      "clippedRainMonths": 0,
+      "reorderedTemperatureMonths": 0
+    },
+    "Ladakh": {
+      "trainMonths": 173,
+      "testMonths": 24,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.21192747997578798,
+          "rmse": 0.24750098411668287
+        },
+        "max_temp": {
+          "mae": 0.2878325156914758,
+          "rmse": 0.3306135525267613
+        },
+        "rainfall": {
+          "mae": 3.7928146949959256,
+          "rmse": 4.990309870564893
+        },
+        "mean_temp": {
+          "mae": 0.17141308955940304,
+          "rmse": 0.2164857087385147
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.25180032198983815,
+          "rmse": 0.30598017754002044
+        },
+        "max_temp": {
+          "mae": 0.30093003129919105,
+          "rmse": 0.3726994744417729
+        },
+        "rainfall": {
+          "mae": 4.193339438339439,
+          "rmse": 5.7152166071616834
+        },
+        "mean_temp": {
+          "mae": 0.2302070401223628,
+          "rmse": 0.28073726528698595
+        }
+      },
+      "clippedRainMonths": 8,
+      "reorderedTemperatureMonths": 0
+    },
+    "Lakshadweep": {
+      "trainMonths": 173,
+      "testMonths": 23,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.18961093540009807,
+          "rmse": 0.23479583979511862
+        },
+        "max_temp": {
+          "mae": 0.1588129440495039,
+          "rmse": 0.2128406917128709
+        },
+        "rainfall": {
+          "mae": 41.5260123484561,
+          "rmse": 66.26597014031324
+        },
+        "mean_temp": {
+          "mae": 0.1382362018161867,
+          "rmse": 0.1704998742622246
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.25829555768696616,
+          "rmse": 0.3331278860844624
+        },
+        "max_temp": {
+          "mae": 0.2145199193840067,
+          "rmse": 0.28635033185008246
+        },
+        "rainfall": {
+          "mae": 41.84213728300684,
+          "rmse": 65.16842257261321
+        },
+        "mean_temp": {
+          "mae": 0.22448035813966188,
+          "rmse": 0.273973024513001
+        }
+      },
+      "clippedRainMonths": 6,
+      "reorderedTemperatureMonths": 0
+    },
+    "Madhya Pradesh": {
+      "trainMonths": 177,
+      "testMonths": 23,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.18017962849313254,
+          "rmse": 0.24980345549077723
+        },
+        "max_temp": {
+          "mae": 0.17985517339851945,
+          "rmse": 0.23597996099291882
+        },
+        "rainfall": {
+          "mae": 48.22859482141347,
+          "rmse": 72.27252363890179
+        },
+        "mean_temp": {
+          "mae": 0.16187412495631107,
+          "rmse": 0.19998963750159723
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.2627148422716448,
+          "rmse": 0.32884985393072724
+        },
+        "max_temp": {
+          "mae": 0.3081741702113602,
+          "rmse": 0.3434996187310548
+        },
+        "rainfall": {
+          "mae": 43.30703933747413,
+          "rmse": 76.72265360183646
+        },
+        "mean_temp": {
+          "mae": 0.2652822832055552,
+          "rmse": 0.30747566931176856
+        }
+      },
+      "clippedRainMonths": 0,
+      "reorderedTemperatureMonths": 0
+    },
+    "Maharashtra": {
+      "trainMonths": 169,
+      "testMonths": 22,
+      "trainFirst": "2010-02",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.13905875940500081,
+          "rmse": 0.20463264788730287
+        },
+        "max_temp": {
+          "mae": 0.19703409724154367,
+          "rmse": 0.246735641743967
+        },
+        "rainfall": {
+          "mae": 39.02503016165147,
+          "rmse": 56.77744993665174
+        },
+        "mean_temp": {
+          "mae": 0.09889506346872795,
+          "rmse": 0.12903327280823695
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.21327810676531514,
+          "rmse": 0.24749400446081893
+        },
+        "max_temp": {
+          "mae": 0.2143546793708085,
+          "rmse": 0.2795017898819128
+        },
+        "rainfall": {
+          "mae": 34.739284049284045,
+          "rmse": 57.93649807155444
+        },
+        "mean_temp": {
+          "mae": 0.15596627865398685,
+          "rmse": 0.1945861266100346
+        }
+      },
+      "clippedRainMonths": 0,
+      "reorderedTemperatureMonths": 0
+    },
+    "Manipur": {
+      "trainMonths": 174,
+      "testMonths": 23,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.22150253576583917,
+          "rmse": 0.28083708956460296
+        },
+        "max_temp": {
+          "mae": 0.27826268530705006,
+          "rmse": 0.33539404122213207
+        },
+        "rainfall": {
+          "mae": 64.55447482016017,
+          "rmse": 99.51886972660864
+        },
+        "mean_temp": {
+          "mae": 0.17718431984250996,
+          "rmse": 0.2052134334287848
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.28457334827463127,
+          "rmse": 0.3572650886780012
+        },
+        "max_temp": {
+          "mae": 0.3073526077308398,
+          "rmse": 0.410511813812462
+        },
+        "rainfall": {
+          "mae": 51.10127090301005,
+          "rmse": 99.261376611964
+        },
+        "mean_temp": {
+          "mae": 0.26221895671313217,
+          "rmse": 0.31205713767349696
+        }
+      },
+      "clippedRainMonths": 0,
+      "reorderedTemperatureMonths": 0
+    },
+    "Meghalaya": {
+      "trainMonths": 170,
+      "testMonths": 24,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.177329913786079,
+          "rmse": 0.2133853716276265
+        },
+        "max_temp": {
+          "mae": 0.2796353924734072,
+          "rmse": 0.34560783874869433
+        },
+        "rainfall": {
+          "mae": 137.88066422126886,
+          "rmse": 242.85653514998396
+        },
+        "mean_temp": {
+          "mae": 0.15188019355187068,
+          "rmse": 0.1834009200388982
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.18534450881072173,
+          "rmse": 0.2434232857022105
+        },
+        "max_temp": {
+          "mae": 0.3593397764123573,
+          "rmse": 0.41979829730180857
+        },
+        "rainfall": {
+          "mae": 138.34909035409035,
+          "rmse": 238.70771988942658
+        },
+        "mean_temp": {
+          "mae": 0.2339189208162377,
+          "rmse": 0.26753804912191315
+        }
+      },
+      "clippedRainMonths": 8,
+      "reorderedTemperatureMonths": 0
+    },
+    "Mizoram": {
+      "trainMonths": 170,
+      "testMonths": 24,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.14130884445071734,
+          "rmse": 0.1970803248168483
+        },
+        "max_temp": {
+          "mae": 0.2053011453563515,
+          "rmse": 0.25405623385512666
+        },
+        "rainfall": {
+          "mae": 60.33326880723871,
+          "rmse": 97.56464758768449
+        },
+        "mean_temp": {
+          "mae": 0.11065200006108045,
+          "rmse": 0.15197163671735378
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.19334442296260948,
+          "rmse": 0.24079554333429326
+        },
+        "max_temp": {
+          "mae": 0.2328472681738815,
+          "rmse": 0.2951621902129922
+        },
+        "rainfall": {
+          "mae": 61.92468253968256,
+          "rmse": 98.43672394845942
+        },
+        "mean_temp": {
+          "mae": 0.19061087807055518,
+          "rmse": 0.21655604270376866
+        }
+      },
+      "clippedRainMonths": 8,
+      "reorderedTemperatureMonths": 0
+    },
+    "Nagaland": {
+      "trainMonths": 171,
+      "testMonths": 20,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-02",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.13008303545314134,
+          "rmse": 0.15794041474927148
+        },
+        "max_temp": {
+          "mae": 0.26441838012979135,
+          "rmse": 0.31939035568850843
+        },
+        "rainfall": {
+          "mae": 33.622173771731426,
+          "rmse": 58.375351774808145
+        },
+        "mean_temp": {
+          "mae": 0.1393169123638634,
+          "rmse": 0.16773432151248494
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.2641966599708532,
+          "rmse": 0.302969340778587
+        },
+        "max_temp": {
+          "mae": 0.32315186871588375,
+          "rmse": 0.35371679628845687
+        },
+        "rainfall": {
+          "mae": 34.507252747252736,
+          "rmse": 59.116663229013824
+        },
+        "mean_temp": {
+          "mae": 0.2452821807502839,
+          "rmse": 0.2651573883627657
+        }
+      },
+      "clippedRainMonths": 0,
+      "reorderedTemperatureMonths": 0
+    },
+    "Odisha": {
+      "trainMonths": 176,
+      "testMonths": 24,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.11425479352513057,
+          "rmse": 0.14577916193035023
+        },
+        "max_temp": {
+          "mae": 0.17992877266111748,
+          "rmse": 0.22399836304360968
+        },
+        "rainfall": {
+          "mae": 39.7860409474046,
+          "rmse": 64.14328949078482
+        },
+        "mean_temp": {
+          "mae": 0.1114691183601589,
+          "rmse": 0.13199243285716905
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.1685083418672133,
+          "rmse": 0.2078014900243392
+        },
+        "max_temp": {
+          "mae": 0.22789098631047974,
+          "rmse": 0.2845507489225347
+        },
+        "rainfall": {
+          "mae": 40.35341269841271,
+          "rmse": 64.90294266467734
+        },
+        "mean_temp": {
+          "mae": 0.16758211137006981,
+          "rmse": 0.20951674881394564
+        }
+      },
+      "clippedRainMonths": 6,
+      "reorderedTemperatureMonths": 0
+    },
+    "Puducherry": {
+      "trainMonths": 171,
+      "testMonths": 22,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.1788184602426618,
+          "rmse": 0.207419669979037
+        },
+        "max_temp": {
+          "mae": 0.21181702290031656,
+          "rmse": 0.2667663112749997
+        },
+        "rainfall": {
+          "mae": 26.26800093581852,
+          "rmse": 46.45843467210552
+        },
+        "mean_temp": {
+          "mae": 0.15867857440055147,
+          "rmse": 0.2035357649959043
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.19339246363348958,
+          "rmse": 0.23398579649245227
+        },
+        "max_temp": {
+          "mae": 0.23163815575105867,
+          "rmse": 0.2772202237584677
+        },
+        "rainfall": {
+          "mae": 27.736259346713894,
+          "rmse": 49.71246995370345
+        },
+        "mean_temp": {
+          "mae": 0.18676408830661115,
+          "rmse": 0.22651783044608612
+        }
+      },
+      "clippedRainMonths": 10,
+      "reorderedTemperatureMonths": 0
+    },
+    "Punjab": {
+      "trainMonths": 167,
+      "testMonths": 21,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.21853887769035135,
+          "rmse": 0.2813129496234683
+        },
+        "max_temp": {
+          "mae": 0.15785604648727786,
+          "rmse": 0.18117366963623288
+        },
+        "rainfall": {
+          "mae": 19.792421330034095,
+          "rmse": 43.79805411010108
+        },
+        "mean_temp": {
+          "mae": 0.10752679253633261,
+          "rmse": 0.1462372590402082
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.2841823326898806,
+          "rmse": 0.3703603973470228
+        },
+        "max_temp": {
+          "mae": 0.22443311504840122,
+          "rmse": 0.280883733148881
+        },
+        "rainfall": {
+          "mae": 20.91879469736613,
+          "rmse": 44.14783097098011
+        },
+        "mean_temp": {
+          "mae": 0.23749063116495156,
+          "rmse": 0.27496376811866885
+        }
+      },
+      "clippedRainMonths": 10,
+      "reorderedTemperatureMonths": 0
+    },
+    "Rajasthan": {
+      "trainMonths": 173,
+      "testMonths": 23,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.18315768181167574,
+          "rmse": 0.224037847349236
+        },
+        "max_temp": {
+          "mae": 0.30766808829023656,
+          "rmse": 0.34584835178889367
+        },
+        "rainfall": {
+          "mae": 9.462201373072233,
+          "rmse": 15.194952360714153
+        },
+        "mean_temp": {
+          "mae": 0.15934713248001703,
+          "rmse": 0.1981516974924548
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.21109628099810376,
+          "rmse": 0.27111211543531505
+        },
+        "max_temp": {
+          "mae": 0.32967021249592027,
+          "rmse": 0.3974160529539565
+        },
+        "rainfall": {
+          "mae": 10.524886128364392,
+          "rmse": 15.879244775429774
+        },
+        "mean_temp": {
+          "mae": 0.21869921622045504,
+          "rmse": 0.2656524649473073
+        }
+      },
+      "clippedRainMonths": 6,
+      "reorderedTemperatureMonths": 0
+    },
+    "Sikkim": {
+      "trainMonths": 168,
+      "testMonths": 23,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.15581918245079543,
+          "rmse": 0.1842949306319674
+        },
+        "max_temp": {
+          "mae": 0.22876406416230513,
+          "rmse": 0.30668186179095236
+        },
+        "rainfall": {
+          "mae": 55.64818822597492,
+          "rmse": 81.09081131264627
+        },
+        "mean_temp": {
+          "mae": 0.15163832502049276,
+          "rmse": 0.18454183616558362
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.14566956418990074,
+          "rmse": 0.18800108840193847
+        },
+        "max_temp": {
+          "mae": 0.2274896643017258,
+          "rmse": 0.2990344283666789
+        },
+        "rainfall": {
+          "mae": 51.86057971014493,
+          "rmse": 80.43080225969153
+        },
+        "mean_temp": {
+          "mae": 0.1408960393665865,
+          "rmse": 0.18117700112775745
+        }
+      },
+      "clippedRainMonths": 0,
+      "reorderedTemperatureMonths": 0
+    },
+    "Tamil Nadu": {
+      "trainMonths": 176,
+      "testMonths": 24,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.11009954724879274,
+          "rmse": 0.1440147563803327
+        },
+        "max_temp": {
+          "mae": 0.18152978860896715,
+          "rmse": 0.23035312768435476
+        },
+        "rainfall": {
+          "mae": 25.55349023163656,
+          "rmse": 35.011867623318174
+        },
+        "mean_temp": {
+          "mae": 0.10317346983289537,
+          "rmse": 0.12925971645532264
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.17683810098771158,
+          "rmse": 0.2057840482748239
+        },
+        "max_temp": {
+          "mae": 0.2786991676751116,
+          "rmse": 0.34326222732567113
+        },
+        "rainfall": {
+          "mae": 23.701111111111103,
+          "rmse": 36.93809159932593
+        },
+        "mean_temp": {
+          "mae": 0.20547737302402216,
+          "rmse": 0.24211796046701492
+        }
+      },
+      "clippedRainMonths": 0,
+      "reorderedTemperatureMonths": 0
+    },
+    "Telangana": {
+      "trainMonths": 170,
+      "testMonths": 23,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.2154696695680576,
+          "rmse": 0.264428549626985
+        },
+        "max_temp": {
+          "mae": 0.21448539321499868,
+          "rmse": 0.2592774938442961
+        },
+        "rainfall": {
+          "mae": 23.174596499122305,
+          "rmse": 38.42719314394077
+        },
+        "mean_temp": {
+          "mae": 0.14741381140920465,
+          "rmse": 0.19250726334923643
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.2742652672836449,
+          "rmse": 0.3301104170022022
+        },
+        "max_temp": {
+          "mae": 0.2599930288312063,
+          "rmse": 0.2967688914124227
+        },
+        "rainfall": {
+          "mae": 22.668338907469344,
+          "rmse": 38.715749416662426
+        },
+        "mean_temp": {
+          "mae": 0.2129289329694122,
+          "rmse": 0.2624795524885274
+        }
+      },
+      "clippedRainMonths": 0,
+      "reorderedTemperatureMonths": 0
+    },
+    "Tripura": {
+      "trainMonths": 173,
+      "testMonths": 21,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.17625579671593358,
+          "rmse": 0.22075411819637084
+        },
+        "max_temp": {
+          "mae": 0.2686635773607342,
+          "rmse": 0.3405170812025776
+        },
+        "rainfall": {
+          "mae": 63.35515927955722,
+          "rmse": 106.62966192404055
+        },
+        "mean_temp": {
+          "mae": 0.16241749482497253,
+          "rmse": 0.19124392898370352
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.262665057420818,
+          "rmse": 0.3087711284652255
+        },
+        "max_temp": {
+          "mae": 0.2787628855598013,
+          "rmse": 0.35381243838911386
+        },
+        "rainfall": {
+          "mae": 63.21009070294785,
+          "rmse": 107.56764366254926
+        },
+        "mean_temp": {
+          "mae": 0.20963230695242427,
+          "rmse": 0.25710115026455577
+        }
+      },
+      "clippedRainMonths": 0,
+      "reorderedTemperatureMonths": 0
+    },
+    "Uttar Pradesh": {
+      "trainMonths": 174,
+      "testMonths": 24,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-11",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.15033329728463307,
+          "rmse": 0.1824546924230021
+        },
+        "max_temp": {
+          "mae": 0.15208057078926882,
+          "rmse": 0.19274260353285452
+        },
+        "rainfall": {
+          "mae": 28.02208415883561,
+          "rmse": 58.865714293259536
+        },
+        "mean_temp": {
+          "mae": 0.08740766490402059,
+          "rmse": 0.1131725568253733
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.1917274542599907,
+          "rmse": 0.24202307401147904
+        },
+        "max_temp": {
+          "mae": 0.16328174139130733,
+          "rmse": 0.18986726806946885
+        },
+        "rainfall": {
+          "mae": 27.141135531135532,
+          "rmse": 58.775789378825735
+        },
+        "mean_temp": {
+          "mae": 0.14362121328903665,
+          "rmse": 0.16155409499119644
+        }
+      },
+      "clippedRainMonths": 0,
+      "reorderedTemperatureMonths": 0
+    },
+    "Uttarakhand": {
+      "trainMonths": 174,
+      "testMonths": 23,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.15329367286096,
+          "rmse": 0.19175899454539289
+        },
+        "max_temp": {
+          "mae": 0.2565550020236413,
+          "rmse": 0.33572284570089167
+        },
+        "rainfall": {
+          "mae": 45.55856194793279,
+          "rmse": 75.26901566050302
+        },
+        "mean_temp": {
+          "mae": 0.1782253065165281,
+          "rmse": 0.21042681198770552
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.2111574281983429,
+          "rmse": 0.25316184134626457
+        },
+        "max_temp": {
+          "mae": 0.3140679222600679,
+          "rmse": 0.3751483426391589
+        },
+        "rainfall": {
+          "mae": 44.576397515527944,
+          "rmse": 75.5853282028639
+        },
+        "mean_temp": {
+          "mae": 0.2204020915809376,
+          "rmse": 0.26837885240551973
+        }
+      },
+      "clippedRainMonths": 0,
+      "reorderedTemperatureMonths": 0
+    },
+    "West Bengal": {
+      "trainMonths": 174,
+      "testMonths": 24,
+      "trainFirst": "2010-01",
+      "trainLast": "2024-12",
+      "testFirst": "2025-01",
+      "testLast": "2026-12",
+      "model": {
+        "min_temp": {
+          "mae": 0.16497069984563736,
+          "rmse": 0.22713503025285203
+        },
+        "max_temp": {
+          "mae": 0.20781900980518633,
+          "rmse": 0.26293393948042315
+        },
+        "rainfall": {
+          "mae": 20.02674633456674,
+          "rmse": 32.75799225110291
+        },
+        "mean_temp": {
+          "mae": 0.15047256034647974,
+          "rmse": 0.19604351970947442
+        }
+      },
+      "baseline": {
+        "min_temp": {
+          "mae": 0.22306281113978202,
+          "rmse": 0.2950771016318019
+        },
+        "max_temp": {
+          "mae": 0.276010994492204,
+          "rmse": 0.3537007263126694
+        },
+        "rainfall": {
+          "mae": 22.45345238095241,
+          "rmse": 35.31681058186008
+        },
+        "mean_temp": {
+          "mae": 0.22242147224894948,
+          "rmse": 0.29265511184388154
+        }
+      },
+      "clippedRainMonths": 6,
+      "reorderedTemperatureMonths": 0
+    }
+  },
+  "limitations": [
+    "Synthetic input is not observed weather.",
+    "A single temporal holdout is not proof of future skill.",
+    "Metrics cover complete state-months only; units are degrees C and monthly mm.",
+    "The deployed models are refit on all complete months after evaluation.",
+    "Mean temperature is estimated as (mean daily minimum + mean daily maximum) / 2.",
+    "Rainfall is clipped at zero; inverted minimum/maximum values are reordered.",
+    "No uncertainty intervals, emissions pathways or crop/water impact models.",
+    "The app limits projections to 12 months; simulations are user-defined perturbations."
+  ]
+}

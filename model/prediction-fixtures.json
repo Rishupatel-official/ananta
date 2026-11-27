@@ -1,0 +1,3458 @@
+[
+  {
+    "state": "Andaman & Nicobar Islands",
+    "month": "2027-01",
+    "minTemp": 23.003841742801242,
+    "maxTemp": 29.84557364060117,
+    "rainfall": 0.0,
+    "meanTemp": 26.424707691701208
+  },
+  {
+    "state": "Andaman & Nicobar Islands",
+    "month": "2027-02",
+    "minTemp": 23.73815557095202,
+    "maxTemp": 30.543369240621708,
+    "rainfall": 0.0,
+    "meanTemp": 27.140762405786866
+  },
+  {
+    "state": "Andaman & Nicobar Islands",
+    "month": "2027-03",
+    "minTemp": 24.325953966199705,
+    "maxTemp": 31.285732771800028,
+    "rainfall": 115.70267902022354,
+    "meanTemp": 27.805843368999867
+  },
+  {
+    "state": "Andaman & Nicobar Islands",
+    "month": "2027-04",
+    "minTemp": 24.962848700423002,
+    "maxTemp": 31.900209946736528,
+    "rainfall": 367.8198031720005,
+    "meanTemp": 28.431529323579767
+  },
+  {
+    "state": "Andaman & Nicobar Islands",
+    "month": "2027-05",
+    "minTemp": 25.304450513540026,
+    "maxTemp": 32.30319762903659,
+    "rainfall": 644.9711702535728,
+    "meanTemp": 28.803824071288307
+  },
+  {
+    "state": "Andaman & Nicobar Islands",
+    "month": "2027-06",
+    "minTemp": 25.276625624473574,
+    "maxTemp": 32.19924920895487,
+    "rainfall": 768.1152307735533,
+    "meanTemp": 28.73793741671422
+  },
+  {
+    "state": "Andaman & Nicobar Islands",
+    "month": "2027-07",
+    "minTemp": 24.78348968440309,
+    "maxTemp": 31.606879598631213,
+    "rainfall": 848.2836443769077,
+    "meanTemp": 28.19518464151715
+  },
+  {
+    "state": "Andaman & Nicobar Islands",
+    "month": "2027-08",
+    "minTemp": 24.015087607821155,
+    "maxTemp": 30.937504487035515,
+    "rainfall": 666.9026013902285,
+    "meanTemp": 27.476296047428335
+  },
+  {
+    "state": "Andaman & Nicobar Islands",
+    "month": "2027-09",
+    "minTemp": 23.289100858805995,
+    "maxTemp": 30.156068078796803,
+    "rainfall": 358.29619613023834,
+    "meanTemp": 26.7225844688014
+  },
+  {
+    "state": "Andaman & Nicobar Islands",
+    "month": "2027-10",
+    "minTemp": 22.65222883957544,
+    "maxTemp": 29.612366809481628,
+    "rainfall": 92.22568552494094,
+    "meanTemp": 26.132297824528536
+  },
+  {
+    "state": "Andaman & Nicobar Islands",
+    "month": "2027-11",
+    "minTemp": 22.43637811218771,
+    "maxTemp": 29.336288378109078,
+    "rainfall": 7.066861995528981,
+    "meanTemp": 25.886333245148393
+  },
+  {
+    "state": "Andaman & Nicobar Islands",
+    "month": "2027-12",
+    "minTemp": 22.479833000950833,
+    "maxTemp": 29.3498130105753,
+    "rainfall": 0.0,
+    "meanTemp": 25.91482300576307
+  },
+  {
+    "state": "Andhra Pradesh",
+    "month": "2027-01",
+    "minTemp": 19.524353834455045,
+    "maxTemp": 29.856341365956666,
+    "rainfall": 0.0,
+    "meanTemp": 24.690347600205854
+  },
+  {
+    "state": "Andhra Pradesh",
+    "month": "2027-02",
+    "minTemp": 22.460732490478097,
+    "maxTemp": 32.820127692500655,
+    "rainfall": 0.0,
+    "meanTemp": 27.640430091489378
+  },
+  {
+    "state": "Andhra Pradesh",
+    "month": "2027-03",
+    "minTemp": 25.63859051450265,
+    "maxTemp": 36.11295174705572,
+    "rainfall": 13.079961454927858,
+    "meanTemp": 30.875771130779185
+  },
+  {
+    "state": "Andhra Pradesh",
+    "month": "2027-04",
+    "minTemp": 28.399265616093885,
+    "maxTemp": 38.86214805231532,
+    "rainfall": 12.660560898402297,
+    "meanTemp": 33.6307068342046
+  },
+  {
+    "state": "Andhra Pradesh",
+    "month": "2027-05",
+    "minTemp": 29.777983294595902,
+    "maxTemp": 40.13521513029475,
+    "rainfall": 110.37967931830819,
+    "meanTemp": 34.956599212445326
+  },
+  {
+    "state": "Andhra Pradesh",
+    "month": "2027-06",
+    "minTemp": 29.316374164076315,
+    "maxTemp": 39.71419261624395,
+    "rainfall": 218.8315285716416,
+    "meanTemp": 34.515283390160135
+  },
+  {
+    "state": "Andhra Pradesh",
+    "month": "2027-07",
+    "minTemp": 27.309742828762413,
+    "maxTemp": 37.87493719138358,
+    "rainfall": 354.4932845872389,
+    "meanTemp": 32.592340010072995
+  },
+  {
+    "state": "Andhra Pradesh",
+    "month": "2027-08",
+    "minTemp": 24.277864270887633,
+    "maxTemp": 34.61535464868906,
+    "rainfall": 317.5403434107683,
+    "meanTemp": 29.44660945978835
+  },
+  {
+    "state": "Andhra Pradesh",
+    "month": "2027-09",
+    "minTemp": 20.97255758073717,
+    "maxTemp": 31.323339020045367,
+    "rainfall": 239.54339969051483,
+    "meanTemp": 26.14794830039127
+  },
+  {
+    "state": "Andhra Pradesh",
+    "month": "2027-10",
+    "minTemp": 18.323307305641748,
+    "maxTemp": 28.739187932807347,
+    "rainfall": 97.62860414272126,
+    "meanTemp": 23.531247619224548
+  },
+  {
+    "state": "Andhra Pradesh",
+    "month": "2027-11",
+    "minTemp": 16.95269665545445,
+    "maxTemp": 27.456012460200853,
+    "rainfall": 11.522696351946127,
+    "meanTemp": 22.20435455782765
+  },
+  {
+    "state": "Andhra Pradesh",
+    "month": "2027-12",
+    "minTemp": 17.329106073057073,
+    "maxTemp": 27.883540232700245,
+    "rainfall": 0.0,
+    "meanTemp": 22.60632315287866
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "month": "2027-01",
+    "minTemp": 10.09762581617008,
+    "maxTemp": 19.512904959458332,
+    "rainfall": 0.0,
+    "meanTemp": 14.805265387814206
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "month": "2027-02",
+    "minTemp": 13.75492267262122,
+    "maxTemp": 23.41858307052478,
+    "rainfall": 10.912462462913538,
+    "meanTemp": 18.586752871572997
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "month": "2027-03",
+    "minTemp": 17.660054658674824,
+    "maxTemp": 27.16831292909781,
+    "rainfall": 45.659521286443855,
+    "meanTemp": 22.414183793886316
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "month": "2027-04",
+    "minTemp": 21.003901797034644,
+    "maxTemp": 30.44995095349481,
+    "rainfall": 303.1215650091091,
+    "meanTemp": 25.726926375264725
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "month": "2027-05",
+    "minTemp": 22.756828852223208,
+    "maxTemp": 32.14402450405036,
+    "rainfall": 684.8065801099731,
+    "meanTemp": 27.450426678136782
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "month": "2027-06",
+    "minTemp": 22.315890680517697,
+    "maxTemp": 31.67555866713511,
+    "rainfall": 870.2048886513752,
+    "meanTemp": 26.995724673826402
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "month": "2027-07",
+    "minTemp": 19.763616360669516,
+    "maxTemp": 29.256112150438142,
+    "rainfall": 927.4236531879769,
+    "meanTemp": 24.50986425555383
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "month": "2027-08",
+    "minTemp": 15.895112605266196,
+    "maxTemp": 25.393746927653826,
+    "rainfall": 699.591819205284,
+    "meanTemp": 20.64442976646001
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "month": "2027-09",
+    "minTemp": 11.834937644127066,
+    "maxTemp": 21.227028931627842,
+    "rainfall": 302.8124624629143,
+    "meanTemp": 16.530983287877454
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "month": "2027-10",
+    "minTemp": 8.56309071180575,
+    "maxTemp": 18.03131103156459,
+    "rainfall": 36.18893305114955,
+    "meanTemp": 13.29720087168517
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "month": "2027-11",
+    "minTemp": 7.088467055891772,
+    "maxTemp": 16.37761716692196,
+    "rainfall": 9.118344815855606,
+    "meanTemp": 11.733042111406867
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "month": "2027-12",
+    "minTemp": 7.593261489794367,
+    "maxTemp": 16.911386932892867,
+    "rainfall": 4.4889330511498216,
+    "meanTemp": 12.252324211343616
+  },
+  {
+    "state": "Assam",
+    "month": "2027-01",
+    "minTemp": 16.138205541097584,
+    "maxTemp": 25.664765486438,
+    "rainfall": 0.0,
+    "meanTemp": 20.901485513767792
+  },
+  {
+    "state": "Assam",
+    "month": "2027-02",
+    "minTemp": 19.39045626231102,
+    "maxTemp": 28.83063311231578,
+    "rainfall": 0.0,
+    "meanTemp": 24.1105446873134
+  },
+  {
+    "state": "Assam",
+    "month": "2027-03",
+    "minTemp": 22.92324892943842,
+    "maxTemp": 32.24435102646576,
+    "rainfall": 28.282124457610216,
+    "meanTemp": 27.58379997795209
+  },
+  {
+    "state": "Assam",
+    "month": "2027-04",
+    "minTemp": 25.72358169159329,
+    "maxTemp": 35.13950503581672,
+    "rainfall": 183.16284550364196,
+    "meanTemp": 30.431543363705003
+  },
+  {
+    "state": "Assam",
+    "month": "2027-05",
+    "minTemp": 27.123828370910175,
+    "maxTemp": 36.57001104467187,
+    "rainfall": 688.7687278565834,
+    "meanTemp": 31.846919707791024
+  },
+  {
+    "state": "Assam",
+    "month": "2027-06",
+    "minTemp": 26.723777770024657,
+    "maxTemp": 36.241661898561816,
+    "rainfall": 753.168727856583,
+    "meanTemp": 31.482719834293235
+  },
+  {
+    "state": "Assam",
+    "month": "2027-07",
+    "minTemp": 24.73407505022706,
+    "maxTemp": 34.059005352072255,
+    "rainfall": 865.8451984448186,
+    "meanTemp": 29.396540201149655
+  },
+  {
+    "state": "Assam",
+    "month": "2027-08",
+    "minTemp": 21.385624740036885,
+    "maxTemp": 30.824757127633536,
+    "rainfall": 589.3880818659511,
+    "meanTemp": 26.10519093383521
+  },
+  {
+    "state": "Assam",
+    "month": "2027-09",
+    "minTemp": 17.67131607831731,
+    "maxTemp": 27.159493693525523,
+    "rainfall": 225.06224149427447,
+    "meanTemp": 22.41540488592142
+  },
+  {
+    "state": "Assam",
+    "month": "2027-10",
+    "minTemp": 14.841285676413015,
+    "maxTemp": 24.331491120573197,
+    "rainfall": 20.986374915406273,
+    "meanTemp": 19.586388398493106
+  },
+  {
+    "state": "Assam",
+    "month": "2027-11",
+    "minTemp": 13.51730718178936,
+    "maxTemp": 22.948720722091227,
+    "rainfall": 0.0,
+    "meanTemp": 18.233013951940293
+  },
+  {
+    "state": "Assam",
+    "month": "2027-12",
+    "minTemp": 13.961769412894691,
+    "maxTemp": 23.452903158284457,
+    "rainfall": 0.0,
+    "meanTemp": 18.707336285589573
+  },
+  {
+    "state": "Bihar",
+    "month": "2027-01",
+    "minTemp": 14.193070099676198,
+    "maxTemp": 26.19197240411937,
+    "rainfall": 2.2634017311409504,
+    "meanTemp": 20.192521251897784
+  },
+  {
+    "state": "Bihar",
+    "month": "2027-02",
+    "minTemp": 18.58360217037235,
+    "maxTemp": 30.441200289976507,
+    "rainfall": 8.727694092179265,
+    "meanTemp": 24.51240123017443
+  },
+  {
+    "state": "Bihar",
+    "month": "2027-03",
+    "minTemp": 23.2524900160218,
+    "maxTemp": 35.29627906911152,
+    "rainfall": 3.4955711752946312,
+    "meanTemp": 29.274384542566658
+  },
+  {
+    "state": "Bihar",
+    "month": "2027-04",
+    "minTemp": 27.157143031263168,
+    "maxTemp": 39.177024620814734,
+    "rainfall": 20.002257633737205,
+    "meanTemp": 33.16708382603895
+  },
+  {
+    "state": "Bihar",
+    "month": "2027-05",
+    "minTemp": 29.104905128037366,
+    "maxTemp": 41.12649370683624,
+    "rainfall": 181.43975763373712,
+    "meanTemp": 35.1156994174368
+  },
+  {
+    "state": "Bihar",
+    "month": "2027-06",
+    "minTemp": 28.587996191880183,
+    "maxTemp": 40.628445017296734,
+    "rainfall": 408.1614029359523,
+    "meanTemp": 34.60822060458846
+  },
+  {
+    "state": "Bihar",
+    "month": "2027-07",
+    "minTemp": 25.734359253233755,
+    "maxTemp": 37.68176570040869,
+    "rainfall": 549.8143441124237,
+    "meanTemp": 31.708062476821222
+  },
+  {
+    "state": "Bihar",
+    "month": "2027-08",
+    "minTemp": 21.112566418359943,
+    "maxTemp": 33.139195319739464,
+    "rainfall": 384.3335076337371,
+    "meanTemp": 27.125880869049702
+  },
+  {
+    "state": "Bihar",
+    "month": "2027-09",
+    "minTemp": 16.302019585914273,
+    "maxTemp": 28.32318095083195,
+    "rainfall": 178.0705711752948,
+    "meanTemp": 22.31260026837311
+  },
+  {
+    "state": "Bihar",
+    "month": "2027-10",
+    "minTemp": 12.482792084434832,
+    "maxTemp": 24.493612605104335,
+    "rainfall": 35.87546527269866,
+    "meanTemp": 18.488202344769583
+  },
+  {
+    "state": "Bihar",
+    "month": "2027-11",
+    "minTemp": 10.532113838939006,
+    "maxTemp": 22.560994036904585,
+    "rainfall": 3.4378735241883716,
+    "meanTemp": 16.546553937921797
+  },
+  {
+    "state": "Bihar",
+    "month": "2027-12",
+    "minTemp": 11.139292839571517,
+    "maxTemp": 23.149128129251203,
+    "rainfall": 2.3849323477168234,
+    "meanTemp": 17.14421048441136
+  },
+  {
+    "state": "Chandigarh",
+    "month": "2027-01",
+    "minTemp": 11.029620999556968,
+    "maxTemp": 23.439786852162285,
+    "rainfall": 13.942801212385975,
+    "meanTemp": 17.234703925859627
+  },
+  {
+    "state": "Chandigarh",
+    "month": "2027-02",
+    "minTemp": 16.18343761770903,
+    "maxTemp": 28.81398091709412,
+    "rainfall": 0.5825060316102828,
+    "meanTemp": 22.498709267401573
+  },
+  {
+    "state": "Chandigarh",
+    "month": "2027-03",
+    "minTemp": 21.949987285407033,
+    "maxTemp": 34.35587573953924,
+    "rainfall": 0.5942707374933534,
+    "meanTemp": 28.15293151247314
+  },
+  {
+    "state": "Chandigarh",
+    "month": "2027-04",
+    "minTemp": 26.841209217728327,
+    "maxTemp": 39.250141631379826,
+    "rainfall": 1.4700060316106605,
+    "meanTemp": 33.04567542455408
+  },
+  {
+    "state": "Chandigarh",
+    "month": "2027-05",
+    "minTemp": 29.06099297800664,
+    "maxTemp": 41.54885486667396,
+    "rainfall": 66.31191779631672,
+    "meanTemp": 35.3049239223403
+  },
+  {
+    "state": "Chandigarh",
+    "month": "2027-06",
+    "minTemp": 28.354383237336187,
+    "maxTemp": 40.92238427843868,
+    "rainfall": 308.258976619846,
+    "meanTemp": 34.63838375788743
+  },
+  {
+    "state": "Chandigarh",
+    "month": "2027-07",
+    "minTemp": 24.994022662511995,
+    "maxTemp": 37.42601242373122,
+    "rainfall": 511.1723020151566,
+    "meanTemp": 31.21001754312161
+  },
+  {
+    "state": "Chandigarh",
+    "month": "2027-08",
+    "minTemp": 19.300109263856733,
+    "maxTemp": 31.91553673317806,
+    "rainfall": 435.8472108508352,
+    "meanTemp": 25.6078229985174
+  },
+  {
+    "state": "Chandigarh",
+    "month": "2027-09",
+    "minTemp": 13.537140899983111,
+    "maxTemp": 26.218326817790228,
+    "rainfall": 204.4685301277347,
+    "meanTemp": 19.87773385888667
+  },
+  {
+    "state": "Chandigarh",
+    "month": "2027-10",
+    "minTemp": 8.875575170200191,
+    "maxTemp": 21.361677802718233,
+    "rainfall": 25.249415670061538,
+    "meanTemp": 15.118626486459213
+  },
+  {
+    "state": "Chandigarh",
+    "month": "2027-11",
+    "minTemp": 6.6434028451793345,
+    "maxTemp": 19.113756827458282,
+    "rainfall": 9.841329561022334,
+    "meanTemp": 12.878579836318808
+  },
+  {
+    "state": "Chandigarh",
+    "month": "2027-12",
+    "minTemp": 7.391470969440906,
+    "maxTemp": 19.75027947114739,
+    "rainfall": 9.344857838784147,
+    "meanTemp": 13.570875220294148
+  },
+  {
+    "state": "Chhattisgarh",
+    "month": "2027-01",
+    "minTemp": 15.943707457469856,
+    "maxTemp": 28.040058769749354,
+    "rainfall": 21.550247285832306,
+    "meanTemp": 21.991883113609603
+  },
+  {
+    "state": "Chhattisgarh",
+    "month": "2027-02",
+    "minTemp": 19.677946156862234,
+    "maxTemp": 31.662776503834262,
+    "rainfall": 18.317531512046042,
+    "meanTemp": 25.67036133034825
+  },
+  {
+    "state": "Chhattisgarh",
+    "month": "2027-03",
+    "minTemp": 23.685833517939017,
+    "maxTemp": 35.70410539810683,
+    "rainfall": 19.477207267737935,
+    "meanTemp": 29.694969458022925
+  },
+  {
+    "state": "Chhattisgarh",
+    "month": "2027-04",
+    "minTemp": 26.981265536785656,
+    "maxTemp": 38.9976183241876,
+    "rainfall": 17.723287303927137,
+    "meanTemp": 32.98944193048663
+  },
+  {
+    "state": "Chhattisgarh",
+    "month": "2027-05",
+    "minTemp": 28.590133606736998,
+    "maxTemp": 40.5579304666717,
+    "rainfall": 102.06544737630512,
+    "meanTemp": 34.57403203670435
+  },
+  {
+    "state": "Chhattisgarh",
+    "month": "2027-06",
+    "minTemp": 28.177968826758644,
+    "maxTemp": 40.210113781721475,
+    "rainfall": 442.3683923119753,
+    "meanTemp": 34.19404130424006
+  },
+  {
+    "state": "Chhattisgarh",
+    "month": "2027-07",
+    "minTemp": 25.675382755886403,
+    "maxTemp": 37.71398164206669,
+    "rainfall": 637.9400773220218,
+    "meanTemp": 31.694682198976547
+  },
+  {
+    "state": "Chhattisgarh",
+    "month": "2027-08",
+    "minTemp": 21.901446825205213,
+    "maxTemp": 33.94965945501251,
+    "rainfall": 510.41164915910565,
+    "meanTemp": 27.92555314010886
+  },
+  {
+    "state": "Chhattisgarh",
+    "month": "2027-09",
+    "minTemp": 17.795532846710604,
+    "maxTemp": 29.8654216308506,
+    "rainfall": 263.87047268851563,
+    "meanTemp": 23.830477238780603
+  },
+  {
+    "state": "Chhattisgarh",
+    "month": "2027-10",
+    "minTemp": 14.590793626971875,
+    "maxTemp": 26.59051990552951,
+    "rainfall": 54.44939746677705,
+    "meanTemp": 20.590656766250692
+  },
+  {
+    "state": "Chhattisgarh",
+    "month": "2027-11",
+    "minTemp": 12.919454415338029,
+    "maxTemp": 24.992284375948614,
+    "rainfall": 17.85870798263422,
+    "meanTemp": 18.955869395643322
+  },
+  {
+    "state": "Chhattisgarh",
+    "month": "2027-12",
+    "minTemp": 13.423454917294453,
+    "maxTemp": 25.394753776497257,
+    "rainfall": 11.661897466776804,
+    "meanTemp": 19.409104346895855
+  },
+  {
+    "state": "Dadra & Nagar Haveli and Daman & Diu",
+    "month": "2027-01",
+    "minTemp": 18.670247287954826,
+    "maxTemp": 29.568935949203617,
+    "rainfall": 0.0,
+    "meanTemp": 24.11959161857922
+  },
+  {
+    "state": "Dadra & Nagar Haveli and Daman & Diu",
+    "month": "2027-02",
+    "minTemp": 20.731108070176184,
+    "maxTemp": 31.735662589424624,
+    "rainfall": 0.0,
+    "meanTemp": 26.233385329800406
+  },
+  {
+    "state": "Dadra & Nagar Haveli and Daman & Diu",
+    "month": "2027-03",
+    "minTemp": 23.00875773745567,
+    "maxTemp": 33.87975205352672,
+    "rainfall": 0.0,
+    "meanTemp": 28.4442548954912
+  },
+  {
+    "state": "Dadra & Nagar Haveli and Daman & Diu",
+    "month": "2027-04",
+    "minTemp": 24.80078062885483,
+    "maxTemp": 35.77959574889531,
+    "rainfall": 0.7348070170867231,
+    "meanTemp": 30.29018818887507
+  },
+  {
+    "state": "Dadra & Nagar Haveli and Daman & Diu",
+    "month": "2027-05",
+    "minTemp": 25.738958996976265,
+    "maxTemp": 36.600892396586644,
+    "rainfall": 200.62892466414522,
+    "meanTemp": 31.169925696781455
+  },
+  {
+    "state": "Dadra & Nagar Haveli and Daman & Diu",
+    "month": "2027-06",
+    "minTemp": 25.562741413168553,
+    "maxTemp": 36.45704672928747,
+    "rainfall": 682.7112776053218,
+    "meanTemp": 31.00989407122801
+  },
+  {
+    "state": "Dadra & Nagar Haveli and Daman & Diu",
+    "month": "2027-07",
+    "minTemp": 24.05950193898045,
+    "maxTemp": 35.141934993387224,
+    "rainfall": 871.3442773759863,
+    "meanTemp": 29.600718466183835
+  },
+  {
+    "state": "Dadra & Nagar Haveli and Daman & Diu",
+    "month": "2027-08",
+    "minTemp": 21.94149852548996,
+    "maxTemp": 32.92864371499021,
+    "rainfall": 683.9319238614638,
+    "meanTemp": 27.43507112024008
+  },
+  {
+    "state": "Dadra & Nagar Haveli and Daman & Diu",
+    "month": "2027-09",
+    "minTemp": 19.66058455042345,
+    "maxTemp": 30.664889866542367,
+    "rainfall": 182.94068937002763,
+    "meanTemp": 25.16273720848291
+  },
+  {
+    "state": "Dadra & Nagar Haveli and Daman & Diu",
+    "month": "2027-10",
+    "minTemp": 17.844461843276076,
+    "maxTemp": 28.878691258066716,
+    "rainfall": 7.370101134733449,
+    "meanTemp": 23.361576550671394
+  },
+  {
+    "state": "Dadra & Nagar Haveli and Daman & Diu",
+    "month": "2027-11",
+    "minTemp": 16.912542509068146,
+    "maxTemp": 27.988049933641342,
+    "rainfall": 0.9493359701754827,
+    "meanTemp": 22.450296221354744
+  },
+  {
+    "state": "Dadra & Nagar Haveli and Daman & Diu",
+    "month": "2027-12",
+    "minTemp": 17.206115018996993,
+    "maxTemp": 28.2173137525549,
+    "rainfall": 0.0,
+    "meanTemp": 22.71171438577595
+  },
+  {
+    "state": "Delhi",
+    "month": "2027-01",
+    "minTemp": 12.472004332338626,
+    "maxTemp": 25.943069266637753,
+    "rainfall": 1.4946439881551723,
+    "meanTemp": 19.20753679948819
+  },
+  {
+    "state": "Delhi",
+    "month": "2027-02",
+    "minTemp": 17.76077523558311,
+    "maxTemp": 31.27238054621074,
+    "rainfall": 7.900526341096066,
+    "meanTemp": 24.516577890896926
+  },
+  {
+    "state": "Delhi",
+    "month": "2027-03",
+    "minTemp": 23.492759860288686,
+    "maxTemp": 36.86412394301343,
+    "rainfall": 1.3996438708651775,
+    "meanTemp": 30.17844190165106
+  },
+  {
+    "state": "Delhi",
+    "month": "2027-04",
+    "minTemp": 28.112654184989964,
+    "maxTemp": 41.696298861242624,
+    "rainfall": 3.278237683175674,
+    "meanTemp": 34.904476523116294
+  },
+  {
+    "state": "Delhi",
+    "month": "2027-05",
+    "minTemp": 30.646387634046388,
+    "maxTemp": 44.11991936151439,
+    "rainfall": 33.55934987050793,
+    "meanTemp": 37.38315349778039
+  },
+  {
+    "state": "Delhi",
+    "month": "2027-06",
+    "minTemp": 29.926058728290542,
+    "maxTemp": 43.48868596492996,
+    "rainfall": 189.19464398815492,
+    "meanTemp": 36.70737234661025
+  },
+  {
+    "state": "Delhi",
+    "month": "2027-07",
+    "minTemp": 26.37485063214885,
+    "maxTemp": 40.02352467460737,
+    "rainfall": 341.47699692933134,
+    "meanTemp": 33.19918765337811
+  },
+  {
+    "state": "Delhi",
+    "month": "2027-08",
+    "minTemp": 20.861958000437006,
+    "maxTemp": 34.40382409827011,
+    "rainfall": 281.66357255120613,
+    "meanTemp": 27.632891049353557
+  },
+  {
+    "state": "Delhi",
+    "month": "2027-09",
+    "minTemp": 15.060891655111288,
+    "maxTemp": 28.531250105366453,
+    "rainfall": 130.8947555717351,
+    "meanTemp": 21.796070880238872
+  },
+  {
+    "state": "Delhi",
+    "month": "2027-10",
+    "minTemp": 10.387437798333591,
+    "maxTemp": 23.93213090992684,
+    "rainfall": 21.20937609959452,
+    "meanTemp": 17.159784354130217
+  },
+  {
+    "state": "Delhi",
+    "month": "2027-11",
+    "minTemp": 8.08350970868269,
+    "maxTemp": 21.704960474733873,
+    "rainfall": 7.7946439881548955,
+    "meanTemp": 14.894235091708282
+  },
+  {
+    "state": "Delhi",
+    "month": "2027-12",
+    "minTemp": 8.847762082462634,
+    "maxTemp": 22.419126473947816,
+    "rainfall": 1.5589297359528125,
+    "meanTemp": 15.633444278205225
+  },
+  {
+    "state": "Goa",
+    "month": "2027-01",
+    "minTemp": 22.21320537585268,
+    "maxTemp": 30.41445750030834,
+    "rainfall": 10.00889991742389,
+    "meanTemp": 26.313831438080513
+  },
+  {
+    "state": "Goa",
+    "month": "2027-02",
+    "minTemp": 23.481535173839767,
+    "maxTemp": 31.482804819216895,
+    "rainfall": 19.732121365222657,
+    "meanTemp": 27.48216999652833
+  },
+  {
+    "state": "Goa",
+    "month": "2027-03",
+    "minTemp": 24.773274161431427,
+    "maxTemp": 32.82288966349619,
+    "rainfall": 29.809267564482482,
+    "meanTemp": 28.798081912463807
+  },
+  {
+    "state": "Goa",
+    "month": "2027-04",
+    "minTemp": 25.695058633284688,
+    "maxTemp": 33.846380333957924,
+    "rainfall": 239.3853705056589,
+    "meanTemp": 29.770719483621306
+  },
+  {
+    "state": "Goa",
+    "month": "2027-05",
+    "minTemp": 26.310738582683804,
+    "maxTemp": 34.37290152307874,
+    "rainfall": 850.5677234468362,
+    "meanTemp": 30.34182005288127
+  },
+  {
+    "state": "Goa",
+    "month": "2027-06",
+    "minTemp": 26.167139249912193,
+    "maxTemp": 34.245663151882866,
+    "rainfall": 1198.4431905657152,
+    "meanTemp": 30.20640120089753
+  },
+  {
+    "state": "Goa",
+    "month": "2027-07",
+    "minTemp": 25.37715224492289,
+    "maxTemp": 33.37479905628557,
+    "rainfall": 1019.8500763880111,
+    "meanTemp": 29.37597565060423
+  },
+  {
+    "state": "Goa",
+    "month": "2027-08",
+    "minTemp": 24.161571875593054,
+    "maxTemp": 32.25182409859331,
+    "rainfall": 615.6746291634961,
+    "meanTemp": 28.206697987093182
+  },
+  {
+    "state": "Goa",
+    "month": "2027-09",
+    "minTemp": 22.944735566196695,
+    "maxTemp": 30.929846905868224,
+    "rainfall": 141.39118464935126,
+    "meanTemp": 26.937291236032458
+  },
+  {
+    "state": "Goa",
+    "month": "2027-10",
+    "minTemp": 21.996814652245863,
+    "maxTemp": 29.863488716012238,
+    "rainfall": 29.577302164729744,
+    "meanTemp": 25.93015168412905
+  },
+  {
+    "state": "Goa",
+    "month": "2027-11",
+    "minTemp": 21.466235103872922,
+    "maxTemp": 29.57343915748734,
+    "rainfall": 17.17360579977628,
+    "meanTemp": 25.51983713068013
+  },
+  {
+    "state": "Goa",
+    "month": "2027-12",
+    "minTemp": 21.540150347389684,
+    "maxTemp": 29.500795261219157,
+    "rainfall": 17.685370505658664,
+    "meanTemp": 25.52047280430442
+  },
+  {
+    "state": "Gujarat",
+    "month": "2027-01",
+    "minTemp": 16.39249768040419,
+    "maxTemp": 29.876580292303608,
+    "rainfall": 0.846403128320826,
+    "meanTemp": 23.1345389863539
+  },
+  {
+    "state": "Gujarat",
+    "month": "2027-02",
+    "minTemp": 19.746290266990894,
+    "maxTemp": 33.38433652452375,
+    "rainfall": 7.391641930311966,
+    "meanTemp": 26.56531339575732
+  },
+  {
+    "state": "Gujarat",
+    "month": "2027-03",
+    "minTemp": 23.54126428381968,
+    "maxTemp": 36.95551767370772,
+    "rainfall": 11.78757959890852,
+    "meanTemp": 30.248390978763698
+  },
+  {
+    "state": "Gujarat",
+    "month": "2027-04",
+    "minTemp": 26.483244533868366,
+    "maxTemp": 40.0784082316363,
+    "rainfall": 9.66132451711133,
+    "meanTemp": 33.28082638275234
+  },
+  {
+    "state": "Gujarat",
+    "month": "2027-05",
+    "minTemp": 28.10510665969717,
+    "maxTemp": 41.70344702370189,
+    "rainfall": 42.380925524338764,
+    "meanTemp": 34.90427684169953
+  },
+  {
+    "state": "Gujarat",
+    "month": "2027-06",
+    "minTemp": 27.7174881927381,
+    "maxTemp": 41.28853475150659,
+    "rainfall": 262.7346384224386,
+    "meanTemp": 34.503011472122346
+  },
+  {
+    "state": "Gujarat",
+    "month": "2027-07",
+    "minTemp": 25.446292275922616,
+    "maxTemp": 38.8963978525875,
+    "rainfall": 387.78283000354236,
+    "meanTemp": 32.17134506425506
+  },
+  {
+    "state": "Gujarat",
+    "month": "2027-08",
+    "minTemp": 21.895361208825747,
+    "maxTemp": 35.55691294531743,
+    "rainfall": 306.56589752931643,
+    "meanTemp": 28.726137077071588
+  },
+  {
+    "state": "Gujarat",
+    "month": "2027-09",
+    "minTemp": 17.993842970672294,
+    "maxTemp": 31.52360642384247,
+    "rainfall": 155.11954212583197,
+    "meanTemp": 24.75872469725738
+  },
+  {
+    "state": "Gujarat",
+    "month": "2027-10",
+    "minTemp": 14.992202193067454,
+    "maxTemp": 28.38606526096391,
+    "rainfall": 13.086508531805173,
+    "meanTemp": 21.689133727015683
+  },
+  {
+    "state": "Gujarat",
+    "month": "2027-11",
+    "minTemp": 13.545824835781612,
+    "maxTemp": 27.042057924575758,
+    "rainfall": 1.3662697298140491,
+    "meanTemp": 20.293941380178687
+  },
+  {
+    "state": "Gujarat",
+    "month": "2027-12",
+    "minTemp": 14.043842060735239,
+    "maxTemp": 27.574468668802353,
+    "rainfall": 9.654886331307388,
+    "meanTemp": 20.809155364768795
+  },
+  {
+    "state": "Haryana",
+    "month": "2027-01",
+    "minTemp": 11.117184037952812,
+    "maxTemp": 24.8084725604067,
+    "rainfall": 3.6168700799572857,
+    "meanTemp": 17.962828299179755
+  },
+  {
+    "state": "Haryana",
+    "month": "2027-02",
+    "minTemp": 16.780605580095816,
+    "maxTemp": 30.18575497504107,
+    "rainfall": 0.0,
+    "meanTemp": 23.483180277568444
+  },
+  {
+    "state": "Haryana",
+    "month": "2027-03",
+    "minTemp": 22.64099545273406,
+    "maxTemp": 36.19914821069832,
+    "rainfall": 0.0,
+    "meanTemp": 29.42007183171619
+  },
+  {
+    "state": "Haryana",
+    "month": "2027-04",
+    "minTemp": 27.66199744718749,
+    "maxTemp": 41.115986791905755,
+    "rainfall": 0.0,
+    "meanTemp": 34.38899211954662
+  },
+  {
+    "state": "Haryana",
+    "month": "2027-05",
+    "minTemp": 30.064053108161552,
+    "maxTemp": 43.568244856421884,
+    "rainfall": 32.66392890348705,
+    "meanTemp": 36.81614898229172
+  },
+  {
+    "state": "Haryana",
+    "month": "2027-06",
+    "minTemp": 29.386564097408915,
+    "maxTemp": 42.85481730736717,
+    "rainfall": 153.44082725538107,
+    "meanTemp": 36.120690702388046
+  },
+  {
+    "state": "Haryana",
+    "month": "2027-07",
+    "minTemp": 25.825153677421504,
+    "maxTemp": 39.350028537636305,
+    "rainfall": 274.2462818446633,
+    "meanTemp": 32.58759110752891
+  },
+  {
+    "state": "Haryana",
+    "month": "2027-08",
+    "minTemp": 20.098506743582305,
+    "maxTemp": 33.46941690440852,
+    "rainfall": 283.72309279117025,
+    "meanTemp": 26.783961823995412
+  },
+  {
+    "state": "Haryana",
+    "month": "2027-09",
+    "minTemp": 13.921502745574468,
+    "maxTemp": 27.24233792416197,
+    "rainfall": 107.49121340531902,
+    "meanTemp": 20.58192033486822
+  },
+  {
+    "state": "Haryana",
+    "month": "2027-10",
+    "minTemp": 9.082135176156513,
+    "maxTemp": 22.56137591902293,
+    "rainfall": 14.649988373551732,
+    "meanTemp": 15.82175554758972
+  },
+  {
+    "state": "Haryana",
+    "month": "2027-11",
+    "minTemp": 6.64103603120596,
+    "maxTemp": 20.225477477172877,
+    "rainfall": 0.0,
+    "meanTemp": 13.433256754189419
+  },
+  {
+    "state": "Haryana",
+    "month": "2027-12",
+    "minTemp": 7.379850072108407,
+    "maxTemp": 20.858223509173303,
+    "rainfall": 0.0,
+    "meanTemp": 14.119036790640855
+  },
+  {
+    "state": "Himachal Pradesh",
+    "month": "2027-01",
+    "minTemp": 4.886737420653592,
+    "maxTemp": 16.393895701432662,
+    "rainfall": 17.517856484928366,
+    "meanTemp": 10.640316561043127
+  },
+  {
+    "state": "Himachal Pradesh",
+    "month": "2027-02",
+    "minTemp": 9.389989212119527,
+    "maxTemp": 21.025292138768407,
+    "rainfall": 0.43474018947172866,
+    "meanTemp": 15.207640675443967
+  },
+  {
+    "state": "Himachal Pradesh",
+    "month": "2027-03",
+    "minTemp": 14.494517732717107,
+    "maxTemp": 25.956716333031185,
+    "rainfall": 0.8092569798743074,
+    "meanTemp": 20.225617032874148
+  },
+  {
+    "state": "Himachal Pradesh",
+    "month": "2027-04",
+    "minTemp": 18.538146660768483,
+    "maxTemp": 30.12314976911272,
+    "rainfall": 6.652402219324841,
+    "meanTemp": 24.330648214940602
+  },
+  {
+    "state": "Himachal Pradesh",
+    "month": "2027-05",
+    "minTemp": 20.597552100363668,
+    "maxTemp": 32.1790257969432,
+    "rainfall": 89.95240221932457,
+    "meanTemp": 26.388288948653432
+  },
+  {
+    "state": "Himachal Pradesh",
+    "month": "2027-06",
+    "minTemp": 19.978587837239097,
+    "maxTemp": 31.622402220093136,
+    "rainfall": 361.93549045462134,
+    "meanTemp": 25.800495028666116
+  },
+  {
+    "state": "Himachal Pradesh",
+    "month": "2027-07",
+    "minTemp": 16.93169899878726,
+    "maxTemp": 28.59144128265845,
+    "rainfall": 542.4972401894719,
+    "meanTemp": 22.761570140722856
+  },
+  {
+    "state": "Himachal Pradesh",
+    "month": "2027-08",
+    "minTemp": 12.102914611110343,
+    "maxTemp": 23.766672948338105,
+    "rainfall": 513.0645532860578,
+    "meanTemp": 17.934793779724224
+  },
+  {
+    "state": "Himachal Pradesh",
+    "month": "2027-09",
+    "minTemp": 7.1016760725331745,
+    "maxTemp": 18.709816435779366,
+    "rainfall": 230.83475516050115,
+    "meanTemp": 12.90574625415627
+  },
+  {
+    "state": "Himachal Pradesh",
+    "month": "2027-10",
+    "minTemp": 2.9122042238202033,
+    "maxTemp": 14.617691030446382,
+    "rainfall": 29.505740984919914,
+    "meanTemp": 8.764947627133292
+  },
+  {
+    "state": "Himachal Pradesh",
+    "month": "2027-11",
+    "minTemp": 1.0125331217856246,
+    "maxTemp": 12.531450919303186,
+    "rainfall": 1.9469186472650488,
+    "meanTemp": 6.771992020544405
+  },
+  {
+    "state": "Himachal Pradesh",
+    "month": "2027-12",
+    "minTemp": 1.6584629163029447,
+    "maxTemp": 13.196483102446031,
+    "rainfall": 7.881813984030963,
+    "meanTemp": 7.427473009374488
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "month": "2027-01",
+    "minTemp": 0.9712273362622064,
+    "maxTemp": 12.412458118614126,
+    "rainfall": 0.0,
+    "meanTemp": 6.691842727438166
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "month": "2027-02",
+    "minTemp": 6.6294321914876875,
+    "maxTemp": 18.181321613000037,
+    "rainfall": 0.0,
+    "meanTemp": 12.405376902243862
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "month": "2027-03",
+    "minTemp": 12.792583870708043,
+    "maxTemp": 24.28664527977074,
+    "rainfall": 0.0,
+    "meanTemp": 18.53961457523939
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "month": "2027-04",
+    "minTemp": 17.952410679340254,
+    "maxTemp": 29.6056231128941,
+    "rainfall": 15.01998196327447,
+    "meanTemp": 23.779016896117177
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "month": "2027-05",
+    "minTemp": 20.59827647032853,
+    "maxTemp": 32.04414053593771,
+    "rainfall": 154.11192212717918,
+    "meanTemp": 26.321208503133118
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "month": "2027-06",
+    "minTemp": 19.78616453959934,
+    "maxTemp": 31.395192713164235,
+    "rainfall": 301.33850870521366,
+    "meanTemp": 25.590678626381788
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "month": "2027-07",
+    "minTemp": 16.068674952301965,
+    "maxTemp": 27.44850486231342,
+    "rainfall": 434.5883927154143,
+    "meanTemp": 21.758589907307694
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "month": "2027-08",
+    "minTemp": 10.008902656286793,
+    "maxTemp": 21.675639587171112,
+    "rainfall": 372.6883927154145,
+    "meanTemp": 15.842271121728952
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "month": "2027-09",
+    "minTemp": 3.7241904488231636,
+    "maxTemp": 15.215785064716968,
+    "rainfall": 151.94721624482628,
+    "meanTemp": 9.469987756770067
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "month": "2027-10",
+    "minTemp": -1.4213707953770203,
+    "maxTemp": 10.097903158981671,
+    "rainfall": 19.425728223518323,
+    "meanTemp": 4.338266181802325
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "month": "2027-11",
+    "minTemp": -3.948881446601682,
+    "maxTemp": 7.592490947069899,
+    "rainfall": 0.0,
+    "meanTemp": 1.8218047502341084
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "month": "2027-12",
+    "minTemp": -3.0119702089883438,
+    "maxTemp": 8.425734463831446,
+    "rainfall": 0.0,
+    "meanTemp": 2.7068821274215513
+  },
+  {
+    "state": "Jharkhand",
+    "month": "2027-01",
+    "minTemp": 14.69480169317324,
+    "maxTemp": 26.18493872089181,
+    "rainfall": 0.0,
+    "meanTemp": 20.439870207032527
+  },
+  {
+    "state": "Jharkhand",
+    "month": "2027-02",
+    "minTemp": 18.53773199151958,
+    "maxTemp": 30.24186858433319,
+    "rainfall": 0.0,
+    "meanTemp": 24.389800287926384
+  },
+  {
+    "state": "Jharkhand",
+    "month": "2027-03",
+    "minTemp": 22.81055121878998,
+    "maxTemp": 34.42459716491462,
+    "rainfall": 0.0,
+    "meanTemp": 28.6175741918523
+  },
+  {
+    "state": "Jharkhand",
+    "month": "2027-04",
+    "minTemp": 26.374222807284795,
+    "maxTemp": 37.849202073386145,
+    "rainfall": 4.857218614761189,
+    "meanTemp": 32.11171244033547
+  },
+  {
+    "state": "Jharkhand",
+    "month": "2027-05",
+    "minTemp": 28.03793867155448,
+    "maxTemp": 39.63094565990957,
+    "rainfall": 84.84274505801459,
+    "meanTemp": 33.83444216573203
+  },
+  {
+    "state": "Jharkhand",
+    "month": "2027-06",
+    "minTemp": 27.546840256075292,
+    "maxTemp": 39.12468141446061,
+    "rainfall": 302.17530995524044,
+    "meanTemp": 33.33576083526795
+  },
+  {
+    "state": "Jharkhand",
+    "month": "2027-07",
+    "minTemp": 25.009602452186563,
+    "maxTemp": 36.66027078920304,
+    "rainfall": 545.8077215832717,
+    "meanTemp": 30.8349366206948
+  },
+  {
+    "state": "Jharkhand",
+    "month": "2027-08",
+    "minTemp": 20.87737095394677,
+    "maxTemp": 32.494108791953366,
+    "rainfall": 441.67465371753536,
+    "meanTemp": 26.685739872950066
+  },
+  {
+    "state": "Jharkhand",
+    "month": "2027-09",
+    "minTemp": 16.557230358494284,
+    "maxTemp": 28.145806065644987,
+    "rainfall": 213.8016272742816,
+    "meanTemp": 22.351518212069635
+  },
+  {
+    "state": "Jharkhand",
+    "month": "2027-10",
+    "minTemp": 13.187780820308012,
+    "maxTemp": 24.71036566586339,
+    "rainfall": 45.49007452444851,
+    "meanTemp": 18.9490732430857
+  },
+  {
+    "state": "Jharkhand",
+    "month": "2027-11",
+    "minTemp": 11.445955823378412,
+    "maxTemp": 23.024515858005604,
+    "rainfall": 0.0898322889634402,
+    "meanTemp": 17.235235840692006
+  },
+  {
+    "state": "Jharkhand",
+    "month": "2027-12",
+    "minTemp": 12.036020926143593,
+    "maxTemp": 23.72756751662221,
+    "rainfall": 0.0,
+    "meanTemp": 17.8817942213829
+  },
+  {
+    "state": "Karnataka",
+    "month": "2027-01",
+    "minTemp": 18.620016989528416,
+    "maxTemp": 29.78638151495382,
+    "rainfall": 21.547197091448616,
+    "meanTemp": 24.20319925224112
+  },
+  {
+    "state": "Karnataka",
+    "month": "2027-02",
+    "minTemp": 20.752785707802026,
+    "maxTemp": 31.776880049305273,
+    "rainfall": 14.85515535969179,
+    "meanTemp": 26.264832878553648
+  },
+  {
+    "state": "Karnataka",
+    "month": "2027-03",
+    "minTemp": 22.959521388289197,
+    "maxTemp": 33.99437436395252,
+    "rainfall": 17.26354685143805,
+    "meanTemp": 28.476947876120857
+  },
+  {
+    "state": "Karnataka",
+    "month": "2027-04",
+    "minTemp": 24.88074845976295,
+    "maxTemp": 35.82734084086587,
+    "rainfall": 104.85766449849704,
+    "meanTemp": 30.35404465031441
+  },
+  {
+    "state": "Karnataka",
+    "month": "2027-05",
+    "minTemp": 25.753627687811417,
+    "maxTemp": 36.7825579562071,
+    "rainfall": 272.1903448426033,
+    "meanTemp": 31.268092822009258
+  },
+  {
+    "state": "Karnataka",
+    "month": "2027-06",
+    "minTemp": 25.45623865584138,
+    "maxTemp": 36.442634958512926,
+    "rainfall": 382.5341350867324,
+    "meanTemp": 30.94943680717715
+  },
+  {
+    "state": "Karnataka",
+    "month": "2027-07",
+    "minTemp": 24.10415817783582,
+    "maxTemp": 35.13684608715765,
+    "rainfall": 422.4984974685033,
+    "meanTemp": 29.620502132496735
+  },
+  {
+    "state": "Karnataka",
+    "month": "2027-08",
+    "minTemp": 21.920242450907793,
+    "maxTemp": 32.90879561632444,
+    "rainfall": 357.16354685143824,
+    "meanTemp": 27.414519033616116
+  },
+  {
+    "state": "Karnataka",
+    "month": "2027-09",
+    "minTemp": 19.6425131656453,
+    "maxTemp": 30.61734084086587,
+    "rainfall": 187.9223703808499,
+    "meanTemp": 25.129927003255588
+  },
+  {
+    "state": "Karnataka",
+    "month": "2027-10",
+    "minTemp": 17.91398059132525,
+    "maxTemp": 28.906708329796928,
+    "rainfall": 41.77531155732059,
+    "meanTemp": 23.410344460561088
+  },
+  {
+    "state": "Karnataka",
+    "month": "2027-11",
+    "minTemp": 17.048395518586478,
+    "maxTemp": 28.11851731145411,
+    "rainfall": 26.54589979261472,
+    "meanTemp": 22.583456415020294
+  },
+  {
+    "state": "Karnataka",
+    "month": "2027-12",
+    "minTemp": 17.311324044835686,
+    "maxTemp": 28.202723510062583,
+    "rainfall": 6.910605674967554,
+    "meanTemp": 22.757023777449135
+  },
+  {
+    "state": "Kerala",
+    "month": "2027-01",
+    "minTemp": 22.169286668412397,
+    "maxTemp": 30.175881062324347,
+    "rainfall": 27.48116976590712,
+    "meanTemp": 26.172583865368374
+  },
+  {
+    "state": "Kerala",
+    "month": "2027-02",
+    "minTemp": 23.069984093143013,
+    "maxTemp": 31.03118949283786,
+    "rainfall": 32.150268252105185,
+    "meanTemp": 27.050586792990437
+  },
+  {
+    "state": "Kerala",
+    "month": "2027-03",
+    "minTemp": 24.0721555036998,
+    "maxTemp": 32.03260737064463,
+    "rainfall": 149.02272818756165,
+    "meanTemp": 28.052381437172215
+  },
+  {
+    "state": "Kerala",
+    "month": "2027-04",
+    "minTemp": 24.957962939854106,
+    "maxTemp": 32.89423788460835,
+    "rainfall": 504.79732707563045,
+    "meanTemp": 28.92610041223123
+  },
+  {
+    "state": "Kerala",
+    "month": "2027-05",
+    "minTemp": 25.183761655574727,
+    "maxTemp": 33.36814109368459,
+    "rainfall": 1126.5710236118143,
+    "meanTemp": 29.27595137462966
+  },
+  {
+    "state": "Kerala",
+    "month": "2027-06",
+    "minTemp": 25.11345313593253,
+    "maxTemp": 33.04894376696129,
+    "rainfall": 1126.5973270756283,
+    "meanTemp": 29.08119845144691
+  },
+  {
+    "state": "Kerala",
+    "month": "2027-07",
+    "minTemp": 24.516582848844784,
+    "maxTemp": 32.48163830594055,
+    "rainfall": 993.663637205768,
+    "meanTemp": 28.499110577392667
+  },
+  {
+    "state": "Kerala",
+    "month": "2027-08",
+    "minTemp": 23.56483201006283,
+    "maxTemp": 31.60493997189488,
+    "rainfall": 525.8032094285713,
+    "meanTemp": 27.584885990978854
+  },
+  {
+    "state": "Kerala",
+    "month": "2027-09",
+    "minTemp": 22.521328469295234,
+    "maxTemp": 30.52820906887194,
+    "rainfall": 141.6466675196959,
+    "meanTemp": 26.524768769083586
+  },
+  {
+    "state": "Kerala",
+    "month": "2027-10",
+    "minTemp": 21.794795208522647,
+    "maxTemp": 29.780543695579013,
+    "rainfall": 52.82666759078188,
+    "meanTemp": 25.787669452050828
+  },
+  {
+    "state": "Kerala",
+    "month": "2027-11",
+    "minTemp": 21.360511959461952,
+    "maxTemp": 29.453845727745616,
+    "rainfall": 30.77968001680984,
+    "meanTemp": 25.407178843603784
+  },
+  {
+    "state": "Kerala",
+    "month": "2027-12",
+    "minTemp": 21.432084199114957,
+    "maxTemp": 29.512313819397065,
+    "rainfall": 24.035228120916948,
+    "meanTemp": 25.47219900925601
+  },
+  {
+    "state": "Ladakh",
+    "month": "2027-01",
+    "minTemp": -10.513447688962797,
+    "maxTemp": 2.829042931684925,
+    "rainfall": 3.3345878815286376,
+    "meanTemp": -3.842202378638936
+  },
+  {
+    "state": "Ladakh",
+    "month": "2027-02",
+    "minTemp": -3.6948969329410204,
+    "maxTemp": 9.725436935765266,
+    "rainfall": 4.956403921824775,
+    "meanTemp": 3.015270001412123
+  },
+  {
+    "state": "Ladakh",
+    "month": "2027-03",
+    "minTemp": 3.675743180724039,
+    "maxTemp": 17.203954382788574,
+    "rainfall": 0.0,
+    "meanTemp": 10.439848781756307
+  },
+  {
+    "state": "Ladakh",
+    "month": "2027-04",
+    "minTemp": 9.859506621584243,
+    "maxTemp": 23.454201062105454,
+    "rainfall": 0.0,
+    "meanTemp": 16.65685384184485
+  },
+  {
+    "state": "Ladakh",
+    "month": "2027-05",
+    "minTemp": 12.854321040942205,
+    "maxTemp": 26.484932718753743,
+    "rainfall": 8.584246596118518,
+    "meanTemp": 19.669626879847975
+  },
+  {
+    "state": "Ladakh",
+    "month": "2027-06",
+    "minTemp": 12.176565445113651,
+    "maxTemp": 25.664004983674083,
+    "rainfall": 28.668168627707097,
+    "meanTemp": 18.920285214393868
+  },
+  {
+    "state": "Ladakh",
+    "month": "2027-07",
+    "minTemp": 7.453352288883428,
+    "maxTemp": 21.066572978613994,
+    "rainfall": 39.09758039241299,
+    "meanTemp": 14.25996263374871
+  },
+  {
+    "state": "Ladakh",
+    "month": "2027-08",
+    "minTemp": 0.4419670896424215,
+    "maxTemp": 13.905282656033336,
+    "rainfall": 42.60934509829532,
+    "meanTemp": 7.173624872837879
+  },
+  {
+    "state": "Ladakh",
+    "month": "2027-09",
+    "minTemp": -7.152258084298103,
+    "maxTemp": 6.227534395438795,
+    "rainfall": 20.974050980648297,
+    "meanTemp": -0.4623618444296542
+  },
+  {
+    "state": "Ladakh",
+    "month": "2027-10",
+    "minTemp": -13.397311847738976,
+    "maxTemp": 0.013062542181353276,
+    "rainfall": 4.650521568883596,
+    "meanTemp": -6.692124652778811
+  },
+  {
+    "state": "Ladakh",
+    "month": "2027-11",
+    "minTemp": -16.352627704879215,
+    "maxTemp": -2.8861176385724647,
+    "rainfall": 0.0,
+    "meanTemp": -9.61937267172584
+  },
+  {
+    "state": "Ladakh",
+    "month": "2027-12",
+    "minTemp": -15.373560555421227,
+    "maxTemp": -1.837517742757961,
+    "rainfall": 0.0,
+    "meanTemp": -8.605539149089594
+  },
+  {
+    "state": "Lakshadweep",
+    "month": "2027-01",
+    "minTemp": 24.02447927313527,
+    "maxTemp": 30.32159198520126,
+    "rainfall": 0.0,
+    "meanTemp": 27.173035629168265
+  },
+  {
+    "state": "Lakshadweep",
+    "month": "2027-02",
+    "minTemp": 24.711913630500433,
+    "maxTemp": 31.194215550291165,
+    "rainfall": 8.602930544927037,
+    "meanTemp": 27.953064590395797
+  },
+  {
+    "state": "Lakshadweep",
+    "month": "2027-03",
+    "minTemp": 25.39165194865709,
+    "maxTemp": 31.830510391273364,
+    "rainfall": 36.77436198024736,
+    "meanTemp": 28.611081169965225
+  },
+  {
+    "state": "Lakshadweep",
+    "month": "2027-04",
+    "minTemp": 26.115288887303514,
+    "maxTemp": 32.567853844783805,
+    "rainfall": 191.63906786260017,
+    "meanTemp": 29.34157136604366
+  },
+  {
+    "state": "Lakshadweep",
+    "month": "2027-05",
+    "minTemp": 26.33533997726884,
+    "maxTemp": 32.86214918948909,
+    "rainfall": 410.5587489212927,
+    "meanTemp": 29.598744583378966
+  },
+  {
+    "state": "Lakshadweep",
+    "month": "2027-06",
+    "minTemp": 26.211822075382557,
+    "maxTemp": 32.80636835269284,
+    "rainfall": 548.5531463567443,
+    "meanTemp": 29.5090952140377
+  },
+  {
+    "state": "Lakshadweep",
+    "month": "2027-07",
+    "minTemp": 25.696775288315532,
+    "maxTemp": 32.17073809525819,
+    "rainfall": 518.6331855096588,
+    "meanTemp": 28.93375669178686
+  },
+  {
+    "state": "Lakshadweep",
+    "month": "2027-08",
+    "minTemp": 25.091864118616563,
+    "maxTemp": 31.585186465914973,
+    "rainfall": 385.5907542626527,
+    "meanTemp": 28.338525292265768
+  },
+  {
+    "state": "Lakshadweep",
+    "month": "2027-09",
+    "minTemp": 24.311387009351794,
+    "maxTemp": 30.8563579062671,
+    "rainfall": 127.67428448147751,
+    "meanTemp": 27.58387245780945
+  },
+  {
+    "state": "Lakshadweep",
+    "month": "2027-10",
+    "minTemp": 23.80150465669748,
+    "maxTemp": 30.09508075687536,
+    "rainfall": 17.05972007447035,
+    "meanTemp": 26.94829270678642
+  },
+  {
+    "state": "Lakshadweep",
+    "month": "2027-11",
+    "minTemp": 23.382347710832928,
+    "maxTemp": 29.95628521733282,
+    "rainfall": 0.0,
+    "meanTemp": 26.669316464082875
+  },
+  {
+    "state": "Lakshadweep",
+    "month": "2027-12",
+    "minTemp": 23.509678514121983,
+    "maxTemp": 29.935254224290443,
+    "rainfall": 2.1037737449532434,
+    "meanTemp": 26.722466369206213
+  },
+  {
+    "state": "Madhya Pradesh",
+    "month": "2027-01",
+    "minTemp": 14.267793450909695,
+    "maxTemp": 27.705520333382733,
+    "rainfall": 25.675444505365263,
+    "meanTemp": 20.986656892146215
+  },
+  {
+    "state": "Madhya Pradesh",
+    "month": "2027-02",
+    "minTemp": 18.643462962318246,
+    "maxTemp": 32.00416121353901,
+    "rainfall": 20.49897391712974,
+    "meanTemp": 25.323812087928626
+  },
+  {
+    "state": "Madhya Pradesh",
+    "month": "2027-03",
+    "minTemp": 23.25095069722301,
+    "maxTemp": 36.79462855478592,
+    "rainfall": 19.67610000391589,
+    "meanTemp": 30.022789626004467
+  },
+  {
+    "state": "Madhya Pradesh",
+    "month": "2027-04",
+    "minTemp": 27.232518308594692,
+    "maxTemp": 40.785507683161335,
+    "rainfall": 36.14603274065933,
+    "meanTemp": 34.00901299587801
+  },
+  {
+    "state": "Madhya Pradesh",
+    "month": "2027-05",
+    "minTemp": 29.140060702504634,
+    "maxTemp": 42.628664621353735,
+    "rainfall": 90.66280580141483,
+    "meanTemp": 35.88436266192919
+  },
+  {
+    "state": "Madhya Pradesh",
+    "month": "2027-06",
+    "minTemp": 28.594675171339787,
+    "maxTemp": 42.100213565514274,
+    "rainfall": 305.62838568183577,
+    "meanTemp": 35.347444368427034
+  },
+  {
+    "state": "Madhya Pradesh",
+    "month": "2027-07",
+    "minTemp": 25.742746012579502,
+    "maxTemp": 39.192427354255585,
+    "rainfall": 491.31662097595324,
+    "meanTemp": 32.467586683417544
+  },
+  {
+    "state": "Madhya Pradesh",
+    "month": "2027-08",
+    "minTemp": 21.092884732121885,
+    "maxTemp": 34.719509491295625,
+    "rainfall": 497.22257790266565,
+    "meanTemp": 27.906197111708757
+  },
+  {
+    "state": "Madhya Pradesh",
+    "month": "2027-09",
+    "minTemp": 16.389184975261355,
+    "maxTemp": 29.826880232180944,
+    "rainfall": 220.00485627007123,
+    "meanTemp": 23.10803260372115
+  },
+  {
+    "state": "Madhya Pradesh",
+    "month": "2027-10",
+    "minTemp": 12.510867454704746,
+    "maxTemp": 26.02715221194059,
+    "rainfall": 38.322503328894484,
+    "meanTemp": 19.269009833322666
+  },
+  {
+    "state": "Madhya Pradesh",
+    "month": "2027-11",
+    "minTemp": 10.602910465457438,
+    "maxTemp": 24.228644938063304,
+    "rainfall": 34.09309156418875,
+    "meanTemp": 17.41577770176037
+  },
+  {
+    "state": "Madhya Pradesh",
+    "month": "2027-12",
+    "minTemp": 11.174134732121903,
+    "maxTemp": 24.75620303968275,
+    "rainfall": 28.447577902665458,
+    "meanTemp": 17.965168885902326
+  },
+  {
+    "state": "Maharashtra",
+    "month": "2027-01",
+    "minTemp": 16.949398203008084,
+    "maxTemp": 28.883880201463956,
+    "rainfall": 20.18874001612974,
+    "meanTemp": 22.91663920223602
+  },
+  {
+    "state": "Maharashtra",
+    "month": "2027-02",
+    "minTemp": 19.994987606733975,
+    "maxTemp": 31.880442441487883,
+    "rainfall": 11.943361864869084,
+    "meanTemp": 25.93771502411093
+  },
+  {
+    "state": "Maharashtra",
+    "month": "2027-03",
+    "minTemp": 23.203952282704478,
+    "maxTemp": 35.12738792713487,
+    "rainfall": 21.161008923692393,
+    "meanTemp": 29.165670104919673
+  },
+  {
+    "state": "Maharashtra",
+    "month": "2027-04",
+    "minTemp": 25.97706333357643,
+    "maxTemp": 37.82334256705535,
+    "rainfall": 36.37445430184387,
+    "meanTemp": 31.90020295031589
+  },
+  {
+    "state": "Maharashtra",
+    "month": "2027-05",
+    "minTemp": 27.205723765600716,
+    "maxTemp": 39.10524784075494,
+    "rainfall": 190.29088053177875,
+    "meanTemp": 33.155485803177825
+  },
+  {
+    "state": "Maharashtra",
+    "month": "2027-06",
+    "minTemp": 26.761179285970897,
+    "maxTemp": 38.895853000674826,
+    "rainfall": 360.4569636678193,
+    "meanTemp": 32.82851614332286
+  },
+  {
+    "state": "Maharashtra",
+    "month": "2027-07",
+    "minTemp": 24.839115944943572,
+    "maxTemp": 36.76610946413676,
+    "rainfall": 487.70659715898694,
+    "meanTemp": 30.802612704540167
+  },
+  {
+    "state": "Maharashtra",
+    "month": "2027-08",
+    "minTemp": 21.72828640357477,
+    "maxTemp": 33.66593696368196,
+    "rainfall": 403.70649244217736,
+    "meanTemp": 27.697111683628364
+  },
+  {
+    "state": "Maharashtra",
+    "month": "2027-09",
+    "minTemp": 18.469529166903023,
+    "maxTemp": 30.439036755007518,
+    "rainfall": 175.33766390457072,
+    "meanTemp": 24.45428296095527
+  },
+  {
+    "state": "Maharashtra",
+    "month": "2027-10",
+    "minTemp": 15.75973975898531,
+    "maxTemp": 27.66571809791285,
+    "rainfall": 30.28453833545729,
+    "meanTemp": 21.71272892844908
+  },
+  {
+    "state": "Maharashtra",
+    "month": "2027-11",
+    "minTemp": 14.451909271951788,
+    "maxTemp": 26.429196908792044,
+    "rainfall": 13.090420688398446,
+    "meanTemp": 20.440553090371914
+  },
+  {
+    "state": "Maharashtra",
+    "month": "2027-12",
+    "minTemp": 14.918563288397076,
+    "maxTemp": 26.828146940417593,
+    "rainfall": 16.737479511927834,
+    "meanTemp": 20.873355114407335
+  },
+  {
+    "state": "Manipur",
+    "month": "2027-01",
+    "minTemp": 12.519840659691194,
+    "maxTemp": 22.605930003622912,
+    "rainfall": 29.450834161698282,
+    "meanTemp": 17.562885331657053
+  },
+  {
+    "state": "Manipur",
+    "month": "2027-02",
+    "minTemp": 15.422425601959755,
+    "maxTemp": 25.476733656425473,
+    "rainfall": 24.77404531518846,
+    "meanTemp": 20.449579629192613
+  },
+  {
+    "state": "Manipur",
+    "month": "2027-03",
+    "minTemp": 18.652667984169383,
+    "maxTemp": 28.801186170605853,
+    "rainfall": 56.89789298522848,
+    "meanTemp": 23.726927077387618
+  },
+  {
+    "state": "Manipur",
+    "month": "2027-04",
+    "minTemp": 21.38532453065894,
+    "maxTemp": 31.382640946064416,
+    "rainfall": 174.8920106322869,
+    "meanTemp": 26.38398273836168
+  },
+  {
+    "state": "Manipur",
+    "month": "2027-05",
+    "minTemp": 22.68502117088407,
+    "maxTemp": 32.6322119865602,
+    "rainfall": 385.31045413753236,
+    "meanTemp": 27.658616578722135
+  },
+  {
+    "state": "Manipur",
+    "month": "2027-06",
+    "minTemp": 22.338069628698157,
+    "maxTemp": 32.29969976959383,
+    "rainfall": 486.6508341616984,
+    "meanTemp": 27.318884699145993
+  },
+  {
+    "state": "Manipur",
+    "month": "2027-07",
+    "minTemp": 20.377525669178862,
+    "maxTemp": 30.45014252734208,
+    "rainfall": 569.768481220522,
+    "meanTemp": 25.413834098260473
+  },
+  {
+    "state": "Manipur",
+    "month": "2027-08",
+    "minTemp": 17.220599672973933,
+    "maxTemp": 27.357163400207366,
+    "rainfall": 398.66848122052255,
+    "meanTemp": 22.28888153659065
+  },
+  {
+    "state": "Manipur",
+    "month": "2027-09",
+    "minTemp": 13.895135777356304,
+    "maxTemp": 24.02645102871729,
+    "rainfall": 189.34880935655133,
+    "meanTemp": 18.960793403036796
+  },
+  {
+    "state": "Manipur",
+    "month": "2027-10",
+    "minTemp": 11.219775275212415,
+    "maxTemp": 21.409160039398774,
+    "rainfall": 47.44770276561525,
+    "meanTemp": 16.314467657305595
+  },
+  {
+    "state": "Manipur",
+    "month": "2027-11",
+    "minTemp": 10.034148060070704,
+    "maxTemp": 20.06577820096637,
+    "rainfall": 38.73318710287503,
+    "meanTemp": 15.049963130518538
+  },
+  {
+    "state": "Manipur",
+    "month": "2027-12",
+    "minTemp": 10.429897585687403,
+    "maxTemp": 20.49093949128895,
+    "rainfall": 21.268481220522094,
+    "meanTemp": 15.460418538488177
+  },
+  {
+    "state": "Meghalaya",
+    "month": "2027-01",
+    "minTemp": 9.732001409722443,
+    "maxTemp": 18.340620747683097,
+    "rainfall": 0.0,
+    "meanTemp": 14.03631107870277
+  },
+  {
+    "state": "Meghalaya",
+    "month": "2027-02",
+    "minTemp": 12.57514854755143,
+    "maxTemp": 21.02012735892773,
+    "rainfall": 0.0,
+    "meanTemp": 16.79763795323958
+  },
+  {
+    "state": "Meghalaya",
+    "month": "2027-03",
+    "minTemp": 15.52326232644384,
+    "maxTemp": 24.036245696147816,
+    "rainfall": 115.17182773038178,
+    "meanTemp": 19.77975401129583
+  },
+  {
+    "state": "Meghalaya",
+    "month": "2027-04",
+    "minTemp": 17.984476230644034,
+    "maxTemp": 26.557486448650856,
+    "rainfall": 624.6499495790733,
+    "meanTemp": 22.270981339647445
+  },
+  {
+    "state": "Meghalaya",
+    "month": "2027-05",
+    "minTemp": 19.175701730732026,
+    "maxTemp": 27.68635111984855,
+    "rainfall": 1063.2535358989212,
+    "meanTemp": 23.431026425290288
+  },
+  {
+    "state": "Meghalaya",
+    "month": "2027-06",
+    "minTemp": 18.897654101497146,
+    "maxTemp": 27.286034342410776,
+    "rainfall": 1241.1606117145225,
+    "meanTemp": 23.091844221953963
+  },
+  {
+    "state": "Meghalaya",
+    "month": "2027-07",
+    "minTemp": 17.06552253919481,
+    "maxTemp": 25.543358820589148,
+    "rainfall": 1416.5194352439344,
+    "meanTemp": 21.30444067989198
+  },
+  {
+    "state": "Meghalaya",
+    "month": "2027-08",
+    "minTemp": 14.089219819972904,
+    "maxTemp": 22.604145767182793,
+    "rainfall": 1003.0037649831917,
+    "meanTemp": 18.34668279357785
+  },
+  {
+    "state": "Meghalaya",
+    "month": "2027-09",
+    "minTemp": 11.0872619446344,
+    "maxTemp": 19.63368140123431,
+    "rainfall": 605.4076705380514,
+    "meanTemp": 15.360471672934356
+  },
+  {
+    "state": "Meghalaya",
+    "month": "2027-10",
+    "minTemp": 8.738167867619559,
+    "maxTemp": 17.189527216010514,
+    "rainfall": 100.51710495885291,
+    "meanTemp": 12.963847541815037
+  },
+  {
+    "state": "Meghalaya",
+    "month": "2027-11",
+    "minTemp": 7.483340376006949,
+    "maxTemp": 16.108779440449993,
+    "rainfall": 0.0,
+    "meanTemp": 11.796059908228472
+  },
+  {
+    "state": "Meghalaya",
+    "month": "2027-12",
+    "minTemp": 7.904224944176118,
+    "maxTemp": 16.372514280052403,
+    "rainfall": 0.0,
+    "meanTemp": 12.13836961211426
+  },
+  {
+    "state": "Mizoram",
+    "month": "2027-01",
+    "minTemp": 13.93558467505277,
+    "maxTemp": 22.93687956354218,
+    "rainfall": 0.0,
+    "meanTemp": 18.436232119297475
+  },
+  {
+    "state": "Mizoram",
+    "month": "2027-02",
+    "minTemp": 16.925386626984178,
+    "maxTemp": 26.17613169507776,
+    "rainfall": 0.0,
+    "meanTemp": 21.550759161030967
+  },
+  {
+    "state": "Mizoram",
+    "month": "2027-03",
+    "minTemp": 19.99114177939475,
+    "maxTemp": 29.219007279936136,
+    "rainfall": 36.06739342400553,
+    "meanTemp": 24.605074529665444
+  },
+  {
+    "state": "Mizoram",
+    "month": "2027-04",
+    "minTemp": 22.69642658697969,
+    "maxTemp": 31.983093126769297,
+    "rainfall": 243.3950140279585,
+    "meanTemp": 27.339759856874494
+  },
+  {
+    "state": "Mizoram",
+    "month": "2027-05",
+    "minTemp": 24.249975674687807,
+    "maxTemp": 33.17301652147918,
+    "rainfall": 624.86512829571,
+    "meanTemp": 28.711496098083494
+  },
+  {
+    "state": "Mizoram",
+    "month": "2027-06",
+    "minTemp": 23.77090187777703,
+    "maxTemp": 32.92294422927357,
+    "rainfall": 867.0971347104954,
+    "meanTemp": 28.3469230535253
+  },
+  {
+    "state": "Mizoram",
+    "month": "2027-07",
+    "minTemp": 21.797565462111578,
+    "maxTemp": 30.73400675591946,
+    "rainfall": 864.889961118215,
+    "meanTemp": 26.26578610901552
+  },
+  {
+    "state": "Mizoram",
+    "month": "2027-08",
+    "minTemp": 18.589171685018897,
+    "maxTemp": 27.732878073005853,
+    "rainfall": 647.389131675017,
+    "meanTemp": 23.161024879012373
+  },
+  {
+    "state": "Mizoram",
+    "month": "2027-09",
+    "minTemp": 15.352112861489482,
+    "maxTemp": 24.484465675788897,
+    "rainfall": 240.12442579266394,
+    "meanTemp": 19.91828926863919
+  },
+  {
+    "state": "Mizoram",
+    "month": "2027-10",
+    "minTemp": 12.767119879858322,
+    "maxTemp": 21.7830805592702,
+    "rainfall": 41.097719831725115,
+    "meanTemp": 17.275100219564262
+  },
+  {
+    "state": "Mizoram",
+    "month": "2027-11",
+    "minTemp": 11.392897175214971,
+    "maxTemp": 20.364857832651644,
+    "rainfall": 0.0,
+    "meanTemp": 15.878877503933307
+  },
+  {
+    "state": "Mizoram",
+    "month": "2027-12",
+    "minTemp": 11.9238965427039,
+    "maxTemp": 20.983162702986874,
+    "rainfall": 0.0,
+    "meanTemp": 16.453529622845387
+  },
+  {
+    "state": "Nagaland",
+    "month": "2027-01",
+    "minTemp": 11.762333680607558,
+    "maxTemp": 21.1803487173406,
+    "rainfall": 0.0,
+    "meanTemp": 16.47134119897408
+  },
+  {
+    "state": "Nagaland",
+    "month": "2027-02",
+    "minTemp": 14.920757850165456,
+    "maxTemp": 24.445576591380465,
+    "rainfall": 2.004025815948342,
+    "meanTemp": 19.68316722077296
+  },
+  {
+    "state": "Nagaland",
+    "month": "2027-03",
+    "minTemp": 18.386062751213377,
+    "maxTemp": 27.74135244492279,
+    "rainfall": 27.75420427907827,
+    "meanTemp": 23.063707598068085
+  },
+  {
+    "state": "Nagaland",
+    "month": "2027-04",
+    "minTemp": 21.420116832786633,
+    "maxTemp": 30.78961655345595,
+    "rainfall": 193.6535097951201,
+    "meanTemp": 26.10486669312129
+  },
+  {
+    "state": "Nagaland",
+    "month": "2027-05",
+    "minTemp": 22.639639653416573,
+    "maxTemp": 32.098526754122744,
+    "rainfall": 446.6100985295611,
+    "meanTemp": 27.36908320376966
+  },
+  {
+    "state": "Nagaland",
+    "month": "2027-06",
+    "minTemp": 22.298022940701973,
+    "maxTemp": 31.68105426094327,
+    "rainfall": 588.7215605411575,
+    "meanTemp": 26.98953860082262
+  },
+  {
+    "state": "Nagaland",
+    "month": "2027-07",
+    "minTemp": 20.17999135841567,
+    "maxTemp": 29.448998622202133,
+    "rainfall": 700.0471745063687,
+    "meanTemp": 24.8144949903089
+  },
+  {
+    "state": "Nagaland",
+    "month": "2027-08",
+    "minTemp": 16.916445047625643,
+    "maxTemp": 26.287033591859803,
+    "rainfall": 479.3987948859589,
+    "meanTemp": 21.601739319742723
+  },
+  {
+    "state": "Nagaland",
+    "month": "2027-09",
+    "minTemp": 13.229316239038248,
+    "maxTemp": 22.653567028934788,
+    "rainfall": 187.05108463947786,
+    "meanTemp": 17.941441633986518
+  },
+  {
+    "state": "Nagaland",
+    "month": "2027-10",
+    "minTemp": 10.448837866486404,
+    "maxTemp": 19.7662124879532,
+    "rainfall": 38.08194555082131,
+    "meanTemp": 15.107525177219802
+  },
+  {
+    "state": "Nagaland",
+    "month": "2027-11",
+    "minTemp": 9.045786827273538,
+    "maxTemp": 18.584351342660277,
+    "rainfall": 0.456966992418792,
+    "meanTemp": 13.815069084966908
+  },
+  {
+    "state": "Nagaland",
+    "month": "2027-12",
+    "minTemp": 9.48202971152401,
+    "maxTemp": 18.837058490035353,
+    "rainfall": 0.0,
+    "meanTemp": 14.159544100779682
+  },
+  {
+    "state": "Odisha",
+    "month": "2027-01",
+    "minTemp": 17.610443273600772,
+    "maxTemp": 28.161354753342067,
+    "rainfall": 3.994676216025887,
+    "meanTemp": 22.88589901347142
+  },
+  {
+    "state": "Odisha",
+    "month": "2027-02",
+    "minTemp": 20.91573245207459,
+    "maxTemp": 31.406060037403996,
+    "rainfall": 0.0,
+    "meanTemp": 26.16089624473929
+  },
+  {
+    "state": "Odisha",
+    "month": "2027-03",
+    "minTemp": 24.362134850631342,
+    "maxTemp": 34.839634924533485,
+    "rainfall": 0.0,
+    "meanTemp": 29.600884887582414
+  },
+  {
+    "state": "Odisha",
+    "month": "2027-04",
+    "minTemp": 27.272147500852725,
+    "maxTemp": 37.71151980751894,
+    "rainfall": 6.763754210072998,
+    "meanTemp": 32.49183365418583
+  },
+  {
+    "state": "Odisha",
+    "month": "2027-05",
+    "minTemp": 28.662324603952037,
+    "maxTemp": 39.2001662338314,
+    "rainfall": 106.44022479830834,
+    "meanTemp": 33.93124541889172
+  },
+  {
+    "state": "Odisha",
+    "month": "2027-06",
+    "minTemp": 28.365088677323314,
+    "maxTemp": 38.628186474185604,
+    "rainfall": 408.19904832771954,
+    "meanTemp": 33.49663757575446
+  },
+  {
+    "state": "Odisha",
+    "month": "2027-07",
+    "minTemp": 25.99189956357703,
+    "maxTemp": 36.57121286522762,
+    "rainfall": 640.2177220405474,
+    "meanTemp": 31.281556214402325
+  },
+  {
+    "state": "Odisha",
+    "month": "2027-08",
+    "minTemp": 22.773520049872328,
+    "maxTemp": 33.30699735337599,
+    "rainfall": 619.8225777394846,
+    "meanTemp": 28.04025870162416
+  },
+  {
+    "state": "Odisha",
+    "month": "2027-09",
+    "minTemp": 19.186657304774286,
+    "maxTemp": 29.861323729087566,
+    "rainfall": 282.61081303360237,
+    "meanTemp": 24.523990516930926
+  },
+  {
+    "state": "Odisha",
+    "month": "2027-10",
+    "minTemp": 16.425531501831564,
+    "maxTemp": 26.84154151853028,
+    "rainfall": 21.377105444375264,
+    "meanTemp": 21.633536510180924
+  },
+  {
+    "state": "Odisha",
+    "month": "2027-11",
+    "minTemp": 14.940158381820323,
+    "maxTemp": 25.410617024194607,
+    "rainfall": 1.9985845669825295,
+    "meanTemp": 20.175387703007466
+  },
+  {
+    "state": "Odisha",
+    "month": "2027-12",
+    "minTemp": 15.34486729844918,
+    "maxTemp": 26.002063767038234,
+    "rainfall": 0.0,
+    "meanTemp": 20.673465532743705
+  },
+  {
+    "state": "Puducherry",
+    "month": "2027-01",
+    "minTemp": 21.98015178525004,
+    "maxTemp": 30.506972350105084,
+    "rainfall": 0.0,
+    "meanTemp": 26.243562067677562
+  },
+  {
+    "state": "Puducherry",
+    "month": "2027-02",
+    "minTemp": 23.683558954675306,
+    "maxTemp": 32.404238104149215,
+    "rainfall": 0.0,
+    "meanTemp": 28.04389852941226
+  },
+  {
+    "state": "Puducherry",
+    "month": "2027-03",
+    "minTemp": 25.696559649591876,
+    "maxTemp": 34.28384650111044,
+    "rainfall": 0.0,
+    "meanTemp": 29.990203075351157
+  },
+  {
+    "state": "Puducherry",
+    "month": "2027-04",
+    "minTemp": 27.29274508063269,
+    "maxTemp": 35.97398057274896,
+    "rainfall": 0.0,
+    "meanTemp": 31.633362826690824
+  },
+  {
+    "state": "Puducherry",
+    "month": "2027-05",
+    "minTemp": 28.320207393393975,
+    "maxTemp": 36.822187857543746,
+    "rainfall": 0.0,
+    "meanTemp": 32.57119762546886
+  },
+  {
+    "state": "Puducherry",
+    "month": "2027-06",
+    "minTemp": 27.913194428004964,
+    "maxTemp": 36.55510202241106,
+    "rainfall": 48.53938637888407,
+    "meanTemp": 32.23414822520802
+  },
+  {
+    "state": "Puducherry",
+    "month": "2027-07",
+    "minTemp": 26.691200487441915,
+    "maxTemp": 35.38139036762632,
+    "rainfall": 91.51860108673958,
+    "meanTemp": 31.036295427534114
+  },
+  {
+    "state": "Puducherry",
+    "month": "2027-08",
+    "minTemp": 24.803478528959374,
+    "maxTemp": 33.430676959899024,
+    "rainfall": 110.96424065875286,
+    "meanTemp": 29.1170777444292
+  },
+  {
+    "state": "Puducherry",
+    "month": "2027-09",
+    "minTemp": 22.799652761338297,
+    "maxTemp": 31.31510202241107,
+    "rainfall": 311.2581363788839,
+    "meanTemp": 27.057377391874684
+  },
+  {
+    "state": "Puducherry",
+    "month": "2027-10",
+    "minTemp": 21.26516127291607,
+    "maxTemp": 29.76617538615821,
+    "rainfall": 467.74758557764176,
+    "meanTemp": 25.515668329537142
+  },
+  {
+    "state": "Puducherry",
+    "month": "2027-11",
+    "minTemp": 20.454705864946437,
+    "maxTemp": 28.908882533533294,
+    "rainfall": 456.6064091070535,
+    "meanTemp": 24.681794199239867
+  },
+  {
+    "state": "Puducherry",
+    "month": "2027-12",
+    "minTemp": 20.703111937052697,
+    "maxTemp": 29.236953374773016,
+    "rainfall": 233.7593502835238,
+    "meanTemp": 24.970032655912856
+  },
+  {
+    "state": "Punjab",
+    "month": "2027-01",
+    "minTemp": 10.702541402539643,
+    "maxTemp": 24.781019932055273,
+    "rainfall": 0.0,
+    "meanTemp": 17.74178066729746
+  },
+  {
+    "state": "Punjab",
+    "month": "2027-02",
+    "minTemp": 16.238127455458763,
+    "maxTemp": 30.288626287359794,
+    "rainfall": 0.0,
+    "meanTemp": 23.263376871409278
+  },
+  {
+    "state": "Punjab",
+    "month": "2027-03",
+    "minTemp": 22.090396373161145,
+    "maxTemp": 36.25039944177099,
+    "rainfall": 3.9830202389862785,
+    "meanTemp": 29.170397907466068
+  },
+  {
+    "state": "Punjab",
+    "month": "2027-04",
+    "minTemp": 27.199231136572468,
+    "maxTemp": 41.246780748197935,
+    "rainfall": 0.0,
+    "meanTemp": 34.2230059423852
+  },
+  {
+    "state": "Punjab",
+    "month": "2027-05",
+    "minTemp": 29.632785053509117,
+    "maxTemp": 43.54704208658242,
+    "rainfall": 39.85880570394006,
+    "meanTemp": 36.589913570045766
+  },
+  {
+    "state": "Punjab",
+    "month": "2027-06",
+    "minTemp": 29.00374229896288,
+    "maxTemp": 42.75333783341215,
+    "rainfall": 173.47204030174981,
+    "meanTemp": 35.87854006618751
+  },
+  {
+    "state": "Punjab",
+    "month": "2027-07",
+    "minTemp": 25.268875906118236,
+    "maxTemp": 39.31777141593403,
+    "rainfall": 286.4933648059925,
+    "meanTemp": 32.293323661026136
+  },
+  {
+    "state": "Punjab",
+    "month": "2027-08",
+    "minTemp": 19.384364520918997,
+    "maxTemp": 33.439628626560214,
+    "rainfall": 269.6610118648161,
+    "meanTemp": 26.411996573739607
+  },
+  {
+    "state": "Punjab",
+    "month": "2027-09",
+    "minTemp": 13.393325632296227,
+    "maxTemp": 27.34417116674548,
+    "rainfall": 114.15329030174995,
+    "meanTemp": 20.368748399520854
+  },
+  {
+    "state": "Punjab",
+    "month": "2027-10",
+    "minTemp": 8.385868200479475,
+    "maxTemp": 22.549712399089827,
+    "rainfall": 16.50821865701073,
+    "meanTemp": 15.467790299784651
+  },
+  {
+    "state": "Punjab",
+    "month": "2027-11",
+    "minTemp": 6.094806098112976,
+    "maxTemp": 20.21634210095391,
+    "rainfall": 0.0,
+    "meanTemp": 13.155574099533442
+  },
+  {
+    "state": "Punjab",
+    "month": "2027-12",
+    "minTemp": 6.995888176733181,
+    "maxTemp": 21.03323767399074,
+    "rainfall": 0.0,
+    "meanTemp": 14.014562925361961
+  },
+  {
+    "state": "Rajasthan",
+    "month": "2027-01",
+    "minTemp": 13.27931600410586,
+    "maxTemp": 28.315458967650486,
+    "rainfall": 0.0,
+    "meanTemp": 20.797387485878172
+  },
+  {
+    "state": "Rajasthan",
+    "month": "2027-02",
+    "minTemp": 18.29123011205358,
+    "maxTemp": 33.29834292775187,
+    "rainfall": 3.4692635248682464,
+    "meanTemp": 25.794786519902722
+  },
+  {
+    "state": "Rajasthan",
+    "month": "2027-03",
+    "minTemp": 23.643850575239163,
+    "maxTemp": 38.73405409304518,
+    "rainfall": 0.0,
+    "meanTemp": 31.188952334142172
+  },
+  {
+    "state": "Rajasthan",
+    "month": "2027-04",
+    "minTemp": 28.367218391366222,
+    "maxTemp": 43.24126343401521,
+    "rainfall": 3.7893768465211384,
+    "meanTemp": 35.804240912690716
+  },
+  {
+    "state": "Rajasthan",
+    "month": "2027-05",
+    "minTemp": 30.556925112265265,
+    "maxTemp": 45.49914018207174,
+    "rainfall": 5.884267692805631,
+    "meanTemp": 38.0280326471685
+  },
+  {
+    "state": "Rajasthan",
+    "month": "2027-06",
+    "minTemp": 29.971675270393025,
+    "maxTemp": 44.87681254133802,
+    "rainfall": 81.160738281041,
+    "meanTemp": 37.424243905865524
+  },
+  {
+    "state": "Rajasthan",
+    "month": "2027-07",
+    "minTemp": 26.659581658754806,
+    "maxTemp": 41.54809653880797,
+    "rainfall": 183.6783853398643,
+    "meanTemp": 34.103839098781386
+  },
+  {
+    "state": "Rajasthan",
+    "month": "2027-08",
+    "minTemp": 21.261399113179138,
+    "maxTemp": 36.27070696461851,
+    "rainfall": 146.22379043587063,
+    "meanTemp": 28.766053038898825
+  },
+  {
+    "state": "Rajasthan",
+    "month": "2027-09",
+    "minTemp": 15.741865042129117,
+    "maxTemp": 30.77190754149806,
+    "rainfall": 57.04966897861729,
+    "meanTemp": 23.256886291813586
+  },
+  {
+    "state": "Rajasthan",
+    "month": "2027-10",
+    "minTemp": 11.200758129343042,
+    "maxTemp": 26.268779650762433,
+    "rainfall": 9.031326516335012,
+    "meanTemp": 18.734768890052738
+  },
+  {
+    "state": "Rajasthan",
+    "month": "2027-11",
+    "minTemp": 9.039604191961656,
+    "maxTemp": 24.080636070749797,
+    "rainfall": 0.0,
+    "meanTemp": 16.560120131355728
+  },
+  {
+    "state": "Rajasthan",
+    "month": "2027-12",
+    "minTemp": 9.804173689115327,
+    "maxTemp": 24.73006997334307,
+    "rainfall": 6.7136794575114465,
+    "meanTemp": 17.267121831229197
+  },
+  {
+    "state": "Sikkim",
+    "month": "2027-01",
+    "minTemp": 7.654760149066913,
+    "maxTemp": 15.747966098370808,
+    "rainfall": 29.383826035028715,
+    "meanTemp": 11.70136312371886
+  },
+  {
+    "state": "Sikkim",
+    "month": "2027-02",
+    "minTemp": 10.841900252910259,
+    "maxTemp": 18.928820632194736,
+    "rainfall": 13.801493851692978,
+    "meanTemp": 14.885360442552496
+  },
+  {
+    "state": "Sikkim",
+    "month": "2027-03",
+    "minTemp": 14.27903067793901,
+    "maxTemp": 22.42750941805391,
+    "rainfall": 63.99561149875176,
+    "meanTemp": 18.35327004799646
+  },
+  {
+    "state": "Sikkim",
+    "month": "2027-04",
+    "minTemp": 17.210939313008847,
+    "maxTemp": 25.24981620713858,
+    "rainfall": 320.9899431219401,
+    "meanTemp": 21.230377760073715
+  },
+  {
+    "state": "Sikkim",
+    "month": "2027-05",
+    "minTemp": 18.634407065917415,
+    "maxTemp": 26.716567110268002,
+    "rainfall": 716.4420977806489,
+    "meanTemp": 22.67548708809271
+  },
+  {
+    "state": "Sikkim",
+    "month": "2027-06",
+    "minTemp": 18.159763215793827,
+    "maxTemp": 26.312739132062525,
+    "rainfall": 1022.8606338045208,
+    "meanTemp": 22.236251173928174
+  },
+  {
+    "state": "Sikkim",
+    "month": "2027-07",
+    "minTemp": 16.189514614745317,
+    "maxTemp": 24.096520529430066,
+    "rainfall": 886.6589070980685,
+    "meanTemp": 20.143017572087693
+  },
+  {
+    "state": "Sikkim",
+    "month": "2027-08",
+    "minTemp": 12.70107364479933,
+    "maxTemp": 20.824576014264878,
+    "rainfall": 646.8373605109732,
+    "meanTemp": 16.762824829532104
+  },
+  {
+    "state": "Sikkim",
+    "month": "2027-09",
+    "minTemp": 9.127968059343186,
+    "maxTemp": 17.288685888642146,
+    "rainfall": 367.25443502816336,
+    "meanTemp": 13.208326973992666
+  },
+  {
+    "state": "Sikkim",
+    "month": "2027-10",
+    "minTemp": 6.324371168026511,
+    "maxTemp": 14.39275500753055,
+    "rainfall": 83.32743084318815,
+    "meanTemp": 10.358563087778531
+  },
+  {
+    "state": "Sikkim",
+    "month": "2027-11",
+    "minTemp": 4.96509054815108,
+    "maxTemp": 13.087604180108418,
+    "rainfall": 16.918056030234766,
+    "meanTemp": 9.026347364129748
+  },
+  {
+    "state": "Sikkim",
+    "month": "2027-12",
+    "minTemp": 5.328746047957981,
+    "maxTemp": 13.464131808945748,
+    "rainfall": 19.619140910515853,
+    "meanTemp": 9.396438928451865
+  },
+  {
+    "state": "Tamil Nadu",
+    "month": "2027-01",
+    "minTemp": 21.34030686007787,
+    "maxTemp": 31.468935521070318,
+    "rainfall": 27.82912797737222,
+    "meanTemp": 26.404621190574094
+  },
+  {
+    "state": "Tamil Nadu",
+    "month": "2027-02",
+    "minTemp": 23.370334636960074,
+    "maxTemp": 33.26133570776285,
+    "rainfall": 11.021340887873098,
+    "meanTemp": 28.315835172361464
+  },
+  {
+    "state": "Tamil Nadu",
+    "month": "2027-03",
+    "minTemp": 25.224915356900997,
+    "maxTemp": 35.23771352251501,
+    "rainfall": 15.938987946696788,
+    "meanTemp": 30.231314439708
+  },
+  {
+    "state": "Tamil Nadu",
+    "month": "2027-04",
+    "minTemp": 26.936952042543,
+    "maxTemp": 36.952621808410015,
+    "rainfall": 11.262517358461363,
+    "meanTemp": 31.944786925476507
+  },
+  {
+    "state": "Tamil Nadu",
+    "month": "2027-05",
+    "minTemp": 27.743131675686573,
+    "maxTemp": 37.722343503539676,
+    "rainfall": 19.433105593755602,
+    "meanTemp": 32.73273758961312
+  },
+  {
+    "state": "Tamil Nadu",
+    "month": "2027-06",
+    "minTemp": 27.536559885680244,
+    "maxTemp": 37.6155629848806,
+    "rainfall": 48.768399711402736,
+    "meanTemp": 32.57606143528042
+  },
+  {
+    "state": "Tamil Nadu",
+    "month": "2027-07",
+    "minTemp": 26.38373888631276,
+    "maxTemp": 36.365038000693374,
+    "rainfall": 113.32134088787323,
+    "meanTemp": 31.374388443503065
+  },
+  {
+    "state": "Tamil Nadu",
+    "month": "2027-08",
+    "minTemp": 24.339526362593595,
+    "maxTemp": 34.398055078492234,
+    "rainfall": 165.43310559375556,
+    "meanTemp": 29.368790720542915
+  },
+  {
+    "state": "Tamil Nadu",
+    "month": "2027-09",
+    "minTemp": 22.34891282685672,
+    "maxTemp": 32.495955141743345,
+    "rainfall": 282.3742820643438,
+    "meanTemp": 27.42243398430003
+  },
+  {
+    "state": "Tamil Nadu",
+    "month": "2027-10",
+    "minTemp": 20.646823886783928,
+    "maxTemp": 30.775054869878744,
+    "rainfall": 395.39117826066746,
+    "meanTemp": 25.710939378331336
+  },
+  {
+    "state": "Tamil Nadu",
+    "month": "2027-11",
+    "minTemp": 19.960089297444956,
+    "maxTemp": 30.052425729978637,
+    "rainfall": 308.9389879466967,
+    "meanTemp": 25.006257513711795
+  },
+  {
+    "state": "Tamil Nadu",
+    "month": "2027-12",
+    "minTemp": 20.135429651924447,
+    "maxTemp": 30.23286394051132,
+    "rainfall": 170.6042296193757,
+    "meanTemp": 25.18414679621788
+  },
+  {
+    "state": "Telangana",
+    "month": "2027-01",
+    "minTemp": 18.164138241272173,
+    "maxTemp": 29.58306708395014,
+    "rainfall": 3.669344701674688,
+    "meanTemp": 23.873602662611155
+  },
+  {
+    "state": "Telangana",
+    "month": "2027-02",
+    "minTemp": 21.416052699174198,
+    "maxTemp": 32.860248026368005,
+    "rainfall": 3.6967278710902685,
+    "meanTemp": 27.1381503627711
+  },
+  {
+    "state": "Telangana",
+    "month": "2027-03",
+    "minTemp": 24.799697443625387,
+    "maxTemp": 36.294598301239716,
+    "rainfall": 10.864601641706304,
+    "meanTemp": 30.547147872432554
+  },
+  {
+    "state": "Telangana",
+    "month": "2027-04",
+    "minTemp": 27.765870746974457,
+    "maxTemp": 39.289372220295355,
+    "rainfall": 18.467025821800952,
+    "meanTemp": 33.5276214836349
+  },
+  {
+    "state": "Telangana",
+    "month": "2027-05",
+    "minTemp": 29.172836592380065,
+    "maxTemp": 40.66169988048833,
+    "rainfall": 91.56841005699863,
+    "meanTemp": 34.9172682364342
+  },
+  {
+    "state": "Telangana",
+    "month": "2027-06",
+    "minTemp": 28.698655326431997,
+    "maxTemp": 40.13162009243582,
+    "rainfall": 229.26143375344327,
+    "meanTemp": 34.41513770943391
+  },
+  {
+    "state": "Telangana",
+    "month": "2027-07",
+    "minTemp": 26.658671217335844,
+    "maxTemp": 38.093966558726386,
+    "rainfall": 375.1759627071089,
+    "meanTemp": 32.376318888031115
+  },
+  {
+    "state": "Telangana",
+    "month": "2027-08",
+    "minTemp": 23.269738832615044,
+    "maxTemp": 34.91263502781325,
+    "rainfall": 316.7181608765882,
+    "meanTemp": 29.09118693021415
+  },
+  {
+    "state": "Telangana",
+    "month": "2027-09",
+    "minTemp": 19.70962074697445,
+    "maxTemp": 31.239580553628684,
+    "rainfall": 196.14202582180104,
+    "meanTemp": 25.474600650301568
+  },
+  {
+    "state": "Telangana",
+    "month": "2027-10",
+    "minTemp": 16.814455452934215,
+    "maxTemp": 28.487483470044925,
+    "rainfall": 55.267316106384165,
+    "meanTemp": 22.65096946148957
+  },
+  {
+    "state": "Telangana",
+    "month": "2027-11",
+    "minTemp": 15.49120434603985,
+    "maxTemp": 26.99358087674955,
+    "rainfall": 16.71437492991398,
+    "meanTemp": 21.2423926113947
+  },
+  {
+    "state": "Telangana",
+    "month": "2027-12",
+    "minTemp": 15.957984809491638,
+    "maxTemp": 27.378210194827382,
+    "rainfall": 11.916354100473798,
+    "meanTemp": 21.66809750215951
+  },
+  {
+    "state": "Tripura",
+    "month": "2027-01",
+    "minTemp": 16.86278263834588,
+    "maxTemp": 26.341290975237037,
+    "rainfall": 20.221066862000853,
+    "meanTemp": 21.60203680679146
+  },
+  {
+    "state": "Tripura",
+    "month": "2027-02",
+    "minTemp": 19.875507259731314,
+    "maxTemp": 29.35556557836121,
+    "rainfall": 14.887777956165227,
+    "meanTemp": 24.615536419046265
+  },
+  {
+    "state": "Tripura",
+    "month": "2027-03",
+    "minTemp": 23.167875137880372,
+    "maxTemp": 32.581770548319355,
+    "rainfall": 55.90454136912889,
+    "meanTemp": 27.874822843099864
+  },
+  {
+    "state": "Tripura",
+    "month": "2027-04",
+    "minTemp": 25.84952599177032,
+    "maxTemp": 35.34997421688356,
+    "rainfall": 219.8163060750113,
+    "meanTemp": 30.59975010432694
+  },
+  {
+    "state": "Tripura",
+    "month": "2027-05",
+    "minTemp": 27.144839112532566,
+    "maxTemp": 36.594178037104854,
+    "rainfall": 580.8087557624854,
+    "meanTemp": 31.86950857481871
+  },
+  {
+    "state": "Tripura",
+    "month": "2027-06",
+    "minTemp": 26.7632514819664,
+    "maxTemp": 36.203307550216905,
+    "rainfall": 749.792776663247,
+    "meanTemp": 31.483279516091653
+  },
+  {
+    "state": "Tripura",
+    "month": "2027-07",
+    "minTemp": 24.800495004284567,
+    "maxTemp": 34.28729568934021,
+    "rainfall": 838.1790313066238,
+    "meanTemp": 29.54389534681239
+  },
+  {
+    "state": "Tripura",
+    "month": "2027-08",
+    "minTemp": 21.74897214145158,
+    "maxTemp": 31.222263389916286,
+    "rainfall": 575.5380251886452,
+    "meanTemp": 26.485617765683934
+  },
+  {
+    "state": "Tripura",
+    "month": "2027-09",
+    "minTemp": 18.378937756476205,
+    "maxTemp": 27.881542844334547,
+    "rainfall": 264.2868943103058,
+    "meanTemp": 23.130240300405376
+  },
+  {
+    "state": "Tripura",
+    "month": "2027-10",
+    "minTemp": 15.718710073328728,
+    "maxTemp": 25.272188593750986,
+    "rainfall": 55.96071687002917,
+    "meanTemp": 20.495449333539856
+  },
+  {
+    "state": "Tripura",
+    "month": "2027-11",
+    "minTemp": 14.456388736868364,
+    "maxTemp": 23.946836961981607,
+    "rainfall": 31.328070780893697,
+    "meanTemp": 19.201612849424986
+  },
+  {
+    "state": "Tripura",
+    "month": "2027-12",
+    "minTemp": 14.942137461427558,
+    "maxTemp": 24.335594969626325,
+    "rainfall": 22.518916853973476,
+    "meanTemp": 19.638866215526942
+  },
+  {
+    "state": "Uttar Pradesh",
+    "month": "2027-01",
+    "minTemp": 12.26489194415037,
+    "maxTemp": 25.73535570945317,
+    "rainfall": 7.7154241536294625,
+    "meanTemp": 19.00012382680177
+  },
+  {
+    "state": "Uttar Pradesh",
+    "month": "2027-02",
+    "minTemp": 17.314021054677006,
+    "maxTemp": 30.88147456046629,
+    "rainfall": 14.716446240854575,
+    "meanTemp": 24.09774780757165
+  },
+  {
+    "state": "Uttar Pradesh",
+    "month": "2027-03",
+    "minTemp": 22.752274108957682,
+    "maxTemp": 36.21400066323221,
+    "rainfall": 0.0,
+    "meanTemp": 29.483137386094945
+  },
+  {
+    "state": "Uttar Pradesh",
+    "month": "2027-04",
+    "minTemp": 27.315556841405506,
+    "maxTemp": 40.766448481069034,
+    "rainfall": 4.210563887913698,
+    "meanTemp": 34.04100266123727
+  },
+  {
+    "state": "Uttar Pradesh",
+    "month": "2027-05",
+    "minTemp": 29.559285037777258,
+    "maxTemp": 43.17291426022473,
+    "rainfall": 72.4800241649902,
+    "meanTemp": 36.366099649000994
+  },
+  {
+    "state": "Uttar Pradesh",
+    "month": "2027-06",
+    "minTemp": 29.016855344621504,
+    "maxTemp": 42.39671507859876,
+    "rainfall": 254.440524221793,
+    "meanTemp": 35.70678521161013
+  },
+  {
+    "state": "Uttar Pradesh",
+    "month": "2027-07",
+    "minTemp": 25.608820598521252,
+    "maxTemp": 39.094266317881164,
+    "rainfall": 449.42821094673747,
+    "meanTemp": 32.351543458201206
+  },
+  {
+    "state": "Uttar Pradesh",
+    "month": "2027-08",
+    "minTemp": 20.432919270248,
+    "maxTemp": 33.79066100478819,
+    "rainfall": 376.39291682908987,
+    "meanTemp": 27.111790137518096
+  },
+  {
+    "state": "Uttar Pradesh",
+    "month": "2027-09",
+    "minTemp": 14.740039794660728,
+    "maxTemp": 28.253243009898487,
+    "rainfall": 203.4134492274739,
+    "meanTemp": 21.496641402279607
+  },
+  {
+    "state": "Uttar Pradesh",
+    "month": "2027-10",
+    "minTemp": 10.210338625086713,
+    "maxTemp": 23.792558537995017,
+    "rainfall": 33.92821094673701,
+    "meanTemp": 17.001448581540863
+  },
+  {
+    "state": "Uttar Pradesh",
+    "month": "2027-11",
+    "minTemp": 8.029282331601573,
+    "maxTemp": 21.554095539892543,
+    "rainfall": 0.6576227114427766,
+    "meanTemp": 14.791688935747057
+  },
+  {
+    "state": "Uttar Pradesh",
+    "month": "2027-12",
+    "minTemp": 8.772770322172347,
+    "maxTemp": 22.131115615807254,
+    "rainfall": 0.0,
+    "meanTemp": 15.451942968989801
+  },
+  {
+    "state": "Uttarakhand",
+    "month": "2027-01",
+    "minTemp": 5.370736254859557,
+    "maxTemp": 17.42711019359894,
+    "rainfall": 5.589193711810802,
+    "meanTemp": 11.398923224229248
+  },
+  {
+    "state": "Uttarakhand",
+    "month": "2027-02",
+    "minTemp": 9.891544622700565,
+    "maxTemp": 22.042306817298467,
+    "rainfall": 5.589193711810763,
+    "meanTemp": 15.966925719999516
+  },
+  {
+    "state": "Uttarakhand",
+    "month": "2027-03",
+    "minTemp": 14.83925754923258,
+    "maxTemp": 27.02672312128115,
+    "rainfall": 5.8303160213692635,
+    "meanTemp": 20.932990335256864
+  },
+  {
+    "state": "Uttarakhand",
+    "month": "2027-04",
+    "minTemp": 19.096802036010725,
+    "maxTemp": 31.006857189171363,
+    "rainfall": 11.90095841769341,
+    "meanTemp": 25.051829612591042
+  },
+  {
+    "state": "Uttarakhand",
+    "month": "2027-05",
+    "minTemp": 20.932194246248045,
+    "maxTemp": 33.173630019872064,
+    "rainfall": 103.84970447357854,
+    "meanTemp": 27.052912133060055
+  },
+  {
+    "state": "Uttarakhand",
+    "month": "2027-06",
+    "minTemp": 20.492081369210542,
+    "maxTemp": 32.63512901649796,
+    "rainfall": 434.2783267831371,
+    "meanTemp": 26.563605192854254
+  },
+  {
+    "state": "Uttarakhand",
+    "month": "2027-07",
+    "minTemp": 17.512292232089145,
+    "maxTemp": 29.507565601568555,
+    "rainfall": 590.6950760647512,
+    "meanTemp": 23.509928916828848
+  },
+  {
+    "state": "Uttarakhand",
+    "month": "2027-08",
+    "minTemp": 12.587624300400345,
+    "maxTemp": 24.682897669879768,
+    "rainfall": 552.3480172412224,
+    "meanTemp": 18.635260985140057
+  },
+  {
+    "state": "Uttarakhand",
+    "month": "2027-09",
+    "minTemp": 7.703206552528675,
+    "maxTemp": 19.601105863847046,
+    "rainfall": 261.822432950044,
+    "meanTemp": 13.652156208187861
+  },
+  {
+    "state": "Uttarakhand",
+    "month": "2027-10",
+    "minTemp": 3.6109639588443807,
+    "maxTemp": 15.471132963997425,
+    "rainfall": 53.653899594164216,
+    "meanTemp": 9.541048461420903
+  },
+  {
+    "state": "Uttarakhand",
+    "month": "2027-11",
+    "minTemp": 1.5303314477754344,
+    "maxTemp": 13.498425816622344,
+    "rainfall": 14.1891937118112,
+    "meanTemp": 7.5143786321988895
+  },
+  {
+    "state": "Uttarakhand",
+    "month": "2027-12",
+    "minTemp": 2.123802396590247,
+    "maxTemp": 14.203663856918723,
+    "rainfall": 5.247108446681493,
+    "meanTemp": 8.163733126754485
+  },
+  {
+    "state": "West Bengal",
+    "month": "2027-01",
+    "minTemp": 17.36535235612437,
+    "maxTemp": 27.512806444362838,
+    "rainfall": 0.0,
+    "meanTemp": 22.439079400243603
+  },
+  {
+    "state": "West Bengal",
+    "month": "2027-02",
+    "minTemp": 20.644922131550626,
+    "maxTemp": 30.8943278393939,
+    "rainfall": 0.0,
+    "meanTemp": 25.769624985472262
+  },
+  {
+    "state": "West Bengal",
+    "month": "2027-03",
+    "minTemp": 24.4397187018582,
+    "maxTemp": 34.59892207372439,
+    "rainfall": 8.320255989882483,
+    "meanTemp": 29.519320387791296
+  },
+  {
+    "state": "West Bengal",
+    "month": "2027-04",
+    "minTemp": 27.576065864913005,
+    "maxTemp": 37.590332497480745,
+    "rainfall": 28.96738935429718,
+    "meanTemp": 32.583199181196875
+  },
+  {
+    "state": "West Bengal",
+    "month": "2027-05",
+    "minTemp": 29.168013999005353,
+    "maxTemp": 39.209446981984215,
+    "rainfall": 275.6320952366502,
+    "meanTemp": 34.188730490494784
+  },
+  {
+    "state": "West Bengal",
+    "month": "2027-06",
+    "minTemp": 28.68783057079535,
+    "maxTemp": 38.86582269355917,
+    "rainfall": 559.9850364131208,
+    "meanTemp": 33.77682663217726
+  },
+  {
+    "state": "West Bengal",
+    "month": "2027-07",
+    "minTemp": 26.44391532727859,
+    "maxTemp": 36.534684173635064,
+    "rainfall": 671.7673893542975,
+    "meanTemp": 31.489299750456826
+  },
+  {
+    "state": "West Bengal",
+    "month": "2027-08",
+    "minTemp": 22.901979843407616,
+    "maxTemp": 33.001667095836204,
+    "rainfall": 580.9379775895909,
+    "meanTemp": 27.95182346962191
+  },
+  {
+    "state": "West Bengal",
+    "month": "2027-09",
+    "minTemp": 19.025202282050998,
+    "maxTemp": 29.146197801234358,
+    "rainfall": 265.0605094288978,
+    "meanTemp": 24.085700041642678
+  },
+  {
+    "state": "West Bengal",
+    "month": "2027-10",
+    "minTemp": 15.965736959157141,
+    "maxTemp": 26.14284356642444,
+    "rainfall": 42.2320952366497,
+    "meanTemp": 21.05429026279079
+  },
+  {
+    "state": "West Bengal",
+    "month": "2027-11",
+    "minTemp": 14.567557576121537,
+    "maxTemp": 24.573693655028105,
+    "rainfall": 0.0,
+    "meanTemp": 19.57062561557482
+  },
+  {
+    "state": "West Bengal",
+    "month": "2027-12",
+    "minTemp": 14.968583258967389,
+    "maxTemp": 25.141325539858975,
+    "rainfall": 0.0,
+    "meanTemp": 20.054954399413184
+  }
+]

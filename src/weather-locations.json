@@ -1,0 +1,202 @@
+{
+  "New Delhi": [
+    "New Delhi",
+    28.614,
+    77.209
+  ],
+  "Mumbai": [
+    "Mumbai",
+    19.076,
+    72.878
+  ],
+  "Bengaluru": [
+    "Bengaluru",
+    12.972,
+    77.595
+  ],
+  "Kolkata": [
+    "Kolkata",
+    22.573,
+    88.364
+  ],
+  "Andaman and Nicobar Islands": [
+    "Sri Vijaya Puram",
+    11.623,
+    92.726
+  ],
+  "Andhra Pradesh": [
+    "Amaravati",
+    16.574,
+    80.358
+  ],
+  "Arunachal Pradesh": [
+    "Itanagar",
+    27.084,
+    93.605
+  ],
+  "Assam": [
+    "Dispur",
+    26.144,
+    91.789
+  ],
+  "Bihar": [
+    "Patna",
+    25.594,
+    85.138
+  ],
+  "Chandigarh": [
+    "Chandigarh",
+    30.733,
+    76.779
+  ],
+  "Chhattisgarh": [
+    "Raipur",
+    21.251,
+    81.63
+  ],
+  "Dadra and Nagar Haveli and Daman and Diu": [
+    "Daman",
+    20.397,
+    72.833
+  ],
+  "Delhi": [
+    "New Delhi",
+    28.614,
+    77.209
+  ],
+  "Goa": [
+    "Panaji",
+    15.491,
+    73.828
+  ],
+  "Gujarat": [
+    "Gandhinagar",
+    23.215,
+    72.636
+  ],
+  "Haryana": [
+    "Chandigarh",
+    30.733,
+    76.779
+  ],
+  "Himachal Pradesh": [
+    "Shimla",
+    31.105,
+    77.173
+  ],
+  "Jammu and Kashmir": [
+    "Srinagar",
+    34.084,
+    74.797
+  ],
+  "Jharkhand": [
+    "Ranchi",
+    23.344,
+    85.309
+  ],
+  "Karnataka": [
+    "Bengaluru",
+    12.972,
+    77.595
+  ],
+  "Kerala": [
+    "Thiruvananthapuram",
+    8.524,
+    76.936
+  ],
+  "Ladakh": [
+    "Leh",
+    34.153,
+    77.577
+  ],
+  "Lakshadweep": [
+    "Kavaratti",
+    10.567,
+    72.642
+  ],
+  "Madhya Pradesh": [
+    "Bhopal",
+    23.26,
+    77.413
+  ],
+  "Maharashtra": [
+    "Mumbai",
+    19.076,
+    72.878
+  ],
+  "Manipur": [
+    "Imphal",
+    24.817,
+    93.937
+  ],
+  "Meghalaya": [
+    "Shillong",
+    25.578,
+    91.893
+  ],
+  "Mizoram": [
+    "Aizawl",
+    23.727,
+    92.718
+  ],
+  "Nagaland": [
+    "Kohima",
+    25.675,
+    94.108
+  ],
+  "Odisha": [
+    "Bhubaneswar",
+    20.296,
+    85.825
+  ],
+  "Puducherry": [
+    "Puducherry",
+    11.942,
+    79.808
+  ],
+  "Punjab": [
+    "Chandigarh",
+    30.733,
+    76.779
+  ],
+  "Rajasthan": [
+    "Jaipur",
+    26.912,
+    75.787
+  ],
+  "Sikkim": [
+    "Gangtok",
+    27.339,
+    88.607
+  ],
+  "Tamil Nadu": [
+    "Chennai",
+    13.083,
+    80.271
+  ],
+  "Telangana": [
+    "Hyderabad",
+    17.385,
+    78.487
+  ],
+  "Tripura": [
+    "Agartala",
+    23.831,
+    91.287
+  ],
+  "Uttar Pradesh": [
+    "Lucknow",
+    26.847,
+    80.947
+  ],
+  "Uttarakhand": [
+    "Dehradun",
+    30.317,
+    78.032
+  ],
+  "West Bengal": [
+    "Kolkata",
+    22.573,
+    88.364
+  ]
+}
