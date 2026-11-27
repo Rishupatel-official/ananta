@@ -34,7 +34,7 @@ Authentication:
 - Enable Email/Password and Google in Firebase Authentication > Sign-in method.
 - The project's localhost authorized domain was confirmed during integration.
 - Setup, troubleshooting and security scope: FIREBASE-SETUP.md.
-
+done.
 Prediction and simulation:
 - AI Prediction now evaluates trained linear-regression coefficients for all
   36 states/UTs. Choose a 3-, 6- or 12-month view, see charts and download CSV.
