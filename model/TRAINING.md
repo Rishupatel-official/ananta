@@ -1,6 +1,9 @@
 # Monthly regression prototype
 
-The app already includes fitted coefficients. Python is needed only to retrain.
+The app includes fitted coefficients and `model/model.pkl`, a Python bundle of
+the 36 fitted scikit-learn estimators. The browser still uses JSON; the separate
+Python API loads the pickle. See `backend/README.txt` for Python usage and deployment.
+Use Python 3.12 and the pinned requirements for the saved pickle.
 
 From the project folder in PowerShell:
 
@@ -15,7 +18,8 @@ npm.cmd run build
 
 Change the database path if needed. Activation of the environment is unnecessary.
 The script opens SQLite read-only and never runs the original data_pipeline.py.
-It replaces the model JSON, evaluation JSON and prediction fixtures in this project.
+It replaces the model JSON, evaluation JSON and prediction fixtures in this project,
+and saves `model/model.pkl` plus `model/model.info.json` with the checksum and versions.
 
 ## Data and model
 

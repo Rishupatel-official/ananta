@@ -1,0 +1,14 @@
+**
+!Dockerfile
+!model/
+!model/__init__.py
+!model/inference.py
+!model/model.pkl
+!model/model.info.json
+!model/runtime-requirements.txt
+!backend/
+!backend/__init__.py
+!backend/__main__.py
+!backend/auth.py
+!backend/app.py
+!backend/requirements.txt

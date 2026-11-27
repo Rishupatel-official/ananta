@@ -1,5 +1,13 @@
 ClimateTwin India — Firebase authentication, live weather and monthly regression
 
+Python model and API:
+- model/model.pkl contains 36 fitted scikit-learn LinearRegression models.
+- backend/README.txt explains Python inference, API endpoints and deployment.
+- The backend validates Firebase tokens and requires a verified email.
+- The current React screens continue using the JSON model until connected to a
+  hosted backend URL. Python API deployment is independent of frontend hosting.
+- The saved Python model uses the same synthetic data and forecast window below.
+
 Run locally:
 1. Clone the GitHub repository (or extract the ZIP) and open the folder containing
    package.json in VS Code.

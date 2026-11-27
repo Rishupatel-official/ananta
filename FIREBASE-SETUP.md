@@ -69,7 +69,12 @@ alone are not treated as proof that an email is genuine.
 
 ## Security scope
 
-This adds Firebase identity and a login gate to the current browser-only application.
+The optional Python prediction API in `backend/` now verifies Firebase ID tokens
+on `/model`, `/predict` and `/simulate`, including the verified-email claim.
+See `backend/README.txt` for its deployment, CORS and token-expiry behavior.
+The existing browser screens continue using JSON inference until connected to it.
+
+The frontend uses Firebase identity and a login gate for its browser interface.
 The public weather endpoint and bundled synthetic coefficients remain public static
 resources. A browser UI gate cannot protect downloadable JavaScript or public APIs.
 There is currently no private user database or privileged backend operation.

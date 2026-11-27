@@ -80,7 +80,7 @@ def metrics(actual, predicted):
             for i, key in enumerate(METRICS)}
 
 
-def train(monthly: pd.DataFrame, audit: dict, data_kind: str, digest: str):
+def train(monthly: pd.DataFrame, audit: dict, data_kind: str, digest: str, *, fitted_models=None):
     first = monthly.month.min()
     last = monthly.month.max()
     cutoff = last - 23  # Last 24 calendar months, never a random split.
@@ -111,6 +111,8 @@ def train(monthly: pd.DataFrame, audit: dict, data_kind: str, digest: str):
                       "clippedRainMonths": int((raw_prediction[:, 2] < 0).sum()),
                       "reorderedTemperatureMonths": int((raw_prediction[:, 0] > raw_prediction[:, 1]).sum())}
         deployed = LinearRegression().fit(features(data.month, base_year), data[TARGETS].to_numpy())
+        if fitted_models is not None:
+            fitted_models[state] = deployed
         states[state] = {"intercepts": deployed.intercept_.tolist(), "coefficients": deployed.coef_.tolist(),
                          "fitMonths": len(data), "fitFirst": str(data.month.min()),
                          "fitLast": str(data.month.max()), "evaluation": evaluation}
@@ -156,6 +158,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--database", type=Path, required=True)
     parser.add_argument("--data-kind", required=True, choices=["synthetic", "observed"])
+    parser.add_argument("--model-output", type=Path, default=ROOT / "model/model.pkl")
     args = parser.parse_args()
     path = args.database.resolve(strict=True)
     digest = hashlib.sha256(path.read_bytes()).hexdigest()
@@ -163,13 +166,20 @@ def main():
     with sqlite3.connect(path.as_uri() + "?mode=ro", uri=True) as conn:
         raw = pd.read_sql_query("SELECT date, state, min_temp, max_temp, rainfall FROM daily_climate", conn)
     monthly, audit = aggregate_monthly(raw)
-    artifact, report, fixtures = train(monthly, audit, args.data_kind, digest)
+    fitted_models = {}
+    artifact, report, fixtures = train(monthly, audit, args.data_kind, digest, fitted_models=fitted_models)
+    if __package__:
+        from .inference import save_bundle
+    else:
+        from inference import save_bundle
+    model_info = save_bundle(args.model_output, artifact, fitted_models)
     for destination, content in [(ROOT / "src/data/regression-model.json", artifact),
                                  (ROOT / "model/evaluation.json", report),
                                  (ROOT / "model/prediction-fixtures.json", fixtures)]:
         destination.parent.mkdir(parents=True, exist_ok=True)
         destination.write_text(json.dumps(content, indent=2, allow_nan=False) + "\n", encoding="utf-8")
-    print(json.dumps({"audit": artifact["audit"], "evaluation": artifact["pooledEvaluation"],
+    print(json.dumps({"pythonModel": str(args.model_output), "modelSha256": model_info["sha256"],
+                      "audit": artifact["audit"], "evaluation": artifact["pooledEvaluation"],
                       "forecastStart": artifact["forecastStart"], "forecastEnd": artifact["forecastEnd"]}, indent=2))
 
 

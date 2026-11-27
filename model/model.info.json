@@ -1,0 +1,39 @@
+{
+  "formatVersion": 1,
+  "sha256": "50c56cd03332a975d65938adef767640cc1f99f4131c7c45b1282987519f496d",
+  "versions": {
+    "python": "3.12.9",
+    "scikit-learn": "1.9.0",
+    "numpy": "2.5.0",
+    "scipy": "1.18.0",
+    "joblib": "1.5.3",
+    "threadpoolctl": "3.6.0"
+  },
+  "stateCount": 36,
+  "algorithm": "Ordinary least squares: trend + month indicators",
+  "dataKind": "synthetic",
+  "inputSha256": "d1066b144cf1e8f4062fda80ad66343b239511d80364ddbb3e220cd5f0ce21ac",
+  "trainingStart": "2010-01",
+  "trainingEnd": "2026-12",
+  "forecastStart": "2027-01",
+  "forecastEnd": "2027-12",
+  "featureOrder": [
+    "elapsed_years",
+    "month_02",
+    "month_03",
+    "month_04",
+    "month_05",
+    "month_06",
+    "month_07",
+    "month_08",
+    "month_09",
+    "month_10",
+    "month_11",
+    "month_12"
+  ],
+  "targetOrder": [
+    "min_temp",
+    "max_temp",
+    "rainfall"
+  ]
+}
