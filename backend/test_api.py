@@ -1,4 +1,5 @@
 import json
+import os
 import time
 import unittest
 from types import SimpleNamespace
@@ -96,6 +97,30 @@ class ApiTests(unittest.TestCase):
         self.assertEqual(denied.status_code, 401)
         self.assertEqual(denied.headers["Access-Control-Allow-Origin"], "http://localhost:5173")
         self.assertEqual(denied.headers["WWW-Authenticate"], "Bearer")
+
+    def test_render_deployment_cors(self):
+        dashboard = "https://ananta-1.onrender.com"
+        custom = "https://custom.example"
+        for override, allowed, blocked in [(None, dashboard, custom), (custom, custom, dashboard)]:
+            with self.subTest(override=override), patch.dict(os.environ, RENDER_EXTERNAL_HOSTNAME="ananta-1kua.onrender.com"):
+                if override is None:
+                    os.environ.pop("CORS_ORIGINS", None)
+                else:
+                    os.environ["CORS_ORIGINS"] = override
+                app = create_app(project_id="test-climate-project")
+                self.addCleanup(app.extensions["firebase_verifier"].close)
+                client = app.test_client()
+                for path in ["/simulate", "/predict"]:
+                    headers = {"Origin": allowed, "Access-Control-Request-Method": "POST",
+                               "Access-Control-Request-Headers": "authorization,content-type"}
+                    preflight = client.options(path, headers=headers)
+                    self.assertEqual(preflight.status_code, 200)
+                    self.assertEqual(preflight.headers.get("Access-Control-Allow-Origin"), allowed)
+                    denied = client.post(path, json={}, headers={"Origin": allowed})
+                    self.assertEqual(denied.status_code, 401)
+                    self.assertEqual(denied.headers.get("Access-Control-Allow-Origin"), allowed)
+                    headers["Origin"] = blocked
+                    self.assertEqual(client.options(path, headers=headers).status_code, 400)
 
     def test_flask_json_parsing_and_request_limits(self):
         headers = self.headers()

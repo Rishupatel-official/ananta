@@ -30,8 +30,11 @@ def create_app(*, model_path: Path | None = None, project_id: str | None = None)
     app = Flask(__name__)
     app.config["MAX_CONTENT_LENGTH"] = 16 * 1024
     app.json.sort_keys = False
-    origins = {item.strip().rstrip("/") for item in os.environ.get(
-        "CORS_ORIGINS", "http://localhost:5173,http://127.0.0.1:5173").split(",") if item.strip()}
+    default_origins = "http://localhost:5173,http://127.0.0.1:5173"
+    if os.environ.get("RENDER_EXTERNAL_HOSTNAME") == "ananta-1kua.onrender.com":
+        default_origins = "https://ananta-1.onrender.com"
+    configured_origins = os.environ.get("CORS_ORIGINS", default_origins)
+    origins = {item.strip().rstrip("/") for item in configured_origins.split(",") if item.strip()}
     if "*" in origins:
         raise ValueError("Set CORS_ORIGINS to the actual frontend origins.")
     # Load once at startup; never load a pickle supplied by a request.
